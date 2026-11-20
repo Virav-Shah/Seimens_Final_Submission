@@ -1,0 +1,15 @@
+{
+  "new_sweep_evaluations": 324,
+  "new_optimisation_runs": 0,
+  "all_outputs_are_simulated": true,
+  "paper_title": "Model-optimized bispecific antibodies improve the selectivity of antibody\u2013drug conjugates for tumors",
+  "paper_doi": "10.20935/AcadDrug8407",
+  "source_presentation_sha256": "d08535fbbf4d9d1c1a566446106f6547bd64f202474a01748aa55fde87fcbbcc",
+  "source_model_sha256": "27c7ad24677e3f863bbc8193d7e710f7a05131c906f947c1ff2ba5bb70a163d6",
+  "source_files": [
+    "repo/results_mechanism_comparison/mechanism_results.json",
+    "repo/results_mechanism_comparison/policy_results.json",
+    "repo/results_boundary_review/original_representative_front.json"
+  ],
+  "maximum_new_sweep_mass_error": 3.079780874770677e-11
+}

@@ -1,0 +1,13 @@
+{
+  "checkpoint_predictions_match_saved_results": true,
+  "partitions_disjoint": true,
+  "reference_model_unchanged": true,
+  "total_model_training_under_30_minutes": true,
+  "finite_saved_predictions": true,
+  "notebook_schema_valid": true,
+  "notebook_cells_checked_in_process": true,
+  "notebook_kernel_execution": false,
+  "test_designs": 128,
+  "training_condition_count": 1,
+  "clinical_validation": false
+}

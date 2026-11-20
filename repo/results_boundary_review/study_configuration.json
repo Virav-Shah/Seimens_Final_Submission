@@ -1,0 +1,314 @@
+{
+  "target_identity": "generic T1 and T2, confirmed by user",
+  "biological_inputs": [
+    {
+      "name": "Nominal",
+      "biology": {
+        "rho": [
+          1.0,
+          1.0
+        ],
+        "k0": [
+          2.0,
+          2.0
+        ],
+        "ki": [
+          0.2,
+          4.0,
+          2.0
+        ],
+        "half": 96.0,
+        "permeability": 0.1,
+        "payload_volume": 52.8,
+        "payload_clearance": 5.28,
+        "metabolism": 0.01,
+        "tau": 0.0,
+        "recycle": 0.0,
+        "process_share": 0.5,
+        "closure": "symmetric",
+        "surface_factor": 1.0,
+        "dose": 4.0,
+        "target_densities": [],
+        "fractions": [
+          0.0003,
+          0.79,
+          0.1,
+          0.1,
+          0.01
+        ],
+        "total_cells": 7043996587630.85,
+        "intracellular_volume": 2.689720494498626e-13,
+        "cell_area": 3.141592653589793e-08,
+        "antibody_vc": 11.3,
+        "antibody_vp": 41.5,
+        "antibody_q": 1.05,
+        "antibody_clearance": 0.015540799881601949,
+        "infusion_h": 2.0,
+        "horizon_h": 24.0,
+        "recycling_rates": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "processing_rates": [
+          0.7,
+          0.7,
+          0.7
+        ],
+        "degradation_rates": [
+          0.7,
+          0.7,
+          0.7
+        ]
+      },
+      "kill_model": {
+        "c50_uM": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ],
+        "maximum_rate_h": [
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "Variant A",
+      "biology": {
+        "rho": [
+          1.0,
+          1.0
+        ],
+        "k0": [
+          2.0,
+          2.0
+        ],
+        "ki": [
+          0.16,
+          3.2,
+          1.6
+        ],
+        "half": 80.0,
+        "permeability": 0.12,
+        "payload_volume": 52.8,
+        "payload_clearance": 5.28,
+        "metabolism": 0.01,
+        "tau": 0.0,
+        "recycle": 0.0,
+        "process_share": 0.5,
+        "closure": "symmetric",
+        "surface_factor": 1.0,
+        "dose": 4.0,
+        "target_densities": [],
+        "fractions": [
+          0.0003,
+          0.79,
+          0.1,
+          0.1,
+          0.01
+        ],
+        "total_cells": 7043996587630.85,
+        "intracellular_volume": 2.689720494498626e-13,
+        "cell_area": 3.141592653589793e-08,
+        "antibody_vc": 11.3,
+        "antibody_vp": 41.5,
+        "antibody_q": 1.05,
+        "antibody_clearance": 0.015540799881601949,
+        "infusion_h": 2.0,
+        "horizon_h": 24.0,
+        "recycling_rates": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "processing_rates": [
+          0.7,
+          0.7,
+          0.7
+        ],
+        "degradation_rates": [
+          0.7,
+          0.7,
+          0.7
+        ]
+      },
+      "kill_model": {
+        "c50_uM": [
+          4.8,
+          3.2,
+          3.2,
+          3.2,
+          3.2
+        ],
+        "maximum_rate_h": [
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "Variant B",
+      "biology": {
+        "rho": [
+          1.0,
+          1.0
+        ],
+        "k0": [
+          2.0,
+          2.0
+        ],
+        "ki": [
+          0.24,
+          4.8,
+          2.4
+        ],
+        "half": 120.0,
+        "permeability": 0.08,
+        "payload_volume": 52.8,
+        "payload_clearance": 5.28,
+        "metabolism": 0.01,
+        "tau": 0.0,
+        "recycle": 0.0,
+        "process_share": 0.5,
+        "closure": "symmetric",
+        "surface_factor": 1.0,
+        "dose": 4.0,
+        "target_densities": [],
+        "fractions": [
+          0.0003,
+          0.79,
+          0.1,
+          0.1,
+          0.01
+        ],
+        "total_cells": 7043996587630.85,
+        "intracellular_volume": 2.689720494498626e-13,
+        "cell_area": 3.141592653589793e-08,
+        "antibody_vc": 11.3,
+        "antibody_vp": 41.5,
+        "antibody_q": 1.05,
+        "antibody_clearance": 0.015540799881601949,
+        "infusion_h": 2.0,
+        "horizon_h": 24.0,
+        "recycling_rates": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "processing_rates": [
+          0.7,
+          0.7,
+          0.7
+        ],
+        "degradation_rates": [
+          0.7,
+          0.7,
+          0.7
+        ]
+      },
+      "kill_model": {
+        "c50_uM": [
+          3.2,
+          4.8,
+          4.8,
+          4.8,
+          4.8
+        ],
+        "maximum_rate_h": [
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08
+        ]
+      }
+    }
+  ],
+  "bounds_log10": {
+    "original": [
+      [
+        2.0,
+        7.0
+      ],
+      [
+        -5.0,
+        2.0
+      ],
+      [
+        2.0,
+        7.0
+      ],
+      [
+        -5.0,
+        2.0
+      ]
+    ],
+    "expanded": [
+      [
+        0.0,
+        7.0
+      ],
+      [
+        -5.0,
+        3.0
+      ],
+      [
+        0.0,
+        7.0
+      ],
+      [
+        -5.0,
+        3.0
+      ]
+    ],
+    "experimental_reference": [
+      [
+        5.079181246047625,
+        5.748188027006201
+      ],
+      [
+        -3.744727494896694,
+        -1.4436974992327127
+      ],
+      [
+        5.079181246047625,
+        5.748188027006201
+      ],
+      [
+        -3.744727494896694,
+        -1.4436974992327127
+      ]
+    ]
+  },
+  "overall_healthy_limit": 0.0095,
+  "subgroup_limits": [
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "seeds": [
+    8407,
+    2026,
+    11939
+  ],
+  "population_size": 64,
+  "global_evaluations": 1024,
+  "local_iteration_limit": 60,
+  "reporting_bins_percentage_points": [
+    0.1,
+    0.002,
+    0.05
+  ],
+  "boundary_distance_log10": 0.03,
+  "model_source_sha256": "3d96be9ce574079042f0f9b3d18a5d9ae7946b68d01efd6be0a8e061374a5ad2"
+}

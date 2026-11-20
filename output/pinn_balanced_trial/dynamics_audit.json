@@ -1,0 +1,114 @@
+{
+  "PINN": {
+    "sampled_equation_residual_relative_rms_by_group": {
+      "free_antibody": 2.837233425687336,
+      "free_targets": 113.4992418643357,
+      "surface_complexes": 0.010612343050681806,
+      "internalised_complexes": 0.0007235387052631831,
+      "active_payload": 1.9268523290960637,
+      "loss_accounts": 4.861412490494769,
+      "released_payload": 0.002729802671332733,
+      "killing_effect": 0.41643190008280345,
+      "payload_exposure": 0.21558094163293548
+    },
+    "residual_normalisation": "per-component RMS of reference derivative, floored at training state scale / 24 h; 256 shared fresh-test states",
+    "payload_to_killing_consistency": {
+      "audit_design_indices": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        21,
+        25,
+        29,
+        33,
+        37,
+        42,
+        46,
+        50,
+        54,
+        58,
+        63
+      ],
+      "integration_points": 1025,
+      "aggregate_mean_difference_pp": [
+        1.1487075117993655,
+        0.28523853410989364,
+        2.7721273340990247
+      ],
+      "aggregate_max_difference_pp": [
+        1.7663135699767594,
+        0.5631323487481978,
+        6.467547055015359
+      ],
+      "population_mean_difference_pp": [
+        1.0947769922848922,
+        0.014633584721281873,
+        1.6181253867077245,
+        1.9254754799813674,
+        2.926922227681036
+      ]
+    },
+    "loss_accounts_negative_derivative_count": 126,
+    "loss_accounts_derivatives_checked": 512,
+    "hazard_rate_above_max_count": 0,
+    "hazard_rates_checked": 1280
+  },
+  "Supervised": {
+    "sampled_equation_residual_relative_rms_by_group": {
+      "free_antibody": 1109.893317951074,
+      "free_targets": 111888.5045640796,
+      "surface_complexes": 1204061.8888692113,
+      "internalised_complexes": 3.023498485344206,
+      "active_payload": 6.300734038367404,
+      "loss_accounts": 8.405695578016909,
+      "released_payload": 0.5842158231249698,
+      "killing_effect": 0.46865187893351945,
+      "payload_exposure": 0.3608428986232236
+    },
+    "residual_normalisation": "per-component RMS of reference derivative, floored at training state scale / 24 h; 256 shared fresh-test states",
+    "payload_to_killing_consistency": {
+      "audit_design_indices": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        21,
+        25,
+        29,
+        33,
+        37,
+        42,
+        46,
+        50,
+        54,
+        58,
+        63
+      ],
+      "integration_points": 1025,
+      "aggregate_mean_difference_pp": [
+        1.5065591187521377,
+        0.2765790168982954,
+        1.423021435531088
+      ],
+      "aggregate_max_difference_pp": [
+        12.178751347222779,
+        0.6681607533985465,
+        9.158177189260456
+      ],
+      "population_mean_difference_pp": [
+        1.2137195495063418,
+        0.08173210758978201,
+        1.2716120741519306,
+        1.4219826173792738,
+        1.5198958433798102
+      ]
+    },
+    "loss_accounts_negative_derivative_count": 132,
+    "loss_accounts_derivatives_checked": 512,
+    "hazard_rate_above_max_count": 2,
+    "hazard_rates_checked": 1280
+  }
+}

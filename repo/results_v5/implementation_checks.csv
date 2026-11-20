@@ -1,0 +1,5 @@
+Check,Value,Expected
+Figure 4 V1 uptake recovery,56.00000067962181,56.0
+Figure 6 V1 uptake recovery,279.99999852911805,280.0
+Relative antibody/payload mass error,7.591482997781895e-12,0.0
+Independent solver kill difference,6.89045476232053e-09,0.0

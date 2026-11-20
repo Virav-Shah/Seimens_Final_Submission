@@ -1,0 +1,23 @@
+[
+  {
+    "scenario": "equal",
+    "max_endpoint_difference_fraction": 1.4678991355765447e-10,
+    "relative_mass_error": 4.208694956669805e-14,
+    "healthy_kill_pct": 0.9253469941725585,
+    "passed": true
+  },
+  {
+    "scenario": "unequal",
+    "max_endpoint_difference_fraction": 1.0414002993286431e-10,
+    "relative_mass_error": 4.300015696295659e-13,
+    "healthy_kill_pct": 0.9220913742319672,
+    "passed": true
+  },
+  {
+    "scenario": "low",
+    "max_endpoint_difference_fraction": 8.695030251359981e-10,
+    "relative_mass_error": 6.246867986000465e-15,
+    "healthy_kill_pct": 0.9411646436408837,
+    "passed": true
+  }
+]

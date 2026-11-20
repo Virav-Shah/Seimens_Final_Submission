@@ -1,0 +1,2402 @@
+[
+  {
+    "step": 1,
+    "seconds": 0.09616100000039296,
+    "physics_ramp": 0.0,
+    "learning_rate": 0.001,
+    "trajectory_loss": 0.10372291333838024,
+    "endpoint_loss": 652.3399322277006,
+    "validation_score": 41.60152219798487,
+    "validation": {
+      "tumour": {
+        "mae_pp": 9.871634553784197,
+        "rmse_pp": 10.003330834814285,
+        "r2": -8.447423765310235,
+        "max_error_pp": 13.09877401168498
+      },
+      "overall_healthy": {
+        "mae_pp": 4.96995058338381,
+        "rmse_pp": 5.681507613078678,
+        "r2": -3.2613272949089582,
+        "max_error_pp": 10.9256746645123
+      },
+      "worst_subgroup": {
+        "mae_pp": 7.766960186247102,
+        "rmse_pp": 11.09708568632281,
+        "r2": -0.11705319022391181,
+        "max_error_pp": 55.85918368346969
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.11637919167250135,
+        32.94800115567719,
+        28.417413489364446,
+        7.766977223178635
+      ]
+    },
+    "physics_weights": {},
+    "physics_losses": {}
+  },
+  {
+    "step": 1306,
+    "seconds": 30.106302584000332,
+    "physics_ramp": 0.0,
+    "learning_rate": 0.0009986053510313228,
+    "trajectory_loss": 0.004107530810524275,
+    "endpoint_loss": 0.5105041541126267,
+    "validation_score": 3.9551242783743192,
+    "validation": {
+      "tumour": {
+        "mae_pp": 2.1533456290987196,
+        "rmse_pp": 3.194265069036333,
+        "r2": 0.03669007202818264,
+        "max_error_pp": 12.36964295862441
+      },
+      "overall_healthy": {
+        "mae_pp": 0.15122493512439417,
+        "rmse_pp": 0.19669931023602097,
+        "r2": 0.9948923235361481,
+        "max_error_pp": 0.5021495883486526
+      },
+      "worst_subgroup": {
+        "mae_pp": 3.343764251768178,
+        "rmse_pp": 4.490058844369118,
+        "r2": 0.8171225995805941,
+        "max_error_pp": 15.555791092427619
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.08692484830869976,
+        1.0849247686220698,
+        1.1599913453269994,
+        3.3532273130066566
+      ]
+    },
+    "physics_weights": {},
+    "physics_losses": {}
+  },
+  {
+    "step": 2672,
+    "seconds": 60.13251912499982,
+    "physics_ramp": 0.0,
+    "learning_rate": 0.0009944412269496297,
+    "trajectory_loss": 0.003229456357731191,
+    "endpoint_loss": 0.2534398642312062,
+    "validation_score": 2.4766776784999256,
+    "validation": {
+      "tumour": {
+        "mae_pp": 1.128561589007246,
+        "rmse_pp": 1.491889636350173,
+        "r2": 0.7898654202510552,
+        "max_error_pp": 4.732222867739637
+      },
+      "overall_healthy": {
+        "mae_pp": 0.11634321862434477,
+        "rmse_pp": 0.1623601602688068,
+        "r2": 0.9965200207962929,
+        "max_error_pp": 0.5368282173839662
+      },
+      "worst_subgroup": {
+        "mae_pp": 1.9873035370028176,
+        "rmse_pp": 2.7658193745549458,
+        "r2": 0.9306089269547024,
+        "max_error_pp": 10.629227945412907
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.06666875152686542,
+        0.6259852044792337,
+        0.8753085892899213,
+        1.9880227276491393
+      ]
+    },
+    "physics_weights": {},
+    "physics_losses": {}
+  },
+  {
+    "step": 3884,
+    "seconds": 90.1445378340004,
+    "physics_ramp": 0.0,
+    "learning_rate": 0.0009875346722805572,
+    "trajectory_loss": 0.003138803814719099,
+    "endpoint_loss": 0.12416944860905271,
+    "validation_score": 1.6935856989518754,
+    "validation": {
+      "tumour": {
+        "mae_pp": 1.0114780839091075,
+        "rmse_pp": 1.3347839071479426,
+        "r2": 0.8317922291126444,
+        "max_error_pp": 3.092426761435206
+      },
+      "overall_healthy": {
+        "mae_pp": 0.07035692139525893,
+        "rmse_pp": 0.09479973454159683,
+        "r2": 0.9988135977862632,
+        "max_error_pp": 0.2685803960976738
+      },
+      "worst_subgroup": {
+        "mae_pp": 1.33107029252067,
+        "rmse_pp": 1.7918966280784552,
+        "r2": 0.9708739306829993,
+        "max_error_pp": 4.576350779836403
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.0475751490403297,
+        0.4618650591890453,
+        0.5964268951074361,
+        1.374948968702928
+      ]
+    },
+    "physics_weights": {},
+    "physics_losses": {}
+  },
+  {
+    "step": 5054,
+    "seconds": 120.19226991699998,
+    "physics_ramp": 1.902777916784615e-05,
+    "learning_rate": 0.0009779737697976595,
+    "trajectory_loss": 0.0031828907500903456,
+    "endpoint_loss": 0.08812226346004193,
+    "validation_score": 1.504023523337845,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.8582052481061213,
+        "rmse_pp": 1.212274697193507,
+        "r2": 0.8612521657502299,
+        "max_error_pp": 5.014067697533207
+      },
+      "overall_healthy": {
+        "mae_pp": 0.060819836048320884,
+        "rmse_pp": 0.0976475691046685,
+        "r2": 0.9987412468270723,
+        "max_error_pp": 0.3927379237518167
+      },
+      "worst_subgroup": {
+        "mae_pp": 1.2187343004704978,
+        "rmse_pp": 1.6027432393209515,
+        "r2": 0.9766984998636626,
+        "max_error_pp": 4.281708232457106
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 1,
+      "false_feasible": 1,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.036301218096754975,
+        0.4180137138091948,
+        0.4898213251174696,
+        1.2507257126681814
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 0.00038046117029307577,
+      "free_targets": 9.126961377489572e-11,
+      "surface_complexes": 1.6263369632713975e-10,
+      "internalised_complexes": 2.2669727037867835,
+      "active_payload": 1.320714060633191,
+      "loss_accounts": 1.0553645434030723,
+      "released_payload": 213.66943993924153,
+      "killing_effect": 277.0104651119861,
+      "payload_exposure": 118.97503420093383
+    },
+    "physics_losses": {
+      "free_antibody": 872.2643655064438,
+      "free_targets": 3146169821.182292,
+      "surface_complexes": 1290996516.9836454,
+      "internalised_complexes": 0.16870017418828986,
+      "active_payload": 0.4688503815350356,
+      "loss_accounts": 0.5864180291859882,
+      "released_payload": 0.0042929283995342795,
+      "killing_effect": 0.0015055202496845523,
+      "payload_exposure": 0.003104979553990231
+    }
+  },
+  {
+    "step": 5760,
+    "seconds": 150.24013716700028,
+    "physics_ramp": 0.12579039288333427,
+    "learning_rate": 0.0009656602169142836,
+    "trajectory_loss": 0.015943823573902796,
+    "endpoint_loss": 0.08076535200312104,
+    "validation_score": 1.471501248336511,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.7701382653297679,
+        "rmse_pp": 0.9775803264939072,
+        "r2": 0.9097745539969996,
+        "max_error_pp": 2.5853306050476306
+      },
+      "overall_healthy": {
+        "mae_pp": 0.06368675686379144,
+        "rmse_pp": 0.09970640678870506,
+        "r2": 0.9986876072067866,
+        "max_error_pp": 0.3700245887381719
+      },
+      "worst_subgroup": {
+        "mae_pp": 1.1853151712019683,
+        "rmse_pp": 1.5225207814632573,
+        "r2": 0.9789727522039444,
+        "max_error_pp": 5.6389848620497744
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.033468240866157295,
+        0.4659150885570755,
+        0.5490928036972071,
+        1.187204588836436
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 0.006948977679802334,
+      "free_targets": 2.6105169396415936e-09,
+      "surface_complexes": 3.2605628306446493e-09,
+      "internalised_complexes": 35.83270265360369,
+      "active_payload": 53.335132439281864,
+      "loss_accounts": 40.167390111186435,
+      "released_payload": 4434.109947756829,
+      "killing_effect": 3422.844577620174,
+      "payload_exposure": 2851.574211298779
+    },
+    "physics_losses": {
+      "free_antibody": 47.90418419275521,
+      "free_targets": 16953963.44601092,
+      "surface_complexes": 22581334.127155885,
+      "internalised_complexes": 0.01872859885961652,
+      "active_payload": 0.010334548987423307,
+      "loss_accounts": 0.022768186839215238,
+      "released_payload": 0.00022258945273501298,
+      "killing_effect": 0.0001035128627656981,
+      "payload_exposure": 4.679317140904484e-05
+    }
+  },
+  {
+    "step": 6482,
+    "seconds": 180.2617303750003,
+    "physics_ramp": 0.2508822065999992,
+    "learning_rate": 0.0009508396317927138,
+    "trajectory_loss": 0.02593147597203337,
+    "endpoint_loss": 0.17564320677254724,
+    "validation_score": 1.5036613240751648,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.7361523914490509,
+        "rmse_pp": 0.9189940588757266,
+        "r2": 0.9202649007437043,
+        "max_error_pp": 2.5194985821786844
+      },
+      "overall_healthy": {
+        "mae_pp": 0.07621885709172248,
+        "rmse_pp": 0.09508863726556938,
+        "r2": 0.9988063556329687,
+        "max_error_pp": 0.2115312841327599
+      },
+      "worst_subgroup": {
+        "mae_pp": 1.1252272194709971,
+        "rmse_pp": 1.4399262180323646,
+        "r2": 0.9811922669026839,
+        "max_error_pp": 4.78083412455122
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.028538944174590835,
+        0.3465648481989838,
+        0.6142431316569865,
+        1.0988040791106999
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 0.19362284248805262,
+      "free_targets": 2.8231101357050317e-07,
+      "surface_complexes": 3.3157931783539066e-07,
+      "internalised_complexes": 234.73422039997857,
+      "active_payload": 145.7302515969121,
+      "loss_accounts": 136.65272655524737,
+      "released_payload": 57794.99496567886,
+      "killing_effect": 4111.80646112542,
+      "payload_exposure": 7028.7759299808395
+    },
+    "physics_losses": {
+      "free_antibody": 0.3798722118206167,
+      "free_targets": 91084.90916855997,
+      "surface_complexes": 88204.38295374984,
+      "internalised_complexes": 0.002890799702057003,
+      "active_payload": 0.005323896575390921,
+      "loss_accounts": 0.006907595094906139,
+      "released_payload": 2.2033010163769792e-06,
+      "killing_effect": 7.204708639093611e-05,
+      "payload_exposure": 1.725786058881187e-05
+    }
+  },
+  {
+    "step": 7210,
+    "seconds": 210.27048095900045,
+    "physics_ramp": 0.3759465920166652,
+    "learning_rate": 0.0009335481632367662,
+    "trajectory_loss": 0.034021665106833854,
+    "endpoint_loss": 0.09864584140375196,
+    "validation_score": 1.3434963081601818,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.6363738576926454,
+        "rmse_pp": 0.8029123222866956,
+        "r2": 0.9391360158507885,
+        "max_error_pp": 1.9972666973958013
+      },
+      "overall_healthy": {
+        "mae_pp": 0.06740389761031663,
+        "rmse_pp": 0.10458766602048765,
+        "r2": 0.9985559619108506,
+        "max_error_pp": 0.3688043137307777
+      },
+      "worst_subgroup": {
+        "mae_pp": 1.0230185572907835,
+        "rmse_pp": 1.4023296996033756,
+        "r2": 0.9821615860313447,
+        "max_error_pp": 5.210984091618961
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.029129748964299682,
+        0.390348852565077,
+        0.4693937649360821,
+        1.0527106042440475
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 4.975711999876616,
+      "free_targets": 9.115548998143449e-05,
+      "surface_complexes": 0.0001384449707326561,
+      "internalised_complexes": 1062.2352301613475,
+      "active_payload": 164.37070279952192,
+      "loss_accounts": 297.88301245546256,
+      "released_payload": 421786.15199979895,
+      "killing_effect": 1465.9725580905058,
+      "payload_exposure": 8991.020590130249
+    },
+    "physics_losses": {
+      "free_antibody": 0.04513590117724062,
+      "free_targets": 167.02140241655053,
+      "surface_complexes": 63.86520596636818,
+      "internalised_complexes": 0.0003318625498554842,
+      "active_payload": 0.002964497707672905,
+      "loss_accounts": 0.0016204870063701348,
+      "released_payload": 8.767379777451439e-08,
+      "killing_effect": 0.00016285980670144865,
+      "payload_exposure": 9.444176800677134e-06
+    }
+  },
+  {
+    "step": 7953,
+    "seconds": 240.28664525000022,
+    "physics_ramp": 0.5010107105916669,
+    "learning_rate": 0.0009138896016870037,
+    "trajectory_loss": 0.040634542945367245,
+    "endpoint_loss": 0.06752039117921513,
+    "validation_score": 1.2966401578177262,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.6883272749302549,
+        "rmse_pp": 1.0396873527140742,
+        "r2": 0.8979460887832236,
+        "max_error_pp": 4.661472647589051
+      },
+      "overall_healthy": {
+        "mae_pp": 0.048549151386627964,
+        "rmse_pp": 0.0760053471775562,
+        "r2": 0.9992373838464189,
+        "max_error_pp": 0.2656816610208854
+      },
+      "worst_subgroup": {
+        "mae_pp": 1.1153050853951825,
+        "rmse_pp": 1.5808650368803483,
+        "r2": 0.9773303109408922,
+        "max_error_pp": 7.463945093009567
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 1,
+      "false_feasible": 1,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.02743769140151683,
+        0.32924945553764423,
+        0.4138759162333155,
+        1.131277887902618
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 93.15858044847172,
+      "free_targets": 0.09448567259137125,
+      "surface_complexes": 0.21932995585770218,
+      "internalised_complexes": 15927.92317841584,
+      "active_payload": 283.8664898820441,
+      "loss_accounts": 450.039888648396,
+      "released_payload": 940603.4196777678,
+      "killing_effect": 882.7630392401768,
+      "payload_exposure": 16503.3969329746
+    },
+    "physics_losses": {
+      "free_antibody": 0.029371371484896172,
+      "free_targets": 3.8755074672031453,
+      "surface_complexes": 0.2152957010676634,
+      "internalised_complexes": 1.2933078926335626e-05,
+      "active_payload": 0.0028335897071605797,
+      "loss_accounts": 0.001560127962784076,
+      "released_payload": 5.4093917111881364e-08,
+      "killing_effect": 0.0004946566853468802,
+      "payload_exposure": 4.289430545204608e-06
+    }
+  },
+  {
+    "step": 8689,
+    "seconds": 270.2958371249997,
+    "physics_ramp": 0.6260524597250007,
+    "learning_rate": 0.0008919893495801205,
+    "trajectory_loss": 0.048140150534715966,
+    "endpoint_loss": 0.04840314819969472,
+    "validation_score": 1.2268254063965067,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.5626571619427715,
+        "rmse_pp": 0.715193791050098,
+        "r2": 0.9517083991203352,
+        "max_error_pp": 1.8626442016696672
+      },
+      "overall_healthy": {
+        "mae_pp": 0.0621979864786542,
+        "rmse_pp": 0.07801068554910062,
+        "r2": 0.9991966109745692,
+        "max_error_pp": 0.17142739560617493
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.9369296638368325,
+        "rmse_pp": 1.2299799893212577,
+        "r2": 0.9862769051167016,
+        "max_error_pp": 4.168955632883609
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.026126533638247247,
+        0.5146244081876963,
+        0.39231584971769257,
+        0.9587839880801143
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 89.68922642216926,
+      "free_targets": 1.2771295012027073,
+      "surface_complexes": 32.74335008626354,
+      "internalised_complexes": 671231.4241952574,
+      "active_payload": 241.8102850809162,
+      "loss_accounts": 205.9190337733859,
+      "released_payload": 997119.9704212236,
+      "killing_effect": 738.7221152587371,
+      "payload_exposure": 16193.774308976514
+    },
+    "physics_losses": {
+      "free_antibody": 0.02525362698814256,
+      "free_targets": 0.4340016531453491,
+      "surface_complexes": 0.014862971324812584,
+      "internalised_complexes": 4.462006919663058e-08,
+      "active_payload": 0.0030715832313945404,
+      "loss_accounts": 0.005154383379205021,
+      "released_payload": 3.014315876895723e-08,
+      "killing_effect": 0.0004602587464057341,
+      "payload_exposure": 4.963260988194238e-06
+    }
+  },
+  {
+    "step": 9429,
+    "seconds": 300.3347912500003,
+    "physics_ramp": 0.7512172753499992,
+    "learning_rate": 0.0008679545889539477,
+    "trajectory_loss": 0.0481244790670415,
+    "endpoint_loss": 0.061717100773484586,
+    "validation_score": 1.2023652535895926,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.5404338246097298,
+        "rmse_pp": 0.6901139239980534,
+        "r2": 0.9550359200219704,
+        "max_error_pp": 2.0887352066087317
+      },
+      "overall_healthy": {
+        "mae_pp": 0.05779729051240103,
+        "rmse_pp": 0.08305897210826753,
+        "r2": 0.999089267551437,
+        "max_error_pp": 0.25751439854347025
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.9553580629555137,
+        "rmse_pp": 1.264317373505225,
+        "r2": 0.985499993868156,
+        "max_error_pp": 4.012827419001873
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.023991652114224292,
+        0.3938680750296176,
+        0.3762483994859321,
+        0.9558554187838711
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 113.79039025580083,
+      "free_targets": 2.91033189451312,
+      "surface_complexes": 45138.08472887496,
+      "internalised_complexes": 983243.1181888907,
+      "active_payload": 271.2764984760358,
+      "loss_accounts": 139.10355530600935,
+      "released_payload": 999877.7435377084,
+      "killing_effect": 1129.5754871346865,
+      "payload_exposure": 17221.71210672301
+    },
+    "physics_losses": {
+      "free_antibody": 0.016305293515127064,
+      "free_targets": 0.09842983052036235,
+      "surface_complexes": 1.4751187802510766e-07,
+      "internalised_complexes": 4.1297147780809685e-10,
+      "active_payload": 0.0035860040437370212,
+      "loss_accounts": 0.011112869250945057,
+      "released_payload": 2.0537785269557915e-08,
+      "killing_effect": 0.0003008842555654144,
+      "payload_exposure": 9.241717221429908e-06
+    }
+  },
+  {
+    "step": 10172,
+    "seconds": 330.3530285420002,
+    "physics_ramp": 0.8762751177083334,
+    "learning_rate": 0.0008419773780290222,
+    "trajectory_loss": 0.05582197797637156,
+    "endpoint_loss": 0.06862882803187044,
+    "validation_score": 1.1290052159107118,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.4591750176525049,
+        "rmse_pp": 0.6113323637985961,
+        "r2": 0.9647159111220902,
+        "max_error_pp": 1.9364747294674487
+      },
+      "overall_healthy": {
+        "mae_pp": 0.04301379010234151,
+        "rmse_pp": 0.06599197450701405,
+        "r2": 0.9994250898825315,
+        "max_error_pp": 0.24445293108525945
+      },
+      "worst_subgroup": {
+        "mae_pp": 1.0337824140164,
+        "rmse_pp": 1.3384006357572227,
+        "r2": 0.9837509399823404,
+        "max_error_pp": 4.208352220628349
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.022837262545472987,
+        0.2998941320764489,
+        0.32417729957440355,
+        1.0362642389756551
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 152.42076511039707,
+      "free_targets": 3.844345752028229,
+      "surface_complexes": 802927.4412982336,
+      "internalised_complexes": 999204.3583190116,
+      "active_payload": 250.88039051149096,
+      "loss_accounts": 93.79351391971969,
+      "released_payload": 999994.2412278341,
+      "killing_effect": 1060.20613791523,
+      "payload_exposure": 14899.445980621595
+    },
+    "physics_losses": {
+      "free_antibody": 0.015528085498510997,
+      "free_targets": 0.043786828988266906,
+      "surface_complexes": 3.167298829304926e-08,
+      "internalised_complexes": 1.1437551495997746e-11,
+      "active_payload": 0.0023508306080749996,
+      "loss_accounts": 0.012577507369167067,
+      "released_payload": 1.0237853183784009e-08,
+      "killing_effect": 0.00020121850643912742,
+      "payload_exposure": 6.595224374158605e-06
+    }
+  },
+  {
+    "step": 10903,
+    "seconds": 360.3737216669997,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.0008141883656352968,
+    "trajectory_loss": 0.06048815224154302,
+    "endpoint_loss": 0.02492664942347903,
+    "validation_score": 1.0759470766636634,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.3985570300693937,
+        "rmse_pp": 0.5210635537148254,
+        "r2": 0.9743666406519574,
+        "max_error_pp": 1.2521329124554086
+      },
+      "overall_healthy": {
+        "mae_pp": 0.04744139281825457,
+        "rmse_pp": 0.06744977281236557,
+        "r2": 0.9993994091819653,
+        "max_error_pp": 0.2132084641498917
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.9402281717782527,
+        "rmse_pp": 1.396342899931965,
+        "r2": 0.982313571755225,
+        "max_error_pp": 6.412432651947071
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.021772187007769877,
+        0.39525331494212596,
+        0.3871210352342858,
+        0.9532582142849771
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 225.1286090790249,
+      "free_targets": 4.598798490976794,
+      "surface_complexes": 990738.6779870427,
+      "internalised_complexes": 999966.258971922,
+      "active_payload": 290.16487476766747,
+      "loss_accounts": 92.30619483119048,
+      "released_payload": 999999.7558783038,
+      "killing_effect": 1182.9733747588994,
+      "payload_exposure": 16172.53504895695
+    },
+    "physics_losses": {
+      "free_antibody": 0.010583824820782052,
+      "free_targets": 0.39265175755333764,
+      "surface_complexes": 2.096152408624269e-09,
+      "internalised_complexes": 3.986096993802954e-11,
+      "active_payload": 0.003700197575810154,
+      "loss_accounts": 0.01445454811845193,
+      "released_payload": 1.833809646023575e-08,
+      "killing_effect": 0.00042104943973624904,
+      "payload_exposure": 1.4691417607326773e-05
+    }
+  },
+  {
+    "step": 11650,
+    "seconds": 390.395999417,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.0007847680027166184,
+    "trajectory_loss": 0.056832196593573074,
+    "endpoint_loss": 0.05834009860877706,
+    "validation_score": 1.2109696126282132,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.4653807567558168,
+        "rmse_pp": 0.6051468823590596,
+        "r2": 0.9654263101258731,
+        "max_error_pp": 2.151559459846638
+      },
+      "overall_healthy": {
+        "mae_pp": 0.07584127577240483,
+        "rmse_pp": 0.09740986243320288,
+        "r2": 0.9987473678157754,
+        "max_error_pp": 0.2967841898673882
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.8253512828403632,
+        "rmse_pp": 1.0388318044005038,
+        "r2": 0.9902108169636898,
+        "max_error_pp": 3.2920575843718183
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.022396765585094798,
+        0.29203210769938753,
+        0.567000842464969,
+        0.825368319771897
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 345.38294181602595,
+      "free_targets": 8.101878416212395,
+      "surface_complexes": 999561.843285902,
+      "internalised_complexes": 999998.4107286041,
+      "active_payload": 252.63013588967914,
+      "loss_accounts": 106.7963177568784,
+      "released_payload": 999999.988501553,
+      "killing_effect": 1231.4919342905303,
+      "payload_exposure": 22682.57825327254
+    },
+    "physics_losses": {
+      "free_antibody": 0.013853662261716599,
+      "free_targets": 0.02310204268124911,
+      "surface_complexes": 1.661276470189607e-09,
+      "internalised_complexes": 9.690847782895887e-11,
+      "active_payload": 0.004338490300375003,
+      "loss_accounts": 0.02615621432008379,
+      "released_payload": 1.3905097579317886e-08,
+      "killing_effect": 0.00026361849088988394,
+      "payload_exposure": 9.998950969734889e-06
+    }
+  },
+  {
+    "step": 12389,
+    "seconds": 420.41922004200023,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.0007539007626760137,
+    "trajectory_loss": 0.05985001206095852,
+    "endpoint_loss": 0.0656324925291065,
+    "validation_score": 1.1508519391620249,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.3978681410253697,
+        "rmse_pp": 0.516325520852029,
+        "r2": 0.9748306896829599,
+        "max_error_pp": 1.539499132994763
+      },
+      "overall_healthy": {
+        "mae_pp": 0.06162956076238223,
+        "rmse_pp": 0.0846664387010035,
+        "r2": 0.9990536750487798,
+        "max_error_pp": 0.31869299984126
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.9110482306065302,
+        "rmse_pp": 1.307386086732096,
+        "r2": 0.9844952884138353,
+        "max_error_pp": 5.036033574851032
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.020249511631337765,
+        0.28769063787656657,
+        0.4889083362737908,
+        0.9143538068070466
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 448.02794575689694,
+      "free_targets": 8.947832489453655,
+      "surface_complexes": 999981.4221316105,
+      "internalised_complexes": 999999.9326288922,
+      "active_payload": 218.3260525425745,
+      "loss_accounts": 98.6915278410787,
+      "released_payload": 999999.9995125654,
+      "killing_effect": 1325.527909198099,
+      "payload_exposure": 25405.231833237067
+    },
+    "physics_losses": {
+      "free_antibody": 0.012568636512098432,
+      "free_targets": 0.024649665743137487,
+      "surface_complexes": 5.721924410106685e-10,
+      "internalised_complexes": 5.9593705578693785e-12,
+      "active_payload": 0.004060656584385975,
+      "loss_accounts": 0.028223520843026206,
+      "released_payload": 8.44760877305677e-09,
+      "killing_effect": 0.00015200692897351817,
+      "payload_exposure": 8.48985673179937e-06
+    }
+  },
+  {
+    "step": 13119,
+    "seconds": 450.44209383399993,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.0007217742124339925,
+    "trajectory_loss": 0.05605878204690628,
+    "endpoint_loss": 0.050986244342359016,
+    "validation_score": 1.0957673891901043,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.5629957680429492,
+        "rmse_pp": 0.6720787049543274,
+        "r2": 0.9573553650228885,
+        "max_error_pp": 1.5771609420687156
+      },
+      "overall_healthy": {
+        "mae_pp": 0.046991028117532516,
+        "rmse_pp": 0.06804518474415606,
+        "r2": 0.9993887589670265,
+        "max_error_pp": 0.20765345524665335
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.8922429185883567,
+        "rmse_pp": 1.1637464384988645,
+        "r2": 0.9877150694944206,
+        "max_error_pp": 4.010554510072659
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.02001196050095802,
+        0.3677411235001664,
+        0.3209743593144899,
+        0.8922599555198905
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 2181.78841408662,
+      "free_targets": 13.145241447315064,
+      "surface_complexes": 999999.1249507443,
+      "internalised_complexes": 999999.9968267352,
+      "active_payload": 299.77572280087026,
+      "loss_accounts": 133.19056264206392,
+      "released_payload": 999999.9999770419,
+      "killing_effect": 2089.2991568175034,
+      "payload_exposure": 28600.222864990486
+    },
+    "physics_losses": {
+      "free_antibody": 0.00841772726114184,
+      "free_targets": 0.02740319293941259,
+      "surface_complexes": 3.477088422360328e-10,
+      "internalised_complexes": 7.56961458642303e-11,
+      "active_payload": 0.003722603295236219,
+      "loss_accounts": 0.031158781241188743,
+      "released_payload": 1.402730291585091e-08,
+      "killing_effect": 0.000406815140138915,
+      "payload_exposure": 3.773223320761882e-05
+    }
+  },
+  {
+    "step": 13863,
+    "seconds": 480.4714300839996,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.0006885773908626485,
+    "trajectory_loss": 0.05705952550809313,
+    "endpoint_loss": 0.025677077056023453,
+    "validation_score": 0.861766902250845,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.40978930285605286,
+        "rmse_pp": 0.561603286069809,
+        "r2": 0.9702228305569414,
+        "max_error_pp": 1.7340444874710954
+      },
+      "overall_healthy": {
+        "mae_pp": 0.03380465724835802,
+        "rmse_pp": 0.05406901942258878,
+        "r2": 0.999614064531893,
+        "max_error_pp": 0.21213776639926074
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.7497091294646607,
+        "rmse_pp": 0.977749065040449,
+        "r2": 0.9913281692517993,
+        "max_error_pp": 3.0805607758553464
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 1,
+      "false_feasible": 1,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.018423956476938612,
+        0.28165235988689397,
+        0.2731978694774672,
+        0.755139502237858
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 95108.26409654022,
+      "free_targets": 7.512976102559585,
+      "surface_complexes": 999999.96290563,
+      "internalised_complexes": 999999.9998654795,
+      "active_payload": 127.68739922082378,
+      "loss_accounts": 94.73522219996705,
+      "released_payload": 999999.9999990261,
+      "killing_effect": 2123.154239408563,
+      "payload_exposure": 20884.149848612386
+    },
+    "physics_losses": {
+      "free_antibody": 0.0064659672366539,
+      "free_targets": 0.07327144874489304,
+      "surface_complexes": 3.496032917048641e-12,
+      "internalised_complexes": 1.0425918167999054e-13,
+      "active_payload": 0.007911597650883872,
+      "loss_accounts": 0.025426312096970983,
+      "released_payload": 1.661070162976273e-08,
+      "killing_effect": 9.43509286157434e-05,
+      "payload_exposure": 1.362929933585239e-05
+    }
+  },
+  {
+    "step": 14548,
+    "seconds": 510.49583033399995,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.0006545360344239245,
+    "trajectory_loss": 0.04971046284316067,
+    "endpoint_loss": 0.029268928707342684,
+    "validation_score": 0.9427807041764549,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.47500202018399307,
+        "rmse_pp": 0.659214308013536,
+        "r2": 0.958972280121502,
+        "max_error_pp": 2.968660787430622
+      },
+      "overall_healthy": {
+        "mae_pp": 0.04218124266235491,
+        "rmse_pp": 0.0656674372729369,
+        "r2": 0.9994307305973956,
+        "max_error_pp": 0.23705100341651786
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.7548576195491367,
+        "rmse_pp": 0.9516719802804934,
+        "r2": 0.9917845654564713,
+        "max_error_pp": 3.4846980948046493
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 1,
+      "false_feasible": 1,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.018122541544075166,
+        0.3063035308092859,
+        0.2874177891564827,
+        0.7594923250457272
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 867626.7844768594,
+      "free_targets": 8.814988209355867,
+      "surface_complexes": 999999.9978429694,
+      "internalised_complexes": 999999.9999921764,
+      "active_payload": 109.50497056840435,
+      "loss_accounts": 89.70157394091501,
+      "released_payload": 999999.9999999409,
+      "killing_effect": 2988.608423581165,
+      "payload_exposure": 12051.860211531148
+    },
+    "physics_losses": {
+      "free_antibody": 0.012877071362566574,
+      "free_targets": 0.003627508302400192,
+      "surface_complexes": 1.9297783734826696e-14,
+      "internalised_complexes": 1.450891240453304e-14,
+      "active_payload": 0.007387877631570273,
+      "loss_accounts": 0.04575734925529782,
+      "released_payload": 1.3509137163050038e-08,
+      "killing_effect": 5.6808242362203395e-05,
+      "payload_exposure": 1.0754253496223526e-05
+    }
+  },
+  {
+    "step": 15250,
+    "seconds": 540.5282662919999,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.0006198315046478347,
+    "trajectory_loss": 0.05256229872123971,
+    "endpoint_loss": 0.027949620328696606,
+    "validation_score": 0.945780034399998,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.40206713669624006,
+        "rmse_pp": 0.5649339681309409,
+        "r2": 0.969868586259411,
+        "max_error_pp": 2.0270238109258116
+      },
+      "overall_healthy": {
+        "mae_pp": 0.042637413401200294,
+        "rmse_pp": 0.06459245184183106,
+        "r2": 0.9994492160883105,
+        "max_error_pp": 0.28651526680907935
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.791262349239874,
+        "rmse_pp": 1.0856155280892477,
+        "r2": 0.9893092526161895,
+        "max_error_pp": 3.9971206742635346
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 1,
+      "false_feasible": 1,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.01770148329879128,
+        0.27519948051684384,
+        0.3448706487093605,
+        0.8027100073182778
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 992596.3401775871,
+      "free_targets": 12.431458473464357,
+      "surface_complexes": 999999.9998871103,
+      "internalised_complexes": 999999.9999995892,
+      "active_payload": 133.81913584385828,
+      "loss_accounts": 122.75106939647728,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 5159.000291344305,
+      "payload_exposure": 14864.213757283205
+    },
+    "physics_losses": {
+      "free_antibody": 0.011112987938876074,
+      "free_targets": 0.0031270031555805703,
+      "surface_complexes": 2.153241452518082e-14,
+      "internalised_complexes": 1.7556205496276575e-14,
+      "active_payload": 0.006331944956411609,
+      "loss_accounts": 0.03964170540040567,
+      "released_payload": 1.145989799819297e-08,
+      "killing_effect": 2.9243952381999803e-05,
+      "payload_exposure": 7.910029387080162e-06
+    }
+  },
+  {
+    "step": 15978,
+    "seconds": 570.5538062920004,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.0005847107818189236,
+    "trajectory_loss": 0.059152321940283394,
+    "endpoint_loss": 0.03746704487137562,
+    "validation_score": 0.9515039310070689,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.35222058326165095,
+        "rmse_pp": 0.41741845576952097,
+        "r2": 0.9835499422921263,
+        "max_error_pp": 1.0787201734089251
+      },
+      "overall_healthy": {
+        "mae_pp": 0.05086483990662665,
+        "rmse_pp": 0.07326988068682334,
+        "r2": 0.9992912898142491,
+        "max_error_pp": 0.24533405621419924
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.7424972058135112,
+        "rmse_pp": 1.0804196391861598,
+        "r2": 0.9894113421767219,
+        "max_error_pp": 4.740514805502869
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 1,
+      "false_feasible": 1,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.016243631315200506,
+        0.36356355735004214,
+        0.36178784976629147,
+        0.751406716669852
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 999685.0323126238,
+      "free_targets": 9.444887990084455,
+      "surface_complexes": 999999.999995214,
+      "internalised_complexes": 999999.99999998,
+      "active_payload": 85.6545480017035,
+      "loss_accounts": 81.31729152456002,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 4321.561988135398,
+      "payload_exposure": 13787.269752647084
+    },
+    "physics_losses": {
+      "free_antibody": 0.012078065360866804,
+      "free_targets": 0.0009424083279393848,
+      "surface_complexes": 8.574138960084478e-13,
+      "internalised_complexes": 4.167546250807468e-15,
+      "active_payload": 0.00555911661809087,
+      "loss_accounts": 0.04313192751141984,
+      "released_payload": 6.9497489304455856e-09,
+      "killing_effect": 2.352995014061589e-05,
+      "payload_exposure": 1.0597930002285045e-05
+    }
+  },
+  {
+    "step": 16706,
+    "seconds": 600.57817075,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.0005493681663811817,
+    "trajectory_loss": 0.05659340589039725,
+    "endpoint_loss": 0.01543338271658885,
+    "validation_score": 0.896234259754655,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.35732526924823704,
+        "rmse_pp": 0.45123958828983535,
+        "r2": 0.9807762318373127,
+        "max_error_pp": 1.2170391240921035
+      },
+      "overall_healthy": {
+        "mae_pp": 0.04187172628005641,
+        "rmse_pp": 0.06306786485931797,
+        "r2": 0.9994749097398996,
+        "max_error_pp": 0.235332852068165
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.7469714922073,
+        "rmse_pp": 0.9971374590024915,
+        "r2": 0.9909808411231569,
+        "max_error_pp": 3.8324756759636074
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 1,
+      "false_feasible": 1,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.015486694553656685,
+        0.2790231767179389,
+        0.2949217122278215,
+        0.7518602910744251
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 999985.1623898237,
+      "free_targets": 9.889064334049815,
+      "surface_complexes": 999999.9999997722,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 85.3754428148445,
+      "loss_accounts": 78.27019935469936,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 4476.636852758061,
+      "payload_exposure": 14502.179320900475
+    },
+    "physics_losses": {
+      "free_antibody": 0.010094916243269789,
+      "free_targets": 0.0023418730197026856,
+      "surface_complexes": 1.4068259427553506e-10,
+      "internalised_complexes": 1.6945254993013304e-14,
+      "active_payload": 0.007510420328806263,
+      "loss_accounts": 0.03664223626432241,
+      "released_payload": 1.1597874845992961e-08,
+      "killing_effect": 3.331614965448321e-05,
+      "payload_exposure": 9.6500469468352e-06
+    }
+  },
+  {
+    "step": 17395,
+    "seconds": 630.6106387090003,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.0005140323473951987,
+    "trajectory_loss": 0.05445319930063843,
+    "endpoint_loss": 0.031091936231960757,
+    "validation_score": 0.9891745460264056,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.6541201193644773,
+        "rmse_pp": 0.7970197176100154,
+        "r2": 0.9400261039068295,
+        "max_error_pp": 2.1951054505416607
+      },
+      "overall_healthy": {
+        "mae_pp": 0.035370939227885985,
+        "rmse_pp": 0.049474293020469934,
+        "r2": 0.9996768702833517,
+        "max_error_pp": 0.18766384222726273
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.8029923670785101,
+        "rmse_pp": 1.019727129077441,
+        "r2": 0.9905675628224998,
+        "max_error_pp": 3.232494843817669
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.015334267382506426,
+        0.258759257289341,
+        0.2633263085875912,
+        0.8030094040100438
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 6890.894416662278,
+      "free_targets": 1.9554172893610058,
+      "surface_complexes": 62234.67274616949,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 76.39430612658036,
+      "loss_accounts": 77.05915209925521,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 3373.9345415927787,
+      "payload_exposure": 14157.360370094073
+    },
+    "physics_losses": {
+      "free_antibody": 0.009150534090377837,
+      "free_targets": 0.26845523036973695,
+      "surface_complexes": 6.450031398162183e-07,
+      "internalised_complexes": 2.8299762620878093e-13,
+      "active_payload": 0.005673884687643353,
+      "loss_accounts": 0.03428221043012872,
+      "released_payload": 9.432892355336429e-09,
+      "killing_effect": 2.513964293422322e-05,
+      "payload_exposure": 9.379490912928397e-06
+    }
+  },
+  {
+    "step": 18158,
+    "seconds": 660.6503582089999,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.000478896733380145,
+    "trajectory_loss": 0.05535774500324518,
+    "endpoint_loss": 0.04110191937977851,
+    "validation_score": 0.8534076433533309,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.45489887245740235,
+        "rmse_pp": 0.5591678117603363,
+        "r2": 0.9704805366028277,
+        "max_error_pp": 1.704169662950207
+      },
+      "overall_healthy": {
+        "mae_pp": 0.035012370453638836,
+        "rmse_pp": 0.05572337191279735,
+        "r2": 0.9995900862534102,
+        "max_error_pp": 0.2009543092563142
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.7025383242649068,
+        "rmse_pp": 0.9879020023878793,
+        "r2": 0.9911471377696707,
+        "max_error_pp": 3.674920664840009
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.014895436665699327,
+        0.2560246712090723,
+        0.2996525196853541,
+        0.7136169415757471
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 19457.846199459993,
+      "free_targets": 5.320579284772743,
+      "surface_complexes": 370959.0095975698,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 93.95577225898391,
+      "loss_accounts": 90.8014373951973,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 4417.281905042629,
+      "payload_exposure": 19168.520258052722
+    },
+    "physics_losses": {
+      "free_antibody": 0.011291606972951885,
+      "free_targets": 0.07041492896405059,
+      "surface_complexes": 3.537034214376355e-08,
+      "internalised_complexes": 4.110884915338677e-13,
+      "active_payload": 0.0063441293802042305,
+      "loss_accounts": 0.03851305738955378,
+      "released_payload": 7.855682223650851e-09,
+      "killing_effect": 2.563638978062894e-05,
+      "payload_exposure": 8.465973624853713e-06
+    }
+  },
+  {
+    "step": 18869,
+    "seconds": 690.6986172919997,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.0004442032513472957,
+    "trajectory_loss": 0.04905813250704692,
+    "endpoint_loss": 0.038768243412926603,
+    "validation_score": 0.9148929399148629,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.3773181435859081,
+        "rmse_pp": 0.45038184679519483,
+        "r2": 0.9808492456084177,
+        "max_error_pp": 0.8866627750146847
+      },
+      "overall_healthy": {
+        "mae_pp": 0.042669559771031575,
+        "rmse_pp": 0.06280771839924951,
+        "r2": 0.9994792326591423,
+        "max_error_pp": 0.19536557761904838
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.7569847403690245,
+        "rmse_pp": 1.122708854620463,
+        "r2": 0.9885662084572258,
+        "max_error_pp": 4.857581886861254
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.014330112368662891,
+        0.24185989997361948,
+        0.33059875751263484,
+        0.7722362699154538
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 16299.953952215188,
+      "free_targets": 5.1047851120635155,
+      "surface_complexes": 441813.73958797863,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 75.4127014300174,
+      "loss_accounts": 67.21365795405544,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 3839.310376119349,
+      "payload_exposure": 15856.741104494688
+    },
+    "physics_losses": {
+      "free_antibody": 0.010200005739270598,
+      "free_targets": 0.057861863037201956,
+      "surface_complexes": 7.852221803891458e-07,
+      "internalised_complexes": 4.9969868427066543e-11,
+      "active_payload": 0.0074561507871445795,
+      "loss_accounts": 0.037003640984144964,
+      "released_payload": 1.2358384926637849e-08,
+      "killing_effect": 2.9153615760277806e-05,
+      "payload_exposure": 8.868906596885623e-06
+    }
+  },
+  {
+    "step": 19591,
+    "seconds": 720.7173257499999,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.00041018464638959063,
+    "trajectory_loss": 0.060083646583886534,
+    "endpoint_loss": 0.012221082289711709,
+    "validation_score": 0.8214207296510662,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.3370886111529606,
+        "rmse_pp": 0.43902436194985506,
+        "r2": 0.9818029339080131,
+        "max_error_pp": 1.3644358264568268
+      },
+      "overall_healthy": {
+        "mae_pp": 0.032723088031857625,
+        "rmse_pp": 0.04868922081412297,
+        "r2": 0.999687043947678,
+        "max_error_pp": 0.16585755166220117
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.7363559085815428,
+        "rmse_pp": 1.0259299845494911,
+        "r2": 0.9904524614567414,
+        "max_error_pp": 4.486842479328779
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.014097920069378366,
+        0.2246559866288541,
+        0.24133135575748604,
+        0.7374411116034405
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 14726.915741360513,
+      "free_targets": 5.888448362975353,
+      "surface_complexes": 546340.0794754262,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 74.11570242738445,
+      "loss_accounts": 71.4643324480302,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 4491.628805616647,
+      "payload_exposure": 13179.392649360612
+    },
+    "physics_losses": {
+      "free_antibody": 0.007521783382764383,
+      "free_targets": 0.06976048896818006,
+      "surface_complexes": 6.452919962630903e-07,
+      "internalised_complexes": 2.133643644924622e-11,
+      "active_payload": 0.007709417484748848,
+      "loss_accounts": 0.02651327482616455,
+      "released_payload": 1.122590477023053e-08,
+      "killing_effect": 2.4585741657240368e-05,
+      "payload_exposure": 7.592086348188866e-06
+    }
+  },
+  {
+    "step": 20320,
+    "seconds": 750.7503230840002,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.00037702145623466366,
+    "trajectory_loss": 0.054976647423670526,
+    "endpoint_loss": 0.01939396446032729,
+    "validation_score": 0.7968641367691222,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.2902111810213309,
+        "rmse_pp": 0.3759065876816605,
+        "r2": 0.9866591345204084,
+        "max_error_pp": 0.9299932007177745
+      },
+      "overall_healthy": {
+        "mae_pp": 0.033839629405453486,
+        "rmse_pp": 0.047214888040917884,
+        "r2": 0.9997057099123612,
+        "max_error_pp": 0.16528604172925654
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.7117943205884829,
+        "rmse_pp": 1.0521325562950274,
+        "r2": 0.989958539301799,
+        "max_error_pp": 4.274048422068425
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.013657676362267265,
+        0.20737562967563236,
+        0.2692987840202094,
+        0.7179234357907416
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 3897.945831047241,
+      "free_targets": 5.4505950936162595,
+      "surface_complexes": 201422.51142002986,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 50.82657393300825,
+      "loss_accounts": 47.258954458376024,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 2985.9838700214627,
+      "payload_exposure": 14109.663038378949
+    },
+    "physics_losses": {
+      "free_antibody": 0.010879591837790208,
+      "free_targets": 0.023026209255374346,
+      "surface_complexes": 2.459726280833266e-07,
+      "internalised_complexes": 6.830923086232621e-11,
+      "active_payload": 0.008225721287702567,
+      "loss_accounts": 0.03997286697952561,
+      "released_payload": 1.2068575760048736e-08,
+      "killing_effect": 2.856464062624188e-05,
+      "payload_exposure": 1.2384626436716916e-05
+    }
+  },
+  {
+    "step": 21003,
+    "seconds": 780.788819417,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.00034493265608304005,
+    "trajectory_loss": 0.05761486006577431,
+    "endpoint_loss": 0.007993035795819906,
+    "validation_score": 0.801197911918408,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.30907599639638383,
+        "rmse_pp": 0.4085887826531322,
+        "r2": 0.9842385194481665,
+        "max_error_pp": 1.171602485983101
+      },
+      "overall_healthy": {
+        "mae_pp": 0.030791257212882558,
+        "rmse_pp": 0.04764366189091582,
+        "r2": 0.9997003405529167,
+        "max_error_pp": 0.1862619848455136
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.7393462975505944,
+        "rmse_pp": 1.088465631992694,
+        "r2": 0.9892530453555325,
+        "max_error_pp": 4.4830275324882365
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.013362285763541084,
+        0.1986368324675951,
+        0.24201592062113447,
+        0.751018605878107
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 5210.457352398914,
+      "free_targets": 5.179521809515322,
+      "surface_complexes": 281777.59381973697,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 46.33152879419247,
+      "loss_accounts": 40.58073785497554,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 2429.8330863502565,
+      "payload_exposure": 12291.190352585574
+    },
+    "physics_losses": {
+      "free_antibody": 0.012179395026523526,
+      "free_targets": 0.016492860772405766,
+      "surface_complexes": 5.541492893538484e-07,
+      "internalised_complexes": 1.487628757595847e-10,
+      "active_payload": 0.0067581251967840025,
+      "loss_accounts": 0.04509402607324181,
+      "released_payload": 9.920544133069353e-09,
+      "killing_effect": 2.280532833832459e-05,
+      "payload_exposure": 6.015293058353238e-06
+    }
+  },
+  {
+    "step": 21715,
+    "seconds": 810.8209780839998,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.00031409580139063963,
+    "trajectory_loss": 0.05516023212963242,
+    "endpoint_loss": 0.01141549323962076,
+    "validation_score": 0.7385169215595441,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.27697798831674214,
+        "rmse_pp": 0.34311198789920777,
+        "r2": 0.9888853468170031,
+        "max_error_pp": 0.8895172529765603
+      },
+      "overall_healthy": {
+        "mae_pp": 0.030662895029866397,
+        "rmse_pp": 0.0438458307136278,
+        "r2": 0.9997462101135648,
+        "max_error_pp": 0.17019910253660164
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.6626574378822812,
+        "rmse_pp": 0.9559832377842614,
+        "r2": 0.9917099618500282,
+        "max_error_pp": 3.8367480002194583
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.013473448332636282,
+        0.22383608844132044,
+        0.22797126506995868,
+        0.6692629763155682
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 7403.3683516592755,
+      "free_targets": 7.33899371626432,
+      "surface_complexes": 591686.3443327413,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 59.58754155217143,
+      "loss_accounts": 55.57751498943976,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 3021.732230529731,
+      "payload_exposure": 15769.608809689013
+    },
+    "physics_losses": {
+      "free_antibody": 0.013014579783908733,
+      "free_targets": 0.02991897661731458,
+      "surface_complexes": 4.454196623153552e-07,
+      "internalised_complexes": 7.025083463482604e-10,
+      "active_payload": 0.010557238910915286,
+      "loss_accounts": 0.04644732076967595,
+      "released_payload": 1.784696731156697e-08,
+      "killing_effect": 2.9789307029870785e-05,
+      "payload_exposure": 8.056361322273756e-06
+    }
+  },
+  {
+    "step": 22447,
+    "seconds": 840.869498084,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.00028471038244571873,
+    "trajectory_loss": 0.05290744902673064,
+    "endpoint_loss": 0.012768515605952553,
+    "validation_score": 0.7454461006872662,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.2981495079588866,
+        "rmse_pp": 0.3788099213770434,
+        "r2": 0.9864522609851417,
+        "max_error_pp": 1.0115199711627696
+      },
+      "overall_healthy": {
+        "mae_pp": 0.03075014226684324,
+        "rmse_pp": 0.04663910780005698,
+        "r2": 0.9997128438158626,
+        "max_error_pp": 0.18931288865577223
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.6615929743830236,
+        "rmse_pp": 0.9323366376627841,
+        "r2": 0.9921150040244594,
+        "max_error_pp": 3.915169972928709
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.012939167757110513,
+        0.21397680876622802,
+        0.23336031249828962,
+        0.6648129960597733
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 7879.25789793375,
+      "free_targets": 6.834556233359265,
+      "surface_complexes": 838426.9773465918,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 54.22206836592665,
+      "loss_accounts": 46.1313739901153,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 2129.6428502458125,
+      "payload_exposure": 12111.589499937005
+    },
+    "physics_losses": {
+      "free_antibody": 0.016010345702286516,
+      "free_targets": 0.00516027979658465,
+      "surface_complexes": 2.1012561048515744e-08,
+      "internalised_complexes": 2.5010950266459026e-10,
+      "active_payload": 0.00544552072708102,
+      "loss_accounts": 0.05951674388141745,
+      "released_payload": 7.49255549172319e-09,
+      "killing_effect": 2.268691207333691e-05,
+      "payload_exposure": 7.6043967952240825e-06
+    }
+  },
+  {
+    "step": 23202,
+    "seconds": 870.8938195420005,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.0002569870890279546,
+    "trajectory_loss": 0.05206864445588959,
+    "endpoint_loss": 0.007568141296461252,
+    "validation_score": 0.691339148062697,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.2876569753754241,
+        "rmse_pp": 0.3843140752759385,
+        "r2": 0.9860557001591989,
+        "max_error_pp": 1.3964009408826712
+      },
+      "overall_healthy": {
+        "mae_pp": 0.026639480165609405,
+        "rmse_pp": 0.04470014523978613,
+        "r2": 0.9997362238200662,
+        "max_error_pp": 0.22619291639096417
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.6267854327502395,
+        "rmse_pp": 0.8675513945033501,
+        "r2": 0.9931727406842503,
+        "max_error_pp": 3.1069710389150558
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.012657661186743165,
+        0.1946957069854632,
+        0.23343839154619853,
+        0.6324537588930143
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 8431.430616354364,
+      "free_targets": 8.801046949750408,
+      "surface_complexes": 514044.36622592754,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 62.717801547650865,
+      "loss_accounts": 57.08308015276904,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 2762.792225989054,
+      "payload_exposure": 16340.909553905256
+    },
+    "physics_losses": {
+      "free_antibody": 0.007295157025460242,
+      "free_targets": 0.009512626378757385,
+      "surface_complexes": 2.348725138419853e-08,
+      "internalised_complexes": 2.607804580620275e-10,
+      "active_payload": 0.004248388116527095,
+      "loss_accounts": 0.027397393950626694,
+      "released_payload": 6.744964136901052e-09,
+      "killing_effect": 2.1995076831597107e-05,
+      "payload_exposure": 5.752270107528527e-06
+    }
+  },
+  {
+    "step": 23941,
+    "seconds": 900.908366875,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.00023108114949932612,
+    "trajectory_loss": 0.054259338887238905,
+    "endpoint_loss": 0.01078240785936576,
+    "validation_score": 0.7585154189751675,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.327660080923748,
+        "rmse_pp": 0.42197563521363296,
+        "r2": 0.9831887934980483,
+        "max_error_pp": 1.4967961606639193
+      },
+      "overall_healthy": {
+        "mae_pp": 0.03382421241463762,
+        "rmse_pp": 0.05405264127565542,
+        "r2": 0.9996142983053379,
+        "max_error_pp": 0.20140721953541174
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.6357009638545009,
+        "rmse_pp": 0.8571549864115883,
+        "r2": 0.9933353908323338,
+        "max_error_pp": 2.995101176151607
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.012344219474344411,
+        0.22308026455638794,
+        0.2260026105247651,
+        0.6428796893038272
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 7460.018290862318,
+      "free_targets": 9.414992259127239,
+      "surface_complexes": 695298.8312336112,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 40.18160829082918,
+      "loss_accounts": 37.850764682985705,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 1907.7092488204512,
+      "payload_exposure": 12423.16637440113
+    },
+    "physics_losses": {
+      "free_antibody": 0.013166601882086622,
+      "free_targets": 0.011484288403145389,
+      "surface_complexes": 2.454349564040743e-07,
+      "internalised_complexes": 4.3458365582549814e-10,
+      "active_payload": 0.007605522394357298,
+      "loss_accounts": 0.050207461132805935,
+      "released_payload": 1.3476286903087544e-08,
+      "killing_effect": 3.018748391875978e-05,
+      "payload_exposure": 8.908265594184864e-06
+    }
+  },
+  {
+    "step": 24678,
+    "seconds": 930.9225472919998,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.00020714535067434465,
+    "trajectory_loss": 0.04982846500549543,
+    "endpoint_loss": 0.008304786243857623,
+    "validation_score": 0.7349127045532066,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.27591447709207007,
+        "rmse_pp": 0.34180526563470803,
+        "r2": 0.9889698446417742,
+        "max_error_pp": 0.921123945287107
+      },
+      "overall_healthy": {
+        "mae_pp": 0.03052954443312806,
+        "rmse_pp": 0.04743483437326831,
+        "r2": 0.9997029616779387,
+        "max_error_pp": 0.1742478737355988
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.6591163739524943,
+        "rmse_pp": 0.9104890633214175,
+        "r2": 0.9924802146971645,
+        "max_error_pp": 3.7662166616558252
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.01231268671003518,
+        0.19638077609624202,
+        0.24794068371380637,
+        0.6612203978203781
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 7358.526721582337,
+      "free_targets": 8.03464833498873,
+      "surface_complexes": 571422.0626661591,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 38.12170113900343,
+      "loss_accounts": 35.730371658690615,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 1969.0256368905925,
+      "payload_exposure": 12634.478397070465
+    },
+    "physics_losses": {
+      "free_antibody": 0.013695825664430655,
+      "free_targets": 0.007754534765618261,
+      "surface_complexes": 7.222589279246774e-07,
+      "internalised_complexes": 5.349106394901587e-10,
+      "active_payload": 0.00869037771133522,
+      "loss_accounts": 0.04997526921887437,
+      "released_payload": 1.2932823680461948e-08,
+      "killing_effect": 2.624866212209211e-05,
+      "payload_exposure": 5.7879091473941925e-06
+    }
+  },
+  {
+    "step": 25415,
+    "seconds": 960.9494906249993,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.00018531650539036724,
+    "trajectory_loss": 0.04609376952737384,
+    "endpoint_loss": 0.006204681875392736,
+    "validation_score": 0.6767792816883721,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.28322944809869155,
+        "rmse_pp": 0.38536064368850786,
+        "r2": 0.9859796502016066,
+        "max_error_pp": 1.4121224168485043
+      },
+      "overall_healthy": {
+        "mae_pp": 0.026329580391424273,
+        "rmse_pp": 0.04141023248619278,
+        "r2": 0.9997736226126347,
+        "max_error_pp": 0.19401969979563383
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.6102583945689697,
+        "rmse_pp": 0.8581398486593792,
+        "r2": 0.9933200668993366,
+        "max_error_pp": 3.3814707964767123
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.012324965517071844,
+        0.18475205791243277,
+        0.20760494842436922,
+        0.6190744214394156
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 5011.459140118745,
+      "free_targets": 8.487864877195427,
+      "surface_complexes": 602548.3682112027,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 36.84172801496612,
+      "loss_accounts": 36.58004290374245,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 2042.7431589410307,
+      "payload_exposure": 12666.4134706885
+    },
+    "physics_losses": {
+      "free_antibody": 0.012537425948364147,
+      "free_targets": 0.004246488620922101,
+      "surface_complexes": 2.656026171474366e-07,
+      "internalised_complexes": 3.630483645004174e-10,
+      "active_payload": 0.006418466277009704,
+      "loss_accounts": 0.04636127233898403,
+      "released_payload": 8.226400848921158e-09,
+      "killing_effect": 2.6053585717936947e-05,
+      "payload_exposure": 8.798209335118062e-06
+    }
+  },
+  {
+    "step": 26107,
+    "seconds": 990.9887772089996,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.00016573139602740758,
+    "trajectory_loss": 0.0547829786998403,
+    "endpoint_loss": 0.007294752367632483,
+    "validation_score": 0.7080534488858911,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.2552007146943436,
+        "rmse_pp": 0.3299918226638601,
+        "r2": 0.9897191153210051,
+        "max_error_pp": 0.9825721806927845
+      },
+      "overall_healthy": {
+        "mae_pp": 0.0301022971961552,
+        "rmse_pp": 0.046037725606830227,
+        "r2": 0.9997202014714885,
+        "max_error_pp": 0.1716477842068418
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.6334568440201128,
+        "rmse_pp": 0.8950528990213594,
+        "r2": 0.9927330297641878,
+        "max_error_pp": 3.373094050059187
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.011907522775593253,
+        0.20650406776218908,
+        0.24013983653145296,
+        0.6365561301055672
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 6102.339589596241,
+      "free_targets": 9.219654362321593,
+      "surface_complexes": 666907.8144619899,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 39.25878813137071,
+      "loss_accounts": 35.599333919915935,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 1590.8366550047144,
+      "payload_exposure": 12721.309036659331
+    },
+    "physics_losses": {
+      "free_antibody": 0.012093062051980123,
+      "free_targets": 0.006104098251046506,
+      "surface_complexes": 3.220943149749762e-08,
+      "internalised_complexes": 4.675922271040412e-10,
+      "active_payload": 0.008627348683270775,
+      "loss_accounts": 0.04220284372297826,
+      "released_payload": 1.2082054677609306e-08,
+      "killing_effect": 3.581652364563937e-05,
+      "payload_exposure": 7.268827316386252e-06
+    }
+  },
+  {
+    "step": 26890,
+    "seconds": 1021.0073687920003,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.00014853179821614873,
+    "trajectory_loss": 0.05186884440651726,
+    "endpoint_loss": 0.008508897022769153,
+    "validation_score": 0.6662825619540742,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.26531530229815115,
+        "rmse_pp": 0.34837186669343095,
+        "r2": 0.9885419613485505,
+        "max_error_pp": 1.0909883283972164
+      },
+      "overall_healthy": {
+        "mae_pp": 0.026318958993178786,
+        "rmse_pp": 0.03933512440030753,
+        "r2": 0.9997957421473337,
+        "max_error_pp": 0.16959633714850675
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.603576601850248,
+        "rmse_pp": 0.8339629519135825,
+        "r2": 0.993691160336855,
+        "max_error_pp": 3.4183847228976703
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.011818075602605832,
+        0.18653634978230785,
+        0.2139950266819612,
+        0.6084143763326331
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 5039.917230906956,
+      "free_targets": 7.147383281954027,
+      "surface_complexes": 827723.8836371724,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 30.715551149163502,
+      "loss_accounts": 31.18106422833042,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 1350.588078524977,
+      "payload_exposure": 12781.100840828185
+    },
+    "physics_losses": {
+      "free_antibody": 0.006236277633405851,
+      "free_targets": 0.0015935447913410787,
+      "surface_complexes": 1.0235720953095653e-08,
+      "internalised_complexes": 3.516760469212888e-10,
+      "active_payload": 0.0051082641223712056,
+      "loss_accounts": 0.02236898794869229,
+      "released_payload": 7.2312439835872556e-09,
+      "killing_effect": 2.4878137186105854e-05,
+      "payload_exposure": 7.902852974380814e-06
+    }
+  },
+  {
+    "step": 27676,
+    "seconds": 1051.0560129590003,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.00013382086978930486,
+    "trajectory_loss": 0.05151073560423291,
+    "endpoint_loss": 0.0061267126569699345,
+    "validation_score": 0.666151970598419,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.24635078105718766,
+        "rmse_pp": 0.3297398610371159,
+        "r2": 0.9897348090401761,
+        "max_error_pp": 0.9841662528591826
+      },
+      "overall_healthy": {
+        "mae_pp": 0.0266096818649849,
+        "rmse_pp": 0.042036695237483004,
+        "r2": 0.9997667214333307,
+        "max_error_pp": 0.192843151253129
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.6099557467191856,
+        "rmse_pp": 0.8853307829232318,
+        "r2": 0.992890040873643,
+        "max_error_pp": 3.5516536482481413
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.01169213532493623,
+        0.17735204405230415,
+        0.21626648901412338,
+        0.6149554060221006
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 4786.608849288186,
+      "free_targets": 9.874220199028972,
+      "surface_complexes": 840726.4833488852,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 32.91092730486002,
+      "loss_accounts": 30.733117247439075,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 1274.1304640896196,
+      "payload_exposure": 15614.71692308986
+    },
+    "physics_losses": {
+      "free_antibody": 0.004893492767376407,
+      "free_targets": 0.0023148952419623004,
+      "surface_complexes": 3.0528989077922096e-08,
+      "internalised_complexes": 3.3661802709237576e-10,
+      "active_payload": 0.0047021842458745315,
+      "loss_accounts": 0.017286057616791323,
+      "released_payload": 9.178382774552727e-09,
+      "killing_effect": 2.1314700501112828e-05,
+      "payload_exposure": 4.397657641087712e-06
+    }
+  },
+  {
+    "step": 28454,
+    "seconds": 1081.0949002499992,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.0001216424465134532,
+    "trajectory_loss": 0.05625505553982681,
+    "endpoint_loss": 0.0048582087196505875,
+    "validation_score": 0.6953664449263682,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.25244337950936135,
+        "rmse_pp": 0.33035126891439204,
+        "r2": 0.9896967060500351,
+        "max_error_pp": 1.1144479595399872
+      },
+      "overall_healthy": {
+        "mae_pp": 0.030805646842814095,
+        "rmse_pp": 0.04844478183214171,
+        "r2": 0.9996901783840451,
+        "max_error_pp": 0.18531042061600722
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.6087715092067307,
+        "rmse_pp": 0.9206352835822628,
+        "r2": 0.992311684356972,
+        "max_error_pp": 3.8824458588889286
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.011631776420323368,
+        0.19434782495736852,
+        0.24360285696500708,
+        0.61389271178961
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 4519.921495170061,
+      "free_targets": 7.498172698147701,
+      "surface_complexes": 590002.9391607137,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 30.638905997846965,
+      "loss_accounts": 26.39974096676841,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 807.8069155113753,
+      "payload_exposure": 12838.901051560893
+    },
+    "physics_losses": {
+      "free_antibody": 0.005411915594063855,
+      "free_targets": 0.0015251838984183957,
+      "surface_complexes": 5.048181359888092e-08,
+      "internalised_complexes": 6.756620082497539e-10,
+      "active_payload": 0.005699630233392402,
+      "loss_accounts": 0.020067301679642893,
+      "released_payload": 1.1736185204927205e-08,
+      "killing_effect": 4.7290094947674915e-05,
+      "payload_exposure": 8.528912909164483e-06
+    }
+  },
+  {
+    "step": 29234,
+    "seconds": 1111.1318974590004,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.00011213557869167215,
+    "trajectory_loss": 0.05029267420300362,
+    "endpoint_loss": 0.0059809009513581875,
+    "validation_score": 0.6574989504099564,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.263458655600876,
+        "rmse_pp": 0.3501342315796348,
+        "r2": 0.9884257388614305,
+        "max_error_pp": 1.246937722618398
+      },
+      "overall_healthy": {
+        "mae_pp": 0.026597202257602297,
+        "rmse_pp": 0.040668918756375246,
+        "r2": 0.9997816551472641,
+        "max_error_pp": 0.17938130246093387
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.5885470752384736,
+        "rmse_pp": 0.8262291355135365,
+        "r2": 0.9938076287535822,
+        "max_error_pp": 3.1607915913581337
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.011898003079552267,
+        0.1802500207853764,
+        0.22444353346342552,
+        0.5941919087837635
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 3660.558811918906,
+      "free_targets": 8.489603948540386,
+      "surface_complexes": 631621.9322069766,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 27.50229052134488,
+      "loss_accounts": 25.63613368815496,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 571.5138427968608,
+      "payload_exposure": 11997.870897039436
+    },
+    "physics_losses": {
+      "free_antibody": 0.013199898800801404,
+      "free_targets": 0.004670070766598657,
+      "surface_complexes": 1.2471419925454004e-07,
+      "internalised_complexes": 4.0623312314552467e-10,
+      "active_payload": 0.005904431448150228,
+      "loss_accounts": 0.04758683580224299,
+      "released_payload": 7.899658133967804e-09,
+      "killing_effect": 3.5876030171036e-05,
+      "payload_exposure": 5.722638623590981e-06
+    }
+  },
+  {
+    "step": 30012,
+    "seconds": 1141.1754925840005,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.00010533322884507916,
+    "trajectory_loss": 0.05367299955615998,
+    "endpoint_loss": 0.005596604458822815,
+    "validation_score": 0.6488496996574685,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.25439748556111097,
+        "rmse_pp": 0.34026801264954304,
+        "r2": 0.9890688367360209,
+        "max_error_pp": 1.1744601967545378
+      },
+      "overall_healthy": {
+        "mae_pp": 0.025751423568532446,
+        "rmse_pp": 0.03990290892438284,
+        "r2": 0.9997898028516792,
+        "max_error_pp": 0.16961000524473313
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.5885615710203229,
+        "rmse_pp": 0.8394591775336347,
+        "r2": 0.9936077296086322,
+        "max_error_pp": 3.2265240927698287
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.011389039525967582,
+        0.18696236471610347,
+        0.20363849040120746,
+        0.5958378089761425
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 6931.3906129156,
+      "free_targets": 10.67230209135287,
+      "surface_complexes": 869101.5356251971,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 32.482801517527314,
+      "loss_accounts": 30.299545775146097,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 522.0577636123037,
+      "payload_exposure": 13701.454347284622
+    },
+    "physics_losses": {
+      "free_antibody": 0.006941903856586362,
+      "free_targets": 0.0014884521887609668,
+      "surface_complexes": 3.0140698270393174e-08,
+      "internalised_complexes": 5.686743577363694e-10,
+      "active_payload": 0.00605942616546655,
+      "loss_accounts": 0.026301225982073052,
+      "released_payload": 1.5310390638403218e-08,
+      "killing_effect": 9.145309789508483e-05,
+      "payload_exposure": 7.85829603418467e-06
+    }
+  },
+  {
+    "step": 30797,
+    "seconds": 1171.1913589589994,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.00010128282164659203,
+    "trajectory_loss": 0.04498200589200633,
+    "endpoint_loss": 0.004709409077893762,
+    "validation_score": 0.6606399679942335,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.24540775192467035,
+        "rmse_pp": 0.3197662355214304,
+        "r2": 0.9903463991040815,
+        "max_error_pp": 1.0680730138284815
+      },
+      "overall_healthy": {
+        "mae_pp": 0.0269560005000797,
+        "rmse_pp": 0.042932000303215256,
+        "r2": 0.999756678797866,
+        "max_error_pp": 0.19467805376858038
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.5986960710282181,
+        "rmse_pp": 0.8470074415559121,
+        "r2": 0.9934922565136508,
+        "max_error_pp": 3.458924400931174
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.011353741485153614,
+        0.1833770649186708,
+        0.21958278305378984,
+        0.6018820246658432
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 5507.570519723269,
+      "free_targets": 8.285200119112822,
+      "surface_complexes": 907273.549023178,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 29.889694190008715,
+      "loss_accounts": 24.35145626169119,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 470.8074860879841,
+      "payload_exposure": 13312.566369206334
+    },
+    "physics_losses": {
+      "free_antibody": 0.009312989083628898,
+      "free_targets": 0.0018719382943602307,
+      "surface_complexes": 2.2247145441079201e-07,
+      "internalised_complexes": 7.670655061113066e-10,
+      "active_payload": 0.007474322800557115,
+      "loss_accounts": 0.0355279799793991,
+      "released_payload": 1.3937360305779412e-08,
+      "killing_effect": 8.599679206629205e-05,
+      "payload_exposure": 5.046056538499905e-06
+    }
+  }
+]

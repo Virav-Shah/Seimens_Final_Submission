@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "condition": "reference",
+  "physical_states": 21,
+  "derivatives_per_state": 97,
+  "max_absolute_difference": 3.552713678800501e-15,
+  "relative_tolerance": 1e-08,
+  "absolute_tolerance": 1e-10
+}

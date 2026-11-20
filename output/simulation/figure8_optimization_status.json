@@ -1,0 +1,9 @@
+{
+  "requested_nfe": 240,
+  "algorithm_nfe": 240,
+  "initialization": "16 boundary corners + two specified seeds + random fill",
+  "evaluations": 234,
+  "feasible_pareto_count": 0,
+  "seed": 8407,
+  "exact_replication": false
+}

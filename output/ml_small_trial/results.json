@@ -1,0 +1,1336 @@
+{
+  "configuration": {
+    "seeds": [
+      2026,
+      8407,
+      11939
+    ],
+    "initial": 64,
+    "rounds": 4,
+    "batch": 24,
+    "final": 32,
+    "budget_per_arm": 192,
+    "bounds_log10": [
+      [
+        2.0,
+        7.0
+      ],
+      [
+        -5.0,
+        2.0
+      ],
+      [
+        2.0,
+        7.0
+      ],
+      [
+        -5.0,
+        2.0
+      ]
+    ],
+    "validation": 32,
+    "test": 64,
+    "contexts": "three fixed existing illustrative conditions",
+    "model_sha256": "27c7ad24677e3f863bbc8193d7e710f7a05131c906f947c1ff2ba5bb70a163d6",
+    "comparison_budget_including_selection": 224
+  },
+  "runs": [
+    {
+      "seed": 2026,
+      "selected_model": "GP",
+      "model_selection": [
+        {
+          "model": "GP",
+          "score": 0.41514763058860876,
+          "metrics": {
+            "tumour": {
+              "mae_pp": 2.235864476853185,
+              "rmse_pp": 3.6035899217679064,
+              "r2": 0.8628763586943835
+            },
+            "overall_healthy": {
+              "mae_pp": 0.825710362954951,
+              "rmse_pp": 1.1086244797991813,
+              "r2": 0.8002058902647147
+            },
+            "worst_subgroup": {
+              "mae_pp": 3.5391544388681955,
+              "rmse_pp": 5.312325264092557,
+              "r2": 0.8704472715851144
+            },
+            "subgroup_mae_pp": [
+              0.031110456890552893,
+              4.367999024308685,
+              5.6027103301599475,
+              3.0226249706248027
+            ],
+            "n": 32,
+            "actual_feasible": 0,
+            "predicted_feasible": 0,
+            "false_feasible": 0,
+            "false_infeasible": 0
+          },
+          "warnings": [
+            "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-06. Decreasing the bound and calling fit again may find a better value."
+          ]
+        },
+        {
+          "model": "ExtraTrees",
+          "score": 0.5733443934405404,
+          "metrics": {
+            "tumour": {
+              "mae_pp": 3.738067467385452,
+              "rmse_pp": 7.759353905218539,
+              "r2": 0.3642406863001745
+            },
+            "overall_healthy": {
+              "mae_pp": 1.0097689565236818,
+              "rmse_pp": 1.3408657050723507,
+              "r2": 0.7077299470151144
+            },
+            "worst_subgroup": {
+              "mae_pp": 6.1973781457020705,
+              "rmse_pp": 11.44341433304563,
+              "r2": 0.39884219112969066
+            },
+            "subgroup_mae_pp": [
+              0.04400397707619764,
+              9.56402433800812,
+              7.617017478645352,
+              6.242091978023928
+            ],
+            "n": 32,
+            "actual_feasible": 0,
+            "predicted_feasible": 0,
+            "false_feasible": 0,
+            "false_infeasible": 0
+          },
+          "warnings": []
+        }
+      ],
+      "initial": {
+        "feasible": 2,
+        "nondominated": 2,
+        "best_tumour": 20.93340410813906,
+        "hypervolume": 0.11904622609986382
+      },
+      "assisted": {
+        "feasible": 95,
+        "nondominated": 70,
+        "best_tumour": 42.110600453922885,
+        "hypervolume": 0.2217761888040068
+      },
+      "direct": {
+        "feasible": 40,
+        "nondominated": 31,
+        "best_tumour": 37.326741257805395,
+        "hypervolume": 0.20831511007214043
+      },
+      "assisted_tight_subset": {
+        "feasible": 12,
+        "nondominated": 12,
+        "best_tumour": 42.11055415630219,
+        "hypervolume": 0.11085552171829956
+      },
+      "direct_tight_subset": {
+        "feasible": 12,
+        "nondominated": 12,
+        "best_tumour": 37.32670009964023,
+        "hypervolume": 0.1587410565594308
+      },
+      "test_metrics": {
+        "tumour": {
+          "mae_pp": 3.059721319535125,
+          "rmse_pp": 4.645486501353495,
+          "r2": 0.7420119136808228
+        },
+        "overall_healthy": {
+          "mae_pp": 0.5695942790847638,
+          "rmse_pp": 0.7453356612010644,
+          "r2": 0.9438627399060329
+        },
+        "worst_subgroup": {
+          "mae_pp": 4.14770980833759,
+          "rmse_pp": 6.113029667917984,
+          "r2": 0.8058911450529731
+        },
+        "subgroup_mae_pp": [
+          0.019048314781743726,
+          2.8762396468460794,
+          4.188988460257218,
+          4.015940886638373
+        ],
+        "n": 64,
+        "actual_feasible": 2,
+        "predicted_feasible": 2,
+        "false_feasible": 0,
+        "false_infeasible": 0
+      },
+      "candidate_metrics": {
+        "tumour": {
+          "mae_pp": 5.6860049877756325,
+          "rmse_pp": 9.489971466376652,
+          "r2": 0.8772472126552775
+        },
+        "overall_healthy": {
+          "mae_pp": 0.3440653908876181,
+          "rmse_pp": 0.6483022140786523,
+          "r2": 0.9403367507694684
+        },
+        "worst_subgroup": {
+          "mae_pp": 3.526622534508835,
+          "rmse_pp": 5.6987245855294155,
+          "r2": 0.9564883824321154
+        },
+        "subgroup_mae_pp": [
+          0.01756447567417985,
+          1.8996346575033014,
+          2.1721839644218073,
+          3.1908822912727235
+        ],
+        "n": 128,
+        "actual_feasible": 93,
+        "predicted_feasible": 83,
+        "false_feasible": 1,
+        "false_infeasible": 11
+      },
+      "progress": [
+        {
+          "round": 0,
+          "n": 88,
+          "feasible": 19,
+          "nondominated": 17,
+          "best_tumour": 29.451105921560416,
+          "hypervolume": 0.18386920823611483
+        },
+        {
+          "round": 1,
+          "n": 112,
+          "feasible": 35,
+          "nondominated": 28,
+          "best_tumour": 34.32367602065624,
+          "hypervolume": 0.20287994661398814
+        },
+        {
+          "round": 2,
+          "n": 136,
+          "feasible": 47,
+          "nondominated": 39,
+          "best_tumour": 41.06594042751514,
+          "hypervolume": 0.21464453500688827
+        },
+        {
+          "round": 3,
+          "n": 160,
+          "feasible": 64,
+          "nondominated": 48,
+          "best_tumour": 41.06594042751514,
+          "hypervolume": 0.21740478622320444
+        },
+        {
+          "round": 4,
+          "n": 192,
+          "feasible": 95,
+          "nondominated": 70,
+          "best_tumour": 42.110600453922885,
+          "hypervolume": 0.2217761888040068
+        }
+      ],
+      "timing": {
+        "initial_wall": 23.536729749990627,
+        "assisted_new_ode_wall": 20.267130458028987,
+        "model_selection_seconds": 0.1586897079832852,
+        "training_search_seconds": 1.0657056665513664,
+        "direct_new_ode_wall": 39.14857437508181,
+        "assisted_total_wall": 61.2333571245987,
+        "direct_total_wall": 69.89259824901819,
+        "assisted_serial_equivalent_seconds": 216.677911701845,
+        "direct_serial_equivalent_seconds": 258.83824791410007,
+        "assisted_tight_checks": 12,
+        "direct_tight_checks": 12,
+        "direct_extra_32_wall": 5.643201957922429
+      },
+      "direct_budget": 224,
+      "assisted_budget_including_validation": 224
+    },
+    {
+      "seed": 8407,
+      "selected_model": "GP",
+      "model_selection": [
+        {
+          "model": "GP",
+          "score": 0.3443410179153033,
+          "metrics": {
+            "tumour": {
+              "mae_pp": 2.3666290978721163,
+              "rmse_pp": 3.8411215616371157,
+              "r2": 0.8442034940702938
+            },
+            "overall_healthy": {
+              "mae_pp": 0.6911751000136018,
+              "rmse_pp": 0.882412472933849,
+              "r2": 0.8734223499547428
+            },
+            "worst_subgroup": {
+              "mae_pp": 2.818040259107657,
+              "rmse_pp": 3.961220221114767,
+              "r2": 0.9279663830668471
+            },
+            "subgroup_mae_pp": [
+              0.020743023512964264,
+              4.690940461446243,
+              4.074876522682096,
+              2.7865501944791795
+            ],
+            "n": 32,
+            "actual_feasible": 0,
+            "predicted_feasible": 0,
+            "false_feasible": 0,
+            "false_infeasible": 0
+          },
+          "warnings": []
+        },
+        {
+          "model": "ExtraTrees",
+          "score": 0.6292099920769306,
+          "metrics": {
+            "tumour": {
+              "mae_pp": 3.549030346352378,
+              "rmse_pp": 6.495554666534013,
+              "r2": 0.5544729323787903
+            },
+            "overall_healthy": {
+              "mae_pp": 1.2159890925680155,
+              "rmse_pp": 1.5197400458630403,
+              "r2": 0.6245497766036324
+            },
+            "worst_subgroup": {
+              "mae_pp": 5.721511542746203,
+              "rmse_pp": 9.672939492096615,
+              "r2": 0.5704693200355103
+            },
+            "subgroup_mae_pp": [
+              0.04619114945091329,
+              10.94728404571893,
+              6.735950842959646,
+              5.6941166264457985
+            ],
+            "n": 32,
+            "actual_feasible": 0,
+            "predicted_feasible": 0,
+            "false_feasible": 0,
+            "false_infeasible": 0
+          },
+          "warnings": []
+        }
+      ],
+      "initial": {
+        "feasible": 3,
+        "nondominated": 3,
+        "best_tumour": 16.14887942742896,
+        "hypervolume": 0.1098393483115512
+      },
+      "assisted": {
+        "feasible": 94,
+        "nondominated": 58,
+        "best_tumour": 40.756210482718295,
+        "hypervolume": 0.21644143036014457
+      },
+      "direct": {
+        "feasible": 58,
+        "nondominated": 40,
+        "best_tumour": 42.696219031395934,
+        "hypervolume": 0.21578825437853857
+      },
+      "assisted_tight_subset": {
+        "feasible": 12,
+        "nondominated": 12,
+        "best_tumour": 40.75616773555076,
+        "hypervolume": 0.11207872700418912
+      },
+      "direct_tight_subset": {
+        "feasible": 12,
+        "nondominated": 12,
+        "best_tumour": 42.696176860829624,
+        "hypervolume": 0.15841994054478464
+      },
+      "test_metrics": {
+        "tumour": {
+          "mae_pp": 2.628658596390557,
+          "rmse_pp": 3.5738269902948883,
+          "r2": 0.8473122150104966
+        },
+        "overall_healthy": {
+          "mae_pp": 0.5444792202470934,
+          "rmse_pp": 0.7497035659523468,
+          "r2": 0.9432028474590106
+        },
+        "worst_subgroup": {
+          "mae_pp": 3.541234847406737,
+          "rmse_pp": 4.8956823518194135,
+          "r2": 0.8755030236739016
+        },
+        "subgroup_mae_pp": [
+          0.01819502886528204,
+          2.9172455076037367,
+          3.5484773914877135,
+          3.5316059787400533
+        ],
+        "n": 64,
+        "actual_feasible": 2,
+        "predicted_feasible": 2,
+        "false_feasible": 0,
+        "false_infeasible": 0
+      },
+      "candidate_metrics": {
+        "tumour": {
+          "mae_pp": 5.565862863568772,
+          "rmse_pp": 8.63752918044922,
+          "r2": 0.8964694028832405
+        },
+        "overall_healthy": {
+          "mae_pp": 0.3205435880897606,
+          "rmse_pp": 0.5883927661631607,
+          "r2": 0.9590519698882446
+        },
+        "worst_subgroup": {
+          "mae_pp": 3.8930875736211386,
+          "rmse_pp": 6.30552750910876,
+          "r2": 0.9423918002886478
+        },
+        "subgroup_mae_pp": [
+          0.014406299228518937,
+          2.296834996747927,
+          1.6105131947430138,
+          3.442113589254778
+        ],
+        "n": 128,
+        "actual_feasible": 91,
+        "predicted_feasible": 83,
+        "false_feasible": 2,
+        "false_infeasible": 10
+      },
+      "progress": [
+        {
+          "round": 0,
+          "n": 88,
+          "feasible": 21,
+          "nondominated": 17,
+          "best_tumour": 21.043118710241792,
+          "hypervolume": 0.1397662243796423
+        },
+        {
+          "round": 1,
+          "n": 112,
+          "feasible": 34,
+          "nondominated": 19,
+          "best_tumour": 27.703725014841318,
+          "hypervolume": 0.16829978105031276
+        },
+        {
+          "round": 2,
+          "n": 136,
+          "feasible": 52,
+          "nondominated": 34,
+          "best_tumour": 40.07880281683104,
+          "hypervolume": 0.20341341728916293
+        },
+        {
+          "round": 3,
+          "n": 160,
+          "feasible": 64,
+          "nondominated": 42,
+          "best_tumour": 40.07880281683104,
+          "hypervolume": 0.2126489612667757
+        },
+        {
+          "round": 4,
+          "n": 192,
+          "feasible": 94,
+          "nondominated": 58,
+          "best_tumour": 40.756210482718295,
+          "hypervolume": 0.21644143036014457
+        }
+      ],
+      "timing": {
+        "initial_wall": 23.80875345901586,
+        "assisted_new_ode_wall": 19.998253791127354,
+        "model_selection_seconds": 0.10364008415490389,
+        "training_search_seconds": 1.175074374070391,
+        "direct_new_ode_wall": 30.04238749993965,
+        "assisted_total_wall": 61.205095375292004,
+        "direct_total_wall": 57.7335497927852,
+        "assisted_serial_equivalent_seconds": 215.60779508110136,
+        "direct_serial_equivalent_seconds": 222.73826328432187,
+        "assisted_tight_checks": 12,
+        "direct_tight_checks": 12,
+        "direct_extra_32_wall": 2.4046371248550713
+      },
+      "direct_budget": 224,
+      "assisted_budget_including_validation": 224
+    },
+    {
+      "seed": 11939,
+      "selected_model": "GP",
+      "model_selection": [
+        {
+          "model": "GP",
+          "score": 0.4356054659233855,
+          "metrics": {
+            "tumour": {
+              "mae_pp": 2.5754561879892632,
+              "rmse_pp": 6.025828861559538,
+              "r2": 0.6165796171718707
+            },
+            "overall_healthy": {
+              "mae_pp": 0.797318224616021,
+              "rmse_pp": 1.0296991917889073,
+              "r2": 0.8276407896100689
+            },
+            "worst_subgroup": {
+              "mae_pp": 4.417794941891891,
+              "rmse_pp": 8.494403636774777,
+              "r2": 0.668759802312272
+            },
+            "subgroup_mae_pp": [
+              0.02277929875408512,
+              4.837026914087869,
+              5.962695448407377,
+              4.429894803935372
+            ],
+            "n": 32,
+            "actual_feasible": 0,
+            "predicted_feasible": 0,
+            "false_feasible": 0,
+            "false_infeasible": 0
+          },
+          "warnings": []
+        },
+        {
+          "model": "ExtraTrees",
+          "score": 0.5739719658154744,
+          "metrics": {
+            "tumour": {
+              "mae_pp": 3.3000827680196245,
+              "rmse_pp": 7.702116580813785,
+              "r2": 0.3735855232908438
+            },
+            "overall_healthy": {
+              "mae_pp": 1.037770777605831,
+              "rmse_pp": 1.3386098502249615,
+              "r2": 0.708712542361723
+            },
+            "worst_subgroup": {
+              "mae_pp": 5.965247775495628,
+              "rmse_pp": 11.62318991602784,
+              "r2": 0.37980549324611634
+            },
+            "subgroup_mae_pp": [
+              0.043672770945469175,
+              10.072818549209039,
+              9.73719116226455,
+              6.004145382169299
+            ],
+            "n": 32,
+            "actual_feasible": 0,
+            "predicted_feasible": 0,
+            "false_feasible": 0,
+            "false_infeasible": 0
+          },
+          "warnings": []
+        }
+      ],
+      "initial": {
+        "feasible": 1,
+        "nondominated": 1,
+        "best_tumour": 9.026214572736611,
+        "hypervolume": 0.06291350054322227
+      },
+      "assisted": {
+        "feasible": 93,
+        "nondominated": 63,
+        "best_tumour": 43.88568389169355,
+        "hypervolume": 0.22115760703528697
+      },
+      "direct": {
+        "feasible": 39,
+        "nondominated": 26,
+        "best_tumour": 40.47217437936891,
+        "hypervolume": 0.2019267393367586
+      },
+      "assisted_tight_subset": {
+        "feasible": 12,
+        "nondominated": 12,
+        "best_tumour": 43.88571629940574,
+        "hypervolume": 0.13375933513661578
+      },
+      "direct_tight_subset": {
+        "feasible": 12,
+        "nondominated": 12,
+        "best_tumour": 40.47213017516464,
+        "hypervolume": 0.16531626977162192
+      },
+      "test_metrics": {
+        "tumour": {
+          "mae_pp": 2.2358457124008275,
+          "rmse_pp": 3.3466712625113777,
+          "r2": 0.8661053096839407
+        },
+        "overall_healthy": {
+          "mae_pp": 0.6578764963527347,
+          "rmse_pp": 0.8238103187665519,
+          "r2": 0.9314193076412394
+        },
+        "worst_subgroup": {
+          "mae_pp": 2.8851341096539507,
+          "rmse_pp": 4.009168335690967,
+          "r2": 0.9165087575468143
+        },
+        "subgroup_mae_pp": [
+          0.016677122033329682,
+          3.6725192843890535,
+          3.9577042114255225,
+          2.830403055423238
+        ],
+        "n": 64,
+        "actual_feasible": 2,
+        "predicted_feasible": 1,
+        "false_feasible": 0,
+        "false_infeasible": 1
+      },
+      "candidate_metrics": {
+        "tumour": {
+          "mae_pp": 8.334559585143658,
+          "rmse_pp": 14.331438726029408,
+          "r2": 0.7279022872908729
+        },
+        "overall_healthy": {
+          "mae_pp": 0.31923885363913485,
+          "rmse_pp": 0.5831966633097447,
+          "r2": 0.954832192745667
+        },
+        "worst_subgroup": {
+          "mae_pp": 3.2885830631436095,
+          "rmse_pp": 5.704763627935248,
+          "r2": 0.9603680352124097
+        },
+        "subgroup_mae_pp": [
+          0.01675358297285596,
+          1.787776202596115,
+          2.1819070522698962,
+          3.163014658160287
+        ],
+        "n": 128,
+        "actual_feasible": 92,
+        "predicted_feasible": 83,
+        "false_feasible": 1,
+        "false_infeasible": 10
+      },
+      "progress": [
+        {
+          "round": 0,
+          "n": 88,
+          "feasible": 19,
+          "nondominated": 16,
+          "best_tumour": 24.453643717798037,
+          "hypervolume": 0.16535954731287267
+        },
+        {
+          "round": 1,
+          "n": 112,
+          "feasible": 33,
+          "nondominated": 26,
+          "best_tumour": 37.60029047337158,
+          "hypervolume": 0.20737752486186317
+        },
+        {
+          "round": 2,
+          "n": 136,
+          "feasible": 45,
+          "nondominated": 37,
+          "best_tumour": 43.35533269466681,
+          "hypervolume": 0.2132165314458031
+        },
+        {
+          "round": 3,
+          "n": 160,
+          "feasible": 61,
+          "nondominated": 45,
+          "best_tumour": 43.88568389169355,
+          "hypervolume": 0.21594605544084922
+        },
+        {
+          "round": 4,
+          "n": 192,
+          "feasible": 93,
+          "nondominated": 63,
+          "best_tumour": 43.88568389169355,
+          "hypervolume": 0.22115760703528697
+        }
+      ],
+      "timing": {
+        "initial_wall": 24.41780904191546,
+        "assisted_new_ode_wall": 24.525232959305868,
+        "model_selection_seconds": 0.09250891581177711,
+        "training_search_seconds": 1.0457674579229206,
+        "direct_new_ode_wall": 23.84430225007236,
+        "assisted_total_wall": 66.18891920788214,
+        "direct_total_wall": 52.1544535420835,
+        "assisted_serial_equivalent_seconds": 225.76415836485103,
+        "direct_serial_equivalent_seconds": 199.68263828544877,
+        "assisted_tight_checks": 12,
+        "direct_tight_checks": 12,
+        "direct_extra_32_wall": 2.4575645830482244
+      },
+      "direct_budget": 224,
+      "assisted_budget_including_validation": 224
+    }
+  ],
+  "shared_validation_seconds": 49.064954831963405,
+  "shared_test_seconds": 88.18807575106621,
+  "wall_seconds": 280.8337872500997,
+  "initial_search_results": [
+    {
+      "seed": 2026,
+      "selected_model": "GP",
+      "model_selection": [
+        {
+          "model": "GP",
+          "score": 0.41514763058860876,
+          "metrics": {
+            "tumour": {
+              "mae_pp": 2.235864476853185,
+              "rmse_pp": 3.6035899217679064,
+              "r2": 0.8628763586943835
+            },
+            "overall_healthy": {
+              "mae_pp": 0.825710362954951,
+              "rmse_pp": 1.1086244797991813,
+              "r2": 0.8002058902647147
+            },
+            "worst_subgroup": {
+              "mae_pp": 3.5391544388681955,
+              "rmse_pp": 5.312325264092557,
+              "r2": 0.8704472715851144
+            },
+            "subgroup_mae_pp": [
+              0.031110456890552893,
+              4.367999024308685,
+              5.6027103301599475,
+              3.0226249706248027
+            ],
+            "n": 32,
+            "actual_feasible": 0,
+            "predicted_feasible": 0,
+            "false_feasible": 0,
+            "false_infeasible": 0
+          },
+          "warnings": [
+            "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-06. Decreasing the bound and calling fit again may find a better value."
+          ]
+        },
+        {
+          "model": "ExtraTrees",
+          "score": 0.5733443934405404,
+          "metrics": {
+            "tumour": {
+              "mae_pp": 3.738067467385452,
+              "rmse_pp": 7.759353905218539,
+              "r2": 0.3642406863001745
+            },
+            "overall_healthy": {
+              "mae_pp": 1.0097689565236818,
+              "rmse_pp": 1.3408657050723507,
+              "r2": 0.7077299470151144
+            },
+            "worst_subgroup": {
+              "mae_pp": 6.1973781457020705,
+              "rmse_pp": 11.44341433304563,
+              "r2": 0.39884219112969066
+            },
+            "subgroup_mae_pp": [
+              0.04400397707619764,
+              9.56402433800812,
+              7.617017478645352,
+              6.242091978023928
+            ],
+            "n": 32,
+            "actual_feasible": 0,
+            "predicted_feasible": 0,
+            "false_feasible": 0,
+            "false_infeasible": 0
+          },
+          "warnings": []
+        }
+      ],
+      "initial": {
+        "feasible": 2,
+        "nondominated": 2,
+        "best_tumour": 20.93340410813906,
+        "hypervolume": 0.11904622609986382
+      },
+      "assisted": {
+        "feasible": 95,
+        "nondominated": 70,
+        "best_tumour": 42.110600453922885,
+        "hypervolume": 0.2217761888040068
+      },
+      "direct": {
+        "feasible": 26,
+        "nondominated": 20,
+        "best_tumour": 36.23744921418745,
+        "hypervolume": 0.20309678677993362
+      },
+      "assisted_tight_subset": {
+        "feasible": 12,
+        "nondominated": 12,
+        "best_tumour": 42.11055415630219,
+        "hypervolume": 0.11085552171829956
+      },
+      "direct_tight_subset": {
+        "feasible": 12,
+        "nondominated": 12,
+        "best_tumour": 36.237410827239685,
+        "hypervolume": 0.17859401259310567
+      },
+      "test_metrics": {
+        "tumour": {
+          "mae_pp": 3.059721319535125,
+          "rmse_pp": 4.645486501353495,
+          "r2": 0.7420119136808228
+        },
+        "overall_healthy": {
+          "mae_pp": 0.5695942790847638,
+          "rmse_pp": 0.7453356612010644,
+          "r2": 0.9438627399060329
+        },
+        "worst_subgroup": {
+          "mae_pp": 4.14770980833759,
+          "rmse_pp": 6.113029667917984,
+          "r2": 0.8058911450529731
+        },
+        "subgroup_mae_pp": [
+          0.019048314781743726,
+          2.8762396468460794,
+          4.188988460257218,
+          4.015940886638373
+        ],
+        "n": 64,
+        "actual_feasible": 2,
+        "predicted_feasible": 2,
+        "false_feasible": 0,
+        "false_infeasible": 0
+      },
+      "candidate_metrics": {
+        "tumour": {
+          "mae_pp": 5.6860049877756325,
+          "rmse_pp": 9.489971466376652,
+          "r2": 0.8772472126552775
+        },
+        "overall_healthy": {
+          "mae_pp": 0.3440653908876181,
+          "rmse_pp": 0.6483022140786523,
+          "r2": 0.9403367507694684
+        },
+        "worst_subgroup": {
+          "mae_pp": 3.526622534508835,
+          "rmse_pp": 5.6987245855294155,
+          "r2": 0.9564883824321154
+        },
+        "subgroup_mae_pp": [
+          0.01756447567417985,
+          1.8996346575033014,
+          2.1721839644218073,
+          3.1908822912727235
+        ],
+        "n": 128,
+        "actual_feasible": 93,
+        "predicted_feasible": 83,
+        "false_feasible": 1,
+        "false_infeasible": 11
+      },
+      "progress": [
+        {
+          "round": 0,
+          "n": 88,
+          "feasible": 19,
+          "nondominated": 17,
+          "best_tumour": 29.451105921560416,
+          "hypervolume": 0.18386920823611483
+        },
+        {
+          "round": 1,
+          "n": 112,
+          "feasible": 35,
+          "nondominated": 28,
+          "best_tumour": 34.32367602065624,
+          "hypervolume": 0.20287994661398814
+        },
+        {
+          "round": 2,
+          "n": 136,
+          "feasible": 47,
+          "nondominated": 39,
+          "best_tumour": 41.06594042751514,
+          "hypervolume": 0.21464453500688827
+        },
+        {
+          "round": 3,
+          "n": 160,
+          "feasible": 64,
+          "nondominated": 48,
+          "best_tumour": 41.06594042751514,
+          "hypervolume": 0.21740478622320444
+        },
+        {
+          "round": 4,
+          "n": 192,
+          "feasible": 95,
+          "nondominated": 70,
+          "best_tumour": 42.110600453922885,
+          "hypervolume": 0.2217761888040068
+        }
+      ],
+      "timing": {
+        "initial_wall": 23.536729749990627,
+        "assisted_new_ode_wall": 20.267130458028987,
+        "model_selection_seconds": 0.1586897079832852,
+        "training_search_seconds": 1.0657056665513664,
+        "direct_new_ode_wall": 39.14857437508181,
+        "assisted_total_wall": 46.8433571245987,
+        "direct_total_wall": 64.60790370800532,
+        "assisted_serial_equivalent_seconds": 167.6129568698816,
+        "direct_serial_equivalent_seconds": 248.59536816342734,
+        "assisted_tight_checks": 12,
+        "direct_tight_checks": 12
+      }
+    },
+    {
+      "seed": 8407,
+      "selected_model": "GP",
+      "model_selection": [
+        {
+          "model": "GP",
+          "score": 0.3443410179153033,
+          "metrics": {
+            "tumour": {
+              "mae_pp": 2.3666290978721163,
+              "rmse_pp": 3.8411215616371157,
+              "r2": 0.8442034940702938
+            },
+            "overall_healthy": {
+              "mae_pp": 0.6911751000136018,
+              "rmse_pp": 0.882412472933849,
+              "r2": 0.8734223499547428
+            },
+            "worst_subgroup": {
+              "mae_pp": 2.818040259107657,
+              "rmse_pp": 3.961220221114767,
+              "r2": 0.9279663830668471
+            },
+            "subgroup_mae_pp": [
+              0.020743023512964264,
+              4.690940461446243,
+              4.074876522682096,
+              2.7865501944791795
+            ],
+            "n": 32,
+            "actual_feasible": 0,
+            "predicted_feasible": 0,
+            "false_feasible": 0,
+            "false_infeasible": 0
+          },
+          "warnings": []
+        },
+        {
+          "model": "ExtraTrees",
+          "score": 0.6292099920769306,
+          "metrics": {
+            "tumour": {
+              "mae_pp": 3.549030346352378,
+              "rmse_pp": 6.495554666534013,
+              "r2": 0.5544729323787903
+            },
+            "overall_healthy": {
+              "mae_pp": 1.2159890925680155,
+              "rmse_pp": 1.5197400458630403,
+              "r2": 0.6245497766036324
+            },
+            "worst_subgroup": {
+              "mae_pp": 5.721511542746203,
+              "rmse_pp": 9.672939492096615,
+              "r2": 0.5704693200355103
+            },
+            "subgroup_mae_pp": [
+              0.04619114945091329,
+              10.94728404571893,
+              6.735950842959646,
+              5.6941166264457985
+            ],
+            "n": 32,
+            "actual_feasible": 0,
+            "predicted_feasible": 0,
+            "false_feasible": 0,
+            "false_infeasible": 0
+          },
+          "warnings": []
+        }
+      ],
+      "initial": {
+        "feasible": 3,
+        "nondominated": 3,
+        "best_tumour": 16.14887942742896,
+        "hypervolume": 0.1098393483115512
+      },
+      "assisted": {
+        "feasible": 94,
+        "nondominated": 58,
+        "best_tumour": 40.756210482718295,
+        "hypervolume": 0.21644143036014457
+      },
+      "direct": {
+        "feasible": 39,
+        "nondominated": 29,
+        "best_tumour": 42.696219031395934,
+        "hypervolume": 0.21206633634287297
+      },
+      "assisted_tight_subset": {
+        "feasible": 12,
+        "nondominated": 12,
+        "best_tumour": 40.75616773555076,
+        "hypervolume": 0.11207872700418912
+      },
+      "direct_tight_subset": {
+        "feasible": 12,
+        "nondominated": 12,
+        "best_tumour": 42.696176860829624,
+        "hypervolume": 0.18912716074172872
+      },
+      "test_metrics": {
+        "tumour": {
+          "mae_pp": 2.628658596390557,
+          "rmse_pp": 3.5738269902948883,
+          "r2": 0.8473122150104966
+        },
+        "overall_healthy": {
+          "mae_pp": 0.5444792202470934,
+          "rmse_pp": 0.7497035659523468,
+          "r2": 0.9432028474590106
+        },
+        "worst_subgroup": {
+          "mae_pp": 3.541234847406737,
+          "rmse_pp": 4.8956823518194135,
+          "r2": 0.8755030236739016
+        },
+        "subgroup_mae_pp": [
+          0.01819502886528204,
+          2.9172455076037367,
+          3.5484773914877135,
+          3.5316059787400533
+        ],
+        "n": 64,
+        "actual_feasible": 2,
+        "predicted_feasible": 2,
+        "false_feasible": 0,
+        "false_infeasible": 0
+      },
+      "candidate_metrics": {
+        "tumour": {
+          "mae_pp": 5.565862863568772,
+          "rmse_pp": 8.63752918044922,
+          "r2": 0.8964694028832405
+        },
+        "overall_healthy": {
+          "mae_pp": 0.3205435880897606,
+          "rmse_pp": 0.5883927661631607,
+          "r2": 0.9590519698882446
+        },
+        "worst_subgroup": {
+          "mae_pp": 3.8930875736211386,
+          "rmse_pp": 6.30552750910876,
+          "r2": 0.9423918002886478
+        },
+        "subgroup_mae_pp": [
+          0.014406299228518937,
+          2.296834996747927,
+          1.6105131947430138,
+          3.442113589254778
+        ],
+        "n": 128,
+        "actual_feasible": 91,
+        "predicted_feasible": 83,
+        "false_feasible": 2,
+        "false_infeasible": 10
+      },
+      "progress": [
+        {
+          "round": 0,
+          "n": 88,
+          "feasible": 21,
+          "nondominated": 17,
+          "best_tumour": 21.043118710241792,
+          "hypervolume": 0.1397662243796423
+        },
+        {
+          "round": 1,
+          "n": 112,
+          "feasible": 34,
+          "nondominated": 19,
+          "best_tumour": 27.703725014841318,
+          "hypervolume": 0.16829978105031276
+        },
+        {
+          "round": 2,
+          "n": 136,
+          "feasible": 52,
+          "nondominated": 34,
+          "best_tumour": 40.07880281683104,
+          "hypervolume": 0.20341341728916293
+        },
+        {
+          "round": 3,
+          "n": 160,
+          "feasible": 64,
+          "nondominated": 42,
+          "best_tumour": 40.07880281683104,
+          "hypervolume": 0.2126489612667757
+        },
+        {
+          "round": 4,
+          "n": 192,
+          "feasible": 94,
+          "nondominated": 58,
+          "best_tumour": 40.756210482718295,
+          "hypervolume": 0.21644143036014457
+        }
+      ],
+      "timing": {
+        "initial_wall": 23.80875345901586,
+        "assisted_new_ode_wall": 19.998253791127354,
+        "model_selection_seconds": 0.10364008415490389,
+        "training_search_seconds": 1.175074374070391,
+        "direct_new_ode_wall": 30.04238749993965,
+        "assisted_total_wall": 46.815095375292,
+        "direct_total_wall": 55.76894162595272,
+        "assisted_serial_equivalent_seconds": 166.54284024913795,
+        "direct_serial_equivalent_seconds": 215.6641766189132,
+        "assisted_tight_checks": 12,
+        "direct_tight_checks": 12
+      }
+    },
+    {
+      "seed": 11939,
+      "selected_model": "GP",
+      "model_selection": [
+        {
+          "model": "GP",
+          "score": 0.4356054659233855,
+          "metrics": {
+            "tumour": {
+              "mae_pp": 2.5754561879892632,
+              "rmse_pp": 6.025828861559538,
+              "r2": 0.6165796171718707
+            },
+            "overall_healthy": {
+              "mae_pp": 0.797318224616021,
+              "rmse_pp": 1.0296991917889073,
+              "r2": 0.8276407896100689
+            },
+            "worst_subgroup": {
+              "mae_pp": 4.417794941891891,
+              "rmse_pp": 8.494403636774777,
+              "r2": 0.668759802312272
+            },
+            "subgroup_mae_pp": [
+              0.02277929875408512,
+              4.837026914087869,
+              5.962695448407377,
+              4.429894803935372
+            ],
+            "n": 32,
+            "actual_feasible": 0,
+            "predicted_feasible": 0,
+            "false_feasible": 0,
+            "false_infeasible": 0
+          },
+          "warnings": []
+        },
+        {
+          "model": "ExtraTrees",
+          "score": 0.5739719658154744,
+          "metrics": {
+            "tumour": {
+              "mae_pp": 3.3000827680196245,
+              "rmse_pp": 7.702116580813785,
+              "r2": 0.3735855232908438
+            },
+            "overall_healthy": {
+              "mae_pp": 1.037770777605831,
+              "rmse_pp": 1.3386098502249615,
+              "r2": 0.708712542361723
+            },
+            "worst_subgroup": {
+              "mae_pp": 5.965247775495628,
+              "rmse_pp": 11.62318991602784,
+              "r2": 0.37980549324611634
+            },
+            "subgroup_mae_pp": [
+              0.043672770945469175,
+              10.072818549209039,
+              9.73719116226455,
+              6.004145382169299
+            ],
+            "n": 32,
+            "actual_feasible": 0,
+            "predicted_feasible": 0,
+            "false_feasible": 0,
+            "false_infeasible": 0
+          },
+          "warnings": []
+        }
+      ],
+      "initial": {
+        "feasible": 1,
+        "nondominated": 1,
+        "best_tumour": 9.026214572736611,
+        "hypervolume": 0.06291350054322227
+      },
+      "assisted": {
+        "feasible": 93,
+        "nondominated": 63,
+        "best_tumour": 43.88568389169355,
+        "hypervolume": 0.22115760703528697
+      },
+      "direct": {
+        "feasible": 22,
+        "nondominated": 17,
+        "best_tumour": 40.47217437936891,
+        "hypervolume": 0.1966770890939039
+      },
+      "assisted_tight_subset": {
+        "feasible": 12,
+        "nondominated": 12,
+        "best_tumour": 43.88571629940574,
+        "hypervolume": 0.13375933513661578
+      },
+      "direct_tight_subset": {
+        "feasible": 12,
+        "nondominated": 12,
+        "best_tumour": 40.47213017516464,
+        "hypervolume": 0.1912591472557961
+      },
+      "test_metrics": {
+        "tumour": {
+          "mae_pp": 2.2358457124008275,
+          "rmse_pp": 3.3466712625113777,
+          "r2": 0.8661053096839407
+        },
+        "overall_healthy": {
+          "mae_pp": 0.6578764963527347,
+          "rmse_pp": 0.8238103187665519,
+          "r2": 0.9314193076412394
+        },
+        "worst_subgroup": {
+          "mae_pp": 2.8851341096539507,
+          "rmse_pp": 4.009168335690967,
+          "r2": 0.9165087575468143
+        },
+        "subgroup_mae_pp": [
+          0.016677122033329682,
+          3.6725192843890535,
+          3.9577042114255225,
+          2.830403055423238
+        ],
+        "n": 64,
+        "actual_feasible": 2,
+        "predicted_feasible": 1,
+        "false_feasible": 0,
+        "false_infeasible": 1
+      },
+      "candidate_metrics": {
+        "tumour": {
+          "mae_pp": 8.334559585143658,
+          "rmse_pp": 14.331438726029408,
+          "r2": 0.7279022872908729
+        },
+        "overall_healthy": {
+          "mae_pp": 0.31923885363913485,
+          "rmse_pp": 0.5831966633097447,
+          "r2": 0.954832192745667
+        },
+        "worst_subgroup": {
+          "mae_pp": 3.2885830631436095,
+          "rmse_pp": 5.704763627935248,
+          "r2": 0.9603680352124097
+        },
+        "subgroup_mae_pp": [
+          0.01675358297285596,
+          1.787776202596115,
+          2.1819070522698962,
+          3.163014658160287
+        ],
+        "n": 128,
+        "actual_feasible": 92,
+        "predicted_feasible": 83,
+        "false_feasible": 1,
+        "false_infeasible": 10
+      },
+      "progress": [
+        {
+          "round": 0,
+          "n": 88,
+          "feasible": 19,
+          "nondominated": 16,
+          "best_tumour": 24.453643717798037,
+          "hypervolume": 0.16535954731287267
+        },
+        {
+          "round": 1,
+          "n": 112,
+          "feasible": 33,
+          "nondominated": 26,
+          "best_tumour": 37.60029047337158,
+          "hypervolume": 0.20737752486186317
+        },
+        {
+          "round": 2,
+          "n": 136,
+          "feasible": 45,
+          "nondominated": 37,
+          "best_tumour": 43.35533269466681,
+          "hypervolume": 0.2132165314458031
+        },
+        {
+          "round": 3,
+          "n": 160,
+          "feasible": 61,
+          "nondominated": 45,
+          "best_tumour": 43.88568389169355,
+          "hypervolume": 0.21594605544084922
+        },
+        {
+          "round": 4,
+          "n": 192,
+          "feasible": 93,
+          "nondominated": 63,
+          "best_tumour": 43.88568389169355,
+          "hypervolume": 0.22115760703528697
+        }
+      ],
+      "timing": {
+        "initial_wall": 24.41780904191546,
+        "assisted_new_ode_wall": 24.525232959305868,
+        "model_selection_seconds": 0.09250891581177711,
+        "training_search_seconds": 1.0457674579229206,
+        "direct_new_ode_wall": 23.84430225007236,
+        "assisted_total_wall": 51.798919207882136,
+        "direct_total_wall": 49.76167825004086,
+        "assisted_serial_equivalent_seconds": 176.69920353288762,
+        "direct_serial_equivalent_seconds": 190.80040053813718,
+        "assisted_tight_checks": 12,
+        "direct_tight_checks": 12
+      }
+    }
+  ],
+  "validation_wall_seconds": 14.39
+}

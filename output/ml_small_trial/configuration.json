@@ -1,0 +1,34 @@
+{
+  "seeds": [
+    2026,
+    8407,
+    11939
+  ],
+  "initial": 64,
+  "rounds": 4,
+  "batch": 24,
+  "final": 32,
+  "budget_per_arm": 192,
+  "bounds_log10": [
+    [
+      2.0,
+      7.0
+    ],
+    [
+      -5.0,
+      2.0
+    ],
+    [
+      2.0,
+      7.0
+    ],
+    [
+      -5.0,
+      2.0
+    ]
+  ],
+  "validation": 32,
+  "test": 64,
+  "contexts": "three fixed existing illustrative conditions",
+  "model_sha256": "27c7ad24677e3f863bbc8193d7e710f7a05131c906f947c1ff2ba5bb70a163d6"
+}

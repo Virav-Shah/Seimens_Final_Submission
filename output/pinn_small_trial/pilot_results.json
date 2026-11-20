@@ -1,0 +1,131 @@
+{
+  "status": "stopped_at_feasibility_gate",
+  "checks": {
+    "finite": true,
+    "tumour": false,
+    "overall_healthy": false,
+    "worst_subgroup": false,
+    "nonnegative": false,
+    "material_balance": false
+  },
+  "validation": {
+    "tumour": {
+      "mae_pp": 5.902683529711522,
+      "rmse_pp": 11.947852089147691,
+      "r2": -0.5073724909581783,
+      "max_error_pp": 49.68108489750889
+    },
+    "overall_healthy": {
+      "mae_pp": 2.0017114388254242,
+      "rmse_pp": 2.952855350970476,
+      "r2": -0.41741783346277783,
+      "max_error_pp": 8.593122924445414
+    },
+    "worst_subgroup": {
+      "mae_pp": 7.099224299202451,
+      "rmse_pp": 14.80578351036378,
+      "r2": -0.006328630338398034,
+      "max_error_pp": 57.22322591430683
+    },
+    "n": 32,
+    "actual_feasible": 0,
+    "predicted_feasible": 0,
+    "false_feasible": 0,
+    "false_infeasible": 0,
+    "subgroup_mae_pp": [
+      0.1541996197354847,
+      27.823676636062686,
+      24.37861626798035,
+      7.185079646122847
+    ],
+    "finite": true,
+    "negative_scaled_max": 0.7615271496764847,
+    "mass_fraction_max": 3.1355065309357055,
+    "trajectory_scaled_mae": 0.0955305559153431
+  },
+  "training": {
+    "training_seconds": 360.00995383300005,
+    "steps": 28245,
+    "selected_checkpoint": {
+      "step": 15147,
+      "seconds": 160.80120133299988,
+      "physics_weight": 1.0,
+      "data_loss": 0.06456175189756987,
+      "ode_loss": 173250929814.2268,
+      "balance_loss": 1.6175571667946236,
+      "negative_loss": 0.005577739062992746,
+      "validation_score": 0.9586713125550587,
+      "validation_metrics": {
+        "tumour": {
+          "mae_pp": 5.902683529711522,
+          "rmse_pp": 11.947852089147691,
+          "r2": -0.5073724909581783,
+          "max_error_pp": 49.68108489750889
+        },
+        "overall_healthy": {
+          "mae_pp": 2.001711438825425,
+          "rmse_pp": 2.952855350970476,
+          "r2": -0.41741783346277783,
+          "max_error_pp": 8.593122924445414
+        },
+        "worst_subgroup": {
+          "mae_pp": 7.099224299202451,
+          "rmse_pp": 14.80578351036378,
+          "r2": -0.006328630338398034,
+          "max_error_pp": 57.22322591430683
+        },
+        "n": 32,
+        "actual_feasible": 0,
+        "predicted_feasible": 0,
+        "false_feasible": 0,
+        "false_infeasible": 0,
+        "subgroup_mae_pp": [
+          0.15419961973548474,
+          27.823676636062686,
+          24.37861626798035,
+          7.1850796461228486
+        ]
+      }
+    },
+    "kind": "PINN"
+  },
+  "pilot_seconds": 364.25733845800005,
+  "automatic_differentiation_check": true,
+  "initial_condition_check": true,
+  "checkpoint_policy": "Best validation endpoint score among checkpoints receiving full physics weight; no test data used",
+  "test": {
+    "tumour": {
+      "mae_pp": 5.404969928625818,
+      "rmse_pp": 10.566749435203544,
+      "r2": -0.3348110443981047,
+      "max_error_pp": 56.92476273360838
+    },
+    "overall_healthy": {
+      "mae_pp": 2.64359025594404,
+      "rmse_pp": 3.4752592530840065,
+      "r2": -0.22045486830155925,
+      "max_error_pp": 8.348483483175439
+    },
+    "worst_subgroup": {
+      "mae_pp": 8.072018652642583,
+      "rmse_pp": 14.536102359888693,
+      "r2": -0.09755906122984093,
+      "max_error_pp": 68.24131273914088
+    },
+    "n": 64,
+    "actual_feasible": 2,
+    "predicted_feasible": 0,
+    "false_feasible": 0,
+    "false_infeasible": 2,
+    "subgroup_mae_pp": [
+      0.18801725176500575,
+      25.11571437082432,
+      24.71240670542994,
+      8.13082055258044
+    ],
+    "finite": true,
+    "negative_scaled_max": 0.7646929838013593,
+    "mass_fraction_max": 3.171000123637895,
+    "trajectory_scaled_mae": 0.09387164292563768
+  }
+}

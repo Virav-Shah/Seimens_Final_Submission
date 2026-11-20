@@ -1,0 +1,168 @@
+{
+  "steps": 15029,
+  "seconds": 360.00739445900035,
+  "selected": {
+    "step": 4990,
+    "seconds": 120.24281104200054,
+    "physics_fraction": 0.0,
+    "trajectory_loss": 0.0015855243654804645,
+    "endpoint_loss": 0.009238610316135168,
+    "physics_losses": {},
+    "physics_weights": {},
+    "gradient_norms": {},
+    "validation_score": 0.10663311844006336,
+    "validation": {
+      "tumour": {
+        "mae_pp": 1.1138354226834466,
+        "rmse_pp": 1.7162077885317144,
+        "r2": 0.968898549259509,
+        "max_error_pp": 7.303421196916837
+      },
+      "overall_healthy": {
+        "mae_pp": 0.14515839427913224,
+        "rmse_pp": 0.20853626578980924,
+        "r2": 0.9929306948044996,
+        "max_error_pp": 0.7231209063606845
+      },
+      "worst_subgroup": {
+        "mae_pp": 1.5596269132584797,
+        "rmse_pp": 2.0013013395660195,
+        "r2": 0.9816133753184091,
+        "max_error_pp": 5.1895623333599445
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.08880927699568335,
+        1.1078535092281865,
+        1.6518448054438364,
+        1.5652532185351877
+      ]
+    }
+  },
+  "validation": {
+    "tumour": {
+      "mae_pp": 1.1138354226834466,
+      "rmse_pp": 1.7162077885317144,
+      "r2": 0.968898549259509,
+      "max_error_pp": 7.303421196916837
+    },
+    "overall_healthy": {
+      "mae_pp": 0.14515839427913224,
+      "rmse_pp": 0.20853626578980924,
+      "r2": 0.9929306948044996,
+      "max_error_pp": 0.7231209063606845
+    },
+    "worst_subgroup": {
+      "mae_pp": 1.5596269132584797,
+      "rmse_pp": 2.0013013395660195,
+      "r2": 0.9816133753184091,
+      "max_error_pp": 5.1895623333599445
+    },
+    "n": 32,
+    "actual_feasible": 0,
+    "predicted_feasible": 0,
+    "false_feasible": 0,
+    "false_infeasible": 0,
+    "subgroup_mae_pp": [
+      0.08880927699568335,
+      1.1078535092281865,
+      1.6518448054438364,
+      1.5652532185351877
+    ],
+    "finite": true,
+    "negative_scaled_max": 0.0,
+    "mass_fraction_max": 9.992007221626409e-16,
+    "trajectory_scaled_mae": 0.017433608260338563
+  },
+  "gate": {
+    "finite": true,
+    "tumour": true,
+    "healthy": true,
+    "subgroup": true,
+    "nonnegative": true,
+    "balance": true
+  },
+  "passes": true,
+  "representation_checks": {
+    "balance_max_fraction": 8.881784197001252e-16,
+    "nonnegative": true,
+    "initial_conditions_exact": true,
+    "cumulative_quantities_monotone": true,
+    "maximum_scaled_knot_jump": 6.800974251584181e-08,
+    "time_derivatives_checked": true
+  },
+  "fresh_test": {
+    "tumour": {
+      "mae_pp": 1.6273591725730077,
+      "rmse_pp": 2.6614010538549238,
+      "r2": 0.9189746494987906,
+      "max_error_pp": 11.652077445216626
+    },
+    "overall_healthy": {
+      "mae_pp": 0.20873216450423104,
+      "rmse_pp": 0.30220215901375624,
+      "r2": 0.9896091021440626,
+      "max_error_pp": 1.002032341983563
+    },
+    "worst_subgroup": {
+      "mae_pp": 1.959914325309167,
+      "rmse_pp": 3.007700555781607,
+      "r2": 0.9608819622169205,
+      "max_error_pp": 11.30148295172365
+    },
+    "n": 64,
+    "actual_feasible": 1,
+    "predicted_feasible": 1,
+    "false_feasible": 0,
+    "false_infeasible": 0,
+    "subgroup_mae_pp": [
+      0.0844428247873214,
+      1.3215870077633156,
+      1.823546648609475,
+      2.0848642587569883
+    ],
+    "finite": true,
+    "negative_scaled_max": 0.0,
+    "mass_fraction_max": 8.881784197001252e-16,
+    "trajectory_scaled_mae": 0.01692056309342492
+  },
+  "previous_test_paired": {
+    "tumour": {
+      "mae_pp": 1.6626507964444466,
+      "rmse_pp": 2.557812054524202,
+      "r2": 0.9217878485855591,
+      "max_error_pp": 10.02028441654047
+    },
+    "overall_healthy": {
+      "mae_pp": 0.2329326340868428,
+      "rmse_pp": 0.3699229234972834,
+      "r2": 0.9861716680363424,
+      "max_error_pp": 1.6961245869855395
+    },
+    "worst_subgroup": {
+      "mae_pp": 2.6293109844554046,
+      "rmse_pp": 4.479838650841573,
+      "r2": 0.8957546481891137,
+      "max_error_pp": 19.239466017438367
+    },
+    "n": 64,
+    "actual_feasible": 2,
+    "predicted_feasible": 2,
+    "false_feasible": 0,
+    "false_infeasible": 0,
+    "subgroup_mae_pp": [
+      0.08396715502924657,
+      1.6096862547608115,
+      1.6876865976158533,
+      2.6559243511788835
+    ],
+    "finite": true,
+    "negative_scaled_max": 0.0,
+    "mass_fraction_max": 1.1102230246251565e-15,
+    "trajectory_scaled_mae": 0.01754525781855858
+  }
+}

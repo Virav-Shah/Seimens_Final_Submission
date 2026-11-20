@@ -1,0 +1,740 @@
+[
+  {
+    "step": 1,
+    "seconds": 0.6654822499999682,
+    "physics_weight": 0.0,
+    "data_loss": 0.03263392155750268,
+    "ode_loss": 0.0,
+    "balance_loss": 0.0,
+    "negative_loss": 2.1602829508827877e-07,
+    "validation_score": 4.9051238037440354,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 75.43771092225549,
+        "rmse_pp": 76.0507122171792,
+        "r2": -60.07275076442371,
+        "max_error_pp": 80.40520626393365
+      },
+      "overall_healthy": {
+        "mae_pp": 6.868373880002681,
+        "rmse_pp": 7.300261314071678,
+        "r2": -7.663439732312982,
+        "max_error_pp": 11.33065229122408
+      },
+      "worst_subgroup": {
+        "mae_pp": 67.31127059901465,
+        "rmse_pp": 68.9037989744134,
+        "r2": -20.795326200572724,
+        "max_error_pp": 77.48361976516112
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 32,
+      "false_feasible": 32,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.34312864360645645,
+        23.234996630116783,
+        35.359342162771576,
+        66.62496251969296
+      ]
+    }
+  },
+  {
+    "step": 1863,
+    "seconds": 20.687090958000226,
+    "physics_weight": 0.0,
+    "data_loss": 0.0005702323320499461,
+    "ode_loss": 0.0,
+    "balance_loss": 0.0,
+    "negative_loss": 1.4113671341551519e-05,
+    "validation_score": 0.3028761046890562,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 2.3624213386400648,
+        "rmse_pp": 6.62514350140732,
+        "r2": 0.5365194759051205,
+        "max_error_pp": 32.5217430402218
+      },
+      "overall_healthy": {
+        "mae_pp": 0.5154549830581231,
+        "rmse_pp": 0.840659564718128,
+        "r2": 0.8851175037587411,
+        "max_error_pp": 2.762638980929191
+      },
+      "worst_subgroup": {
+        "mae_pp": 3.4241990798800677,
+        "rmse_pp": 7.764155249620083,
+        "r2": 0.7232641265914638,
+        "max_error_pp": 34.089822171370656
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.04141980651588177,
+        2.2504066186342437,
+        4.032351441565511,
+        3.3913765885399303
+      ]
+    }
+  },
+  {
+    "step": 3964,
+    "seconds": 40.70117274999984,
+    "physics_weight": 0.0,
+    "data_loss": 0.0002340772634566418,
+    "ode_loss": 0.0,
+    "balance_loss": 0.0,
+    "negative_loss": 6.617759519886715e-06,
+    "validation_score": 0.2957776330490907,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 2.1296969389756732,
+        "rmse_pp": 5.655617336179648,
+        "r2": 0.6622456552570019,
+        "max_error_pp": 29.1839655182172
+      },
+      "overall_healthy": {
+        "mae_pp": 0.5388164362180661,
+        "rmse_pp": 0.8147789019208707,
+        "r2": 0.892082196847606,
+        "max_error_pp": 2.77043134749767
+      },
+      "worst_subgroup": {
+        "mae_pp": 2.988607337384983,
+        "rmse_pp": 6.621123799556402,
+        "r2": 0.7987478839315283,
+        "max_error_pp": 31.159204433537933
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.03258388313751305,
+        2.212019092161408,
+        4.406609526264254,
+        2.995604733428815
+      ]
+    }
+  },
+  {
+    "step": 7292,
+    "seconds": 60.72303679200013,
+    "physics_weight": 0.0,
+    "data_loss": 0.000154090132324132,
+    "ode_loss": 0.0,
+    "balance_loss": 0.0,
+    "negative_loss": 3.931242186912018e-06,
+    "validation_score": 0.29547399902695837,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 1.979569663659732,
+        "rmse_pp": 5.986829473606646,
+        "r2": 0.6215271885344236,
+        "max_error_pp": 31.928198383550786
+      },
+      "overall_healthy": {
+        "mae_pp": 0.5324967287624116,
+        "rmse_pp": 0.779058690670785,
+        "r2": 0.9013370947285786,
+        "max_error_pp": 2.65805141884266
+      },
+      "worst_subgroup": {
+        "mae_pp": 3.0610342806279185,
+        "rmse_pp": 6.706983466481286,
+        "r2": 0.7934945535104763,
+        "max_error_pp": 32.416645223136584
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.029958930360950056,
+        2.5610290278192553,
+        3.848108400723561,
+        3.1391890507798
+      ]
+    }
+  },
+  {
+    "step": 9978,
+    "seconds": 80.74148070799993,
+    "physics_weight": 0.12107827488889208,
+    "data_loss": 0.03446099920589975,
+    "ode_loss": 231673842135.01486,
+    "balance_loss": 0.010022279538468355,
+    "negative_loss": 0.00394282561817456,
+    "validation_score": 0.9179419606433395,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 6.2341062867401424,
+        "rmse_pp": 11.935025913650646,
+        "r2": -0.5041378599286452,
+        "max_error_pp": 49.193512615637125
+      },
+      "overall_healthy": {
+        "mae_pp": 1.8816325526656614,
+        "rmse_pp": 2.718951007073373,
+        "r2": -0.20175603188612223,
+        "max_error_pp": 7.788889869207978
+      },
+      "worst_subgroup": {
+        "mae_pp": 7.10818974151395,
+        "rmse_pp": 14.911287016813374,
+        "r2": -0.02072158401910995,
+        "max_error_pp": 58.086095911792164
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.09585577427445706,
+        22.835021108028112,
+        22.292928674978175,
+        7.167669237731347
+      ]
+    }
+  },
+  {
+    "step": 11270,
+    "seconds": 100.75660429200025,
+    "physics_weight": 0.3990419143472207,
+    "data_loss": 0.03786404795494835,
+    "ode_loss": 195310252744.50323,
+    "balance_loss": 0.010614910378302717,
+    "negative_loss": 0.003690786221421604,
+    "validation_score": 0.9286867895107283,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 6.607454278988828,
+        "rmse_pp": 12.261811050421256,
+        "r2": -0.5876331165207334,
+        "max_error_pp": 49.98343937329724
+      },
+      "overall_healthy": {
+        "mae_pp": 1.908019541529516,
+        "rmse_pp": 2.759973331089961,
+        "r2": -0.2382927142900837,
+        "max_error_pp": 8.043396713042636
+      },
+      "worst_subgroup": {
+        "mae_pp": 7.1154420307964825,
+        "rmse_pp": 14.83503400592177,
+        "r2": -0.010308789550664388,
+        "max_error_pp": 57.54873942279814
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.12451308520583561,
+        23.981796987922547,
+        20.784473453138766,
+        7.186307312564768
+      ]
+    }
+  },
+  {
+    "step": 12508,
+    "seconds": 120.77728445799994,
+    "physics_weight": 0.6771316035833352,
+    "data_loss": 0.06590024417387812,
+    "ode_loss": 305851113972.64636,
+    "balance_loss": 0.8159147179278172,
+    "negative_loss": 0.003494722679837252,
+    "validation_score": 0.9341748086704887,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 6.4021063108595015,
+        "rmse_pp": 12.123024563975441,
+        "r2": -0.5518969532520097,
+        "max_error_pp": 49.60297300312366
+      },
+      "overall_healthy": {
+        "mae_pp": 1.9252440185972397,
+        "rmse_pp": 2.807886180726805,
+        "r2": -0.28165915875117853,
+        "max_error_pp": 7.991131872268893
+      },
+      "worst_subgroup": {
+        "mae_pp": 7.119307117478814,
+        "rmse_pp": 14.750876590835965,
+        "r2": 0.0011214245970149195,
+        "max_error_pp": 56.94324020560946
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.12838560216492234,
+        23.82406489582164,
+        21.570354785955743,
+        7.201424107931227
+      ]
+    }
+  },
+  {
+    "step": 13805,
+    "seconds": 140.788369333,
+    "physics_weight": 0.9550676973333339,
+    "data_loss": 0.06302013863960029,
+    "ode_loss": 800568853737.5454,
+    "balance_loss": 0.7398433923877342,
+    "negative_loss": 0.003217335842892695,
+    "validation_score": 0.9869740088549257,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 6.189203387529044,
+        "rmse_pp": 11.982658819914123,
+        "r2": -0.5161679014834599,
+        "max_error_pp": 49.22402214845109
+      },
+      "overall_healthy": {
+        "mae_pp": 2.0679686781717113,
+        "rmse_pp": 2.92989851684292,
+        "r2": -0.39546420951179106,
+        "max_error_pp": 8.39153793333529
+      },
+      "worst_subgroup": {
+        "mae_pp": 7.222208577718959,
+        "rmse_pp": 14.878416034569202,
+        "r2": -0.01622631285035192,
+        "max_error_pp": 57.4042254238561
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.14987704045197295,
+        25.431162691550487,
+        20.166590534217143,
+        7.353561281809166
+      ]
+    }
+  },
+  {
+    "step": 15147,
+    "seconds": 160.80120133299988,
+    "physics_weight": 1.0,
+    "data_loss": 0.06456175189756987,
+    "ode_loss": 173250929814.2268,
+    "balance_loss": 1.6175571667946236,
+    "negative_loss": 0.005577739062992746,
+    "validation_score": 0.9586713125550587,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 5.902683529711522,
+        "rmse_pp": 11.947852089147691,
+        "r2": -0.5073724909581783,
+        "max_error_pp": 49.68108489750889
+      },
+      "overall_healthy": {
+        "mae_pp": 2.001711438825425,
+        "rmse_pp": 2.952855350970476,
+        "r2": -0.41741783346277783,
+        "max_error_pp": 8.593122924445414
+      },
+      "worst_subgroup": {
+        "mae_pp": 7.099224299202451,
+        "rmse_pp": 14.80578351036378,
+        "r2": -0.006328630338398034,
+        "max_error_pp": 57.22322591430683
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.15419961973548474,
+        27.823676636062686,
+        24.37861626798035,
+        7.1850796461228486
+      ]
+    }
+  },
+  {
+    "step": 16436,
+    "seconds": 180.81872295799985,
+    "physics_weight": 1.0,
+    "data_loss": 0.054556862353109414,
+    "ode_loss": 313240839846.1715,
+    "balance_loss": 1.385044679170982,
+    "negative_loss": 0.005385633739450875,
+    "validation_score": 1.0418138096875895,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 6.160463558947979,
+        "rmse_pp": 12.105458769739046,
+        "r2": -0.5474029339830493,
+        "max_error_pp": 49.87419904469491
+      },
+      "overall_healthy": {
+        "mae_pp": 2.205097744389989,
+        "rmse_pp": 3.056329145609378,
+        "r2": -0.5184964899166351,
+        "max_error_pp": 8.897469575025573
+      },
+      "worst_subgroup": {
+        "mae_pp": 7.426812730627744,
+        "rmse_pp": 15.089456550566682,
+        "r2": -0.04525977268553105,
+        "max_error_pp": 58.353752532209846
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.19037610346746311,
+        29.824066976268778,
+        23.21774326981362,
+        7.548025756001788
+      ]
+    }
+  },
+  {
+    "step": 17719,
+    "seconds": 200.8420379170002,
+    "physics_weight": 1.0,
+    "data_loss": 0.05676794979464336,
+    "ode_loss": 67072774128.49987,
+    "balance_loss": 0.4398018371945921,
+    "negative_loss": 0.0046080162011876,
+    "validation_score": 1.0940373495828777,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 6.285787964529565,
+        "rmse_pp": 12.14255488741812,
+        "r2": -0.5569012264661022,
+        "max_error_pp": 49.937692802891625
+      },
+      "overall_healthy": {
+        "mae_pp": 2.3404100238929324,
+        "rmse_pp": 3.101779650058597,
+        "r2": -0.563995255237639,
+        "max_error_pp": 8.9439473910797
+      },
+      "worst_subgroup": {
+        "mae_pp": 7.55664670268672,
+        "rmse_pp": 15.19781948569533,
+        "r2": -0.060326468300588854,
+        "max_error_pp": 58.68732294469881
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.18535190174046282,
+        30.85068008466341,
+        22.625371321451354,
+        7.67469762285324
+      ]
+    }
+  },
+  {
+    "step": 18971,
+    "seconds": 220.87000658299985,
+    "physics_weight": 1.0,
+    "data_loss": 0.06503938957548898,
+    "ode_loss": 309748435506.5179,
+    "balance_loss": 2.3040745172602732,
+    "negative_loss": 0.0057416191761403,
+    "validation_score": 1.1635999693908667,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 6.336564675299336,
+        "rmse_pp": 12.228546559655925,
+        "r2": -0.579030770327023,
+        "max_error_pp": 50.04364173610153
+      },
+      "overall_healthy": {
+        "mae_pp": 2.5529420013839617,
+        "rmse_pp": 3.239838359685659,
+        "r2": -0.7063190238354786,
+        "max_error_pp": 9.131373516066743
+      },
+      "worst_subgroup": {
+        "mae_pp": 7.401268915417518,
+        "rmse_pp": 15.20381870494514,
+        "r2": -0.061163744525485786,
+        "max_error_pp": 59.00901601137526
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.17840320614398295,
+        31.816406516632032,
+        22.089163544098096,
+        7.53644083906984
+      ]
+    }
+  },
+  {
+    "step": 20105,
+    "seconds": 240.88395683299996,
+    "physics_weight": 1.0,
+    "data_loss": 0.057950606258329165,
+    "ode_loss": 234018434763.09473,
+    "balance_loss": 0.8740558898546186,
+    "negative_loss": 0.00508115829167793,
+    "validation_score": 1.155925835430595,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 6.551663011824166,
+        "rmse_pp": 12.33116477214348,
+        "r2": -0.6056434504272263,
+        "max_error_pp": 50.253936286772806
+      },
+      "overall_healthy": {
+        "mae_pp": 2.542500361516133,
+        "rmse_pp": 3.222338239121116,
+        "r2": -0.6879353032966,
+        "max_error_pp": 9.16657311678238
+      },
+      "worst_subgroup": {
+        "mae_pp": 7.259447061565615,
+        "rmse_pp": 15.206241497806827,
+        "r2": -0.061501973340691185,
+        "max_error_pp": 59.165174844292146
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.19450943883351793,
+        31.272052294420636,
+        21.976419744914523,
+        7.387370605755631
+      ]
+    }
+  },
+  {
+    "step": 21383,
+    "seconds": 260.89773037500026,
+    "physics_weight": 1.0,
+    "data_loss": 0.06452294769017855,
+    "ode_loss": 244463976538.59473,
+    "balance_loss": 2.598430679035949,
+    "negative_loss": 0.0059248101359557215,
+    "validation_score": 1.1919046822099284,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 6.59114938482427,
+        "rmse_pp": 12.382080594011866,
+        "r2": -0.6189303437977844,
+        "max_error_pp": 50.426041632595776
+      },
+      "overall_healthy": {
+        "mae_pp": 2.615125412194555,
+        "rmse_pp": 3.2799881609594745,
+        "r2": -0.7488722985075442,
+        "max_error_pp": 9.247330696362404
+      },
+      "worst_subgroup": {
+        "mae_pp": 7.570389609977999,
+        "rmse_pp": 15.39808947470459,
+        "r2": -0.08845559653652302,
+        "max_error_pp": 59.62994082805479
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.18273283231658807,
+        31.666752611055088,
+        21.587321743383495,
+        7.680528453454241
+      ]
+    }
+  },
+  {
+    "step": 22774,
+    "seconds": 280.9149224580001,
+    "physics_weight": 1.0,
+    "data_loss": 0.07487270871913408,
+    "ode_loss": 201033089408.8242,
+    "balance_loss": 0.427307176237989,
+    "negative_loss": 0.012347352422125365,
+    "validation_score": 1.3356793657475017,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 6.71100704051741,
+        "rmse_pp": 12.392292562274301,
+        "r2": -0.6216018306513564,
+        "max_error_pp": 50.318618218154775
+      },
+      "overall_healthy": {
+        "mae_pp": 2.9924340583220457,
+        "rmse_pp": 3.5544836637954846,
+        "r2": -1.053839923472914,
+        "max_error_pp": 9.372851743483277
+      },
+      "worst_subgroup": {
+        "mae_pp": 7.899974391299144,
+        "rmse_pp": 15.644182324097141,
+        "r2": -0.12352509305687409,
+        "max_error_pp": 60.26222644155316
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.20371656850236133,
+        34.18745903866179,
+        21.155049363213447,
+        8.069184421670245
+      ]
+    }
+  },
+  {
+    "step": 24189,
+    "seconds": 300.9342941670002,
+    "physics_weight": 1.0,
+    "data_loss": 0.07988659466885288,
+    "ode_loss": 152429288170.94925,
+    "balance_loss": 0.36936411852961615,
+    "negative_loss": 0.005900933458420377,
+    "validation_score": 1.2200552434601724,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 6.486485969407733,
+        "rmse_pp": 12.416829357568943,
+        "r2": -0.6280297459190025,
+        "max_error_pp": 50.42706632030458
+      },
+      "overall_healthy": {
+        "mae_pp": 2.660988436850936,
+        "rmse_pp": 3.3933328236707045,
+        "r2": -0.8718302546947347,
+        "max_error_pp": 9.377312843938725
+      },
+      "worst_subgroup": {
+        "mae_pp": 7.942604108433493,
+        "rmse_pp": 15.69042815509778,
+        "r2": -0.1301774252334884,
+        "max_error_pp": 60.399151000138936
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.20235642769138126,
+        31.942407952250065,
+        21.59868091785697,
+        8.118308673636806
+      ]
+    }
+  },
+  {
+    "step": 25580,
+    "seconds": 320.95616570799984,
+    "physics_weight": 1.0,
+    "data_loss": 0.08445158362201778,
+    "ode_loss": 67845104990.15449,
+    "balance_loss": 0.4934619739901704,
+    "negative_loss": 0.0068662106100413015,
+    "validation_score": 1.266059884246836,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 6.260558772922343,
+        "rmse_pp": 12.316638938959173,
+        "r2": -0.6018628551339318,
+        "max_error_pp": 50.37527966469519
+      },
+      "overall_healthy": {
+        "mae_pp": 2.8004619903512733,
+        "rmse_pp": 3.501421275190153,
+        "r2": -0.9929769643845601,
+        "max_error_pp": 9.372985559502311
+      },
+      "worst_subgroup": {
+        "mae_pp": 7.877193383257337,
+        "rmse_pp": 15.68848287604171,
+        "r2": -0.12989720672460248,
+        "max_error_pp": 60.36649247727417
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.1893408263215557,
+        32.51590083305929,
+        22.171946782194542,
+        8.060208084956818
+      ]
+    }
+  },
+  {
+    "step": 26992,
+    "seconds": 340.9660170420002,
+    "physics_weight": 1.0,
+    "data_loss": 0.06701560748692688,
+    "ode_loss": 1106257418465.8953,
+    "balance_loss": 1.0774313352054612,
+    "negative_loss": 0.006981874132587486,
+    "validation_score": 1.2281668938677466,
+    "validation_metrics": {
+      "tumour": {
+        "mae_pp": 6.265358047156255,
+        "rmse_pp": 12.271473288011373,
+        "r2": -0.5901361941274577,
+        "max_error_pp": 50.18989715103388
+      },
+      "overall_healthy": {
+        "mae_pp": 2.6916773387936512,
+        "rmse_pp": 3.4742087394345114,
+        "r2": -0.962119090707642,
+        "max_error_pp": 9.423543040754883
+      },
+      "worst_subgroup": {
+        "mae_pp": 7.885025339804653,
+        "rmse_pp": 15.602430456787864,
+        "r2": -0.11753607133711097,
+        "max_error_pp": 60.02324333949213
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.20236823586483135,
+        32.30940115201103,
+        22.1528897512036,
+        8.055565440818542
+      ]
+    }
+  }
+]

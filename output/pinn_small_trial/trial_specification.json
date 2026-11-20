@@ -1,0 +1,59 @@
+{
+  "training": {
+    "architecture": "two connected 8-64-64-64-64-97 tanh networks",
+    "dtype": "float64",
+    "device": "cpu",
+    "threads": 1,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "gradient_norm_limit": 1,
+    "supervised_points": 256,
+    "collocation_points": 128,
+    "resampling_interval_updates": 200,
+    "residual_candidate_pool": 1024,
+    "residual_selected_points": 64,
+    "fresh_points": 64,
+    "warmup_time_fraction": 0.2,
+    "ramp_time_fraction": 0.2,
+    "full_physics_time_fraction": 0.6,
+    "wall_cap_seconds": 360,
+    "checkpoint_selection": "minimum normalised validation endpoint MAE among full physics weight checkpoints"
+  },
+  "objectives": {
+    "maximize": "minimum tumour killing over conditions",
+    "minimize": [
+      "maximum overall healthy killing",
+      "maximum subgroup killing"
+    ],
+    "limits_percent": {
+      "overall": 0.95,
+      "each_subgroup": 10
+    }
+  },
+  "planned_comparators": [
+    "direct NSGA-II",
+    "Gaussian process",
+    "trajectory-only neural network",
+    "PINN"
+  ],
+  "conditional_comparison": {
+    "seeds": [
+      2026,
+      8407,
+      11939
+    ],
+    "initial": 64,
+    "validation": 32,
+    "rounds": 2,
+    "batch": 16,
+    "final_proposals": 16,
+    "evaluations_per_method": 144,
+    "run_only_if_feasibility_passes": true
+  },
+  "final_accuracy_targets_mae_pp": {
+    "tumour": 1,
+    "overall_healthy": 0.05,
+    "worst_subgroup": 0.5
+  },
+  "plan_clarification": "Full-physics-only checkpoint selection avoids labelling a supervised warm-up checkpoint as the PINN. Original planned test set is opened only after the checkpoint and validation gate are fixed."
+}

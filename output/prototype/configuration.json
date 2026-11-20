@@ -1,0 +1,61 @@
+{
+  "status": "INFERRED_PROTOTYPE",
+  "calibration_inputs": {
+    "total_cells": 4726395687804.054,
+    "cell_volume_l": 4.1329905649510757e-13
+  },
+  "anchors_uM": {
+    "figure4_bispecific": 56.0,
+    "figure6": 280.0
+  },
+  "anchor_provenance": "Approximate visual readings of supplied Figures 4b and 6b at 24 h; NOT raw data",
+  "residual_log": [
+    3.8639047509643457e-10,
+    1.5543122344752072e-14
+  ],
+  "fixed_reference": {
+    "kon1": 460000.0,
+    "koff1": 0.00034,
+    "kon2": 460000.0,
+    "koff2": 0.00034,
+    "rho1": 1e-10,
+    "rho2": 1e-10,
+    "k2d1": 24000000000000.0,
+    "k2d2": 24000000000000.0,
+    "turnover": 0.0005555555555555556,
+    "dual_turnover_factor": 1.0,
+    "ec50": 4e-06,
+    "dose": 4e-06,
+    "infusion_s": 7200,
+    "end_s": 86400,
+    "vc": 11.3,
+    "vp": 41.5,
+    "q_l_h": 1.05,
+    "cl_l_h": 0.1,
+    "total_cells": 30000000000000.0,
+    "area_dm2": 5e-08,
+    "cell_volume_l": 1.0513052175e-12,
+    "surface_off_rule": "sengers",
+    "mode": "bispecific"
+  },
+  "rate_bounds_log10": [
+    [
+      2.0,
+      7.0
+    ],
+    [
+      -5.0,
+      2.0
+    ],
+    [
+      2.0,
+      7.0
+    ],
+    [
+      -5.0,
+      2.0
+    ]
+  ],
+  "healthy_fraction_design_limit": 0.0095,
+  "healthy_fraction_paper_limit": 0.01
+}

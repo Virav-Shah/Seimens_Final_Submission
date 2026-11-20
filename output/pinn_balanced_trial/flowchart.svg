@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="739.8pt" height="516.239719pt" viewBox="0 0 739.8 516.239719" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-20T12:43:47.413132</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 516.239719 
+L 739.8 516.239719 
+L 739.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 18.36 140.256 
+L 342 140.256 
+Q 347.58 140.256 347.58 134.712 
+L 347.58 68.184 
+Q 347.58 62.64 342 62.64 
+L 18.36 62.64 
+Q 12.78 62.64 12.78 68.184 
+L 12.78 134.712 
+Q 12.78 140.256 18.36 140.256 
+z
+" clip-path="url(#pf718f9c6af)" style="fill: #f4f8fb; stroke: #166c99; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 397.8 140.256 
+L 721.44 140.256 
+Q 727.02 140.256 727.02 134.712 
+L 727.02 68.184 
+Q 727.02 62.64 721.44 62.64 
+L 397.8 62.64 
+Q 392.22 62.64 392.22 68.184 
+L 392.22 134.712 
+Q 392.22 140.256 397.8 140.256 
+z
+" clip-path="url(#pf718f9c6af)" style="fill: #f4f8fb; stroke: #166c99; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 397.8 256.68 
+L 721.44 256.68 
+Q 727.02 256.68 727.02 251.136 
+L 727.02 184.608 
+Q 727.02 179.064 721.44 179.064 
+L 397.8 179.064 
+Q 392.22 179.064 392.22 184.608 
+L 392.22 251.136 
+Q 392.22 256.68 397.8 256.68 
+z
+" clip-path="url(#pf718f9c6af)" style="fill: #f4f8fb; stroke: #166c99; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 18.36 256.68 
+L 342 256.68 
+Q 347.58 256.68 347.58 251.136 
+L 347.58 184.608 
+Q 347.58 179.064 342 179.064 
+L 18.36 179.064 
+Q 12.78 179.064 12.78 184.608 
+L 12.78 251.136 
+Q 12.78 256.68 18.36 256.68 
+z
+" clip-path="url(#pf718f9c6af)" style="fill: #f4f8fb; stroke: #166c99; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 18.36 384.192 
+L 721.44 384.192 
+Q 727.02 384.192 727.02 378.648 
+L 727.02 306.576 
+Q 727.02 301.032 721.44 301.032 
+L 18.36 301.032 
+Q 12.78 301.032 12.78 306.576 
+L 12.78 378.648 
+Q 12.78 384.192 18.36 384.192 
+z
+" clip-path="url(#pf718f9c6af)" style="fill: #f4f8fb; stroke: #166c99; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="26.172" y="85.618125" transform="rotate(-0 26.172 85.618125)">Same numerical training data</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(26.172 107.937637)">64 binding-rate designs × 3 biological conditions</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(26.172 121.414981)">32 separate validation designs; log-scaled rate inputs</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="405.612" y="85.618125" transform="rotate(-0 405.612 85.618125)">New representation</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(405.612 107.937637)">12 continuous time intervals; nonnegative quantities</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(405.612 121.414981)">Exact antibody/payload accounting, including clearance</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="405.612" y="202.042125" transform="rotate(-0 405.612 202.042125)">Two matched training runs</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(405.612 224.361637)">Same network, seed, data and 6-minute allowance</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(405.612 237.838981)">Data only versus data + balanced equation losses</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="26.172" y="202.042125" transform="rotate(-0 26.172 202.042125)">Balance nine equation groups</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(26.172 224.361637)">Update weights from gradient norms every 25 steps</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(26.172 237.838981)">Compare binding, internalisation, payload and killing</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="26.172" y="324.010125" transform="rotate(-0 26.172 324.010125)">Freeze models, then generate a fresh test set</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(26.172 346.329637)">64 unseen test designs, then ODE checks of selected binding-rate combinations</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(26.172 359.806981)">Report prediction accuracy and equation agreement separately</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 355.158501 101.448 
+Q 369.89816 101.448 382.401752 101.448 
+" style="fill: none; stroke: #89939c; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 378.001752 99.248 
+L 382.401752 101.448 
+L 378.001752 103.648 
+" style="fill: none; stroke: #89939c; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 559.62 147.799819 
+Q 559.62 159.659925 559.62 169.283962 
+" style="fill: none; stroke: #89939c; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 561.82 164.883962 
+L 559.62 169.283962 
+L 557.42 164.883962 
+" style="fill: none; stroke: #89939c; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 384.641499 217.872 
+Q 369.90184 217.872 357.398248 217.872 
+" style="fill: none; stroke: #89939c; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 361.798248 220.072 
+L 357.398248 217.872 
+L 361.798248 215.672 
+" style="fill: none; stroke: #89939c; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 174.6 264.22585 
+Q 174.6 278.855177 174.6 291.248437 
+" style="fill: none; stroke: #89939c; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 176.8 286.848437 
+L 174.6 291.248437 
+L 172.4 286.848437 
+" style="fill: none; stroke: #89939c; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="369.9" y="29.376" transform="rotate(-0 369.9 29.376)">Revised PINN: changes tested and how they were assessed</text>
+   </g>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #667681" x="358.2" y="507.168" transform="rotate(-0 358.2 507.168)">Simulated ODE data; fixed illustrative biological inputs. One training seed; no clinical measurements.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf718f9c6af">
+   <rect x="7.2" y="7.2" width="725.4" height="443.52"/>
+  </clipPath>
+ </defs>
+</svg>

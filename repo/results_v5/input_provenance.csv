@@ -1,0 +1,33 @@
+parameter,value,origin,unit
+rho,"(1.0, 1.0)",Paper / Table 1; adopted in V1,1e-10 mol/dm²
+k0,"(2.0, 2.0)",Paper / Table 1; adopted in V1,h⁻¹
+ki,"(0.2, 4.0, 2.0)",LLM-synthetic input or structural assumption,h⁻¹
+half,96.0,LLM-synthetic input or structural assumption,h
+permeability,0.1,LLM-synthetic input or structural assumption,h⁻¹
+payload_volume,52.8,LLM-synthetic input or structural assumption,L
+payload_clearance,5.28,LLM-synthetic input or structural assumption,L/h
+metabolism,0.01,LLM-synthetic input or structural assumption,h⁻¹
+tau,0.0,Inactive compatibility setting; explicit three-rate arrays are used,h
+recycle,0.0,Inactive compatibility setting; explicit three-rate arrays are used,fraction
+process_share,0.5,Inactive compatibility setting; explicit three-rate arrays are used,fraction
+closure,symmetric,V1 reconstruction / reference-informed assumption,—
+surface_factor,1.0,V1 reconstruction / reference-informed assumption,multiplier
+dose,4.0,Paper / Table 1; adopted in V1,µmol
+target_densities,(),Optional override; empty uses paper/Table 1 density pattern,1e-10 mol/dm²
+fractions,"(0.0003, 0.79, 0.1, 0.1, 0.01)",Paper / Table 1; adopted in V1,population multipliers
+total_cells,7043996587630.85,V1 reconstruction / reference-informed assumption,cells
+intracellular_volume,2.689720494498626e-13,V1 reconstruction / reference-informed assumption,L/cell
+cell_area,3.141592653589793e-08,V1 reconstruction / reference-informed assumption,dm²/cell
+antibody_vc,11.3,V1 reconstruction / reference-informed assumption,L
+antibody_vp,41.5,V1 reconstruction / reference-informed assumption,L
+antibody_q,1.05,V1 reconstruction / reference-informed assumption,L/h
+antibody_clearance,0.015540799881601949,V1 reconstruction / reference-informed assumption,L/h
+infusion_h,2.0,Paper / Table 1; adopted in V1,h
+horizon_h,24.0,V1 reconstruction / reference-informed assumption,h
+recycling_rates,"(0.6, 0.6, 0.6)",LLM-synthetic input or structural assumption,h⁻¹
+processing_rates,"(0.7, 0.7, 0.7)",LLM-synthetic input or structural assumption,h⁻¹
+degradation_rates,"(0.7, 0.7, 0.7)",LLM-synthetic input or structural assumption,h⁻¹
+KillModel.c50_uM,"(4.0, 4.0, 4.0, 4.0, 4.0)",LLM-synthetic; requires exposure-response calibration,µM
+KillModel.maximum_rate_h,"(0.08, 0.08, 0.08, 0.08, 0.08)",LLM-synthetic; requires exposure-response calibration,h⁻¹
+Subgroup kill ceilings,"[0.1, 0.1, 0.1, 0.1]",Illustrative design requirement; not a safety standard,fraction
+Binding-rate bounds,"[(2.0, 7.0), (-5.0, 2.0), (2.0, 7.0), (-5.0, 2.0)]","V1 exploratory bounds, not demonstrated engineering limits",log10 of M⁻¹s⁻¹ / s⁻¹

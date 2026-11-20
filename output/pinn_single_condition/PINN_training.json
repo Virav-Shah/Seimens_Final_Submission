@@ -1,0 +1,68 @@
+{
+  "training_seconds": 1198.0133962499995,
+  "updates": 31491,
+  "selected": {
+    "step": 30012,
+    "seconds": 1141.1754925840005,
+    "physics_ramp": 1.0,
+    "learning_rate": 0.00010533322884507916,
+    "trajectory_loss": 0.05367299955615998,
+    "endpoint_loss": 0.005596604458822815,
+    "validation_score": 0.6488496996574685,
+    "validation": {
+      "tumour": {
+        "mae_pp": 0.25439748556111097,
+        "rmse_pp": 0.34026801264954304,
+        "r2": 0.9890688367360209,
+        "max_error_pp": 1.1744601967545378
+      },
+      "overall_healthy": {
+        "mae_pp": 0.025751423568532446,
+        "rmse_pp": 0.03990290892438284,
+        "r2": 0.9997898028516792,
+        "max_error_pp": 0.16961000524473313
+      },
+      "worst_subgroup": {
+        "mae_pp": 0.5885615710203229,
+        "rmse_pp": 0.8394591775336347,
+        "r2": 0.9936077296086322,
+        "max_error_pp": 3.2265240927698287
+      },
+      "n": 64,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.011389039525967582,
+        0.18696236471610347,
+        0.20363849040120746,
+        0.5958378089761425
+      ]
+    },
+    "physics_weights": {
+      "free_antibody": 6931.3906129156,
+      "free_targets": 10.67230209135287,
+      "surface_complexes": 869101.5356251971,
+      "internalised_complexes": 999999.9999999907,
+      "active_payload": 32.482801517527314,
+      "loss_accounts": 30.299545775146097,
+      "released_payload": 999999.9999999907,
+      "killing_effect": 522.0577636123037,
+      "payload_exposure": 13701.454347284622
+    },
+    "physics_losses": {
+      "free_antibody": 0.006941903856586362,
+      "free_targets": 0.0014884521887609668,
+      "surface_complexes": 3.0140698270393174e-08,
+      "internalised_complexes": 5.686743577363694e-10,
+      "active_payload": 0.00605942616546655,
+      "loss_accounts": 0.026301225982073052,
+      "released_payload": 1.5310390638403218e-08,
+      "killing_effect": 9.145309789508483e-05,
+      "payload_exposure": 7.85829603418467e-06
+    }
+  },
+  "training_limit_seconds": 1200,
+  "restarts": 0
+}

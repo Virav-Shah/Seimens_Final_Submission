@@ -1,0 +1,132 @@
+{
+  "seed": 20261121,
+  "condition_index": 0,
+  "condition_name": "Nominal",
+  "biology": {
+    "rho": [
+      1.0,
+      1.0
+    ],
+    "k0": [
+      2.0,
+      2.0
+    ],
+    "ki": [
+      0.2,
+      4.0,
+      2.0
+    ],
+    "half": 96.0,
+    "permeability": 0.1,
+    "payload_volume": 52.8,
+    "payload_clearance": 5.28,
+    "metabolism": 0.01,
+    "tau": 0.0,
+    "recycle": 0.0,
+    "process_share": 0.5,
+    "closure": "symmetric",
+    "surface_factor": 1.0,
+    "dose": 4.0,
+    "target_densities": [],
+    "fractions": [
+      0.0003,
+      0.79,
+      0.1,
+      0.1,
+      0.01
+    ],
+    "total_cells": 7043996587630.85,
+    "intracellular_volume": 2.689720494498626e-13,
+    "cell_area": 3.141592653589793e-08,
+    "antibody_vc": 11.3,
+    "antibody_vp": 41.5,
+    "antibody_q": 1.05,
+    "antibody_clearance": 0.015540799881601949,
+    "infusion_h": 2.0,
+    "horizon_h": 24.0,
+    "recycling_rates": [
+      0.6,
+      0.6,
+      0.6
+    ],
+    "processing_rates": [
+      0.7,
+      0.7,
+      0.7
+    ],
+    "degradation_rates": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  "killing": {
+    "c50_uM": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "maximum_rate_h": [
+      0.08,
+      0.08,
+      0.08,
+      0.08,
+      0.08
+    ]
+  },
+  "training_designs": 512,
+  "validation_designs": 64,
+  "test_designs": 128,
+  "partition_seeds": [
+    20261121,
+    20261122,
+    20261123
+  ],
+  "training_limit_seconds": 1200,
+  "bounds_log10": [
+    [
+      2,
+      7
+    ],
+    [
+      -5,
+      2
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      -5,
+      2
+    ]
+  ],
+  "knots_h": [
+    0.0,
+    1e-06,
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0,
+    16.0,
+    24.0
+  ],
+  "source_sha256": "27c7ad24677e3f863bbc8193d7e710f7a05131c906f947c1ff2ba5bb70a163d6",
+  "data_source": "reference-condition ODE simulations only",
+  "loss": "asinh-scaled trajectory error + endpoint error + 0.1 times gradient-balanced grouped ODE loss",
+  "checkpoint_selection": "validation mean of MAE/1, MAE/0.05, MAE/0.5; full physics only",
+  "training": "one fresh initialisation, Adam cosine 1e-3 to 1e-4; warmup 10%, ramp 20%; CPU float64",
+  "comparison": "same 512 designs; PINN gets trajectories, GP gets five 24-hour killing outputs; no test selection",
+  "GP": "standardised log rates and standardised outputs; Matern 5/2; same kernel family as earlier GP; no output clipping",
+  "versions": {
+    "torch": "2.14.0",
+    "numpy": "2.4.4"
+  }
+}

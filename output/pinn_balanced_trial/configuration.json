@@ -1,0 +1,175 @@
+{
+  "knots_h": [
+    0.0,
+    1e-06,
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0,
+    16.0,
+    24.0
+  ],
+  "seed": 2026,
+  "training_seconds_per_method": 360,
+  "training_designs": 64,
+  "validation_designs": 32,
+  "fresh_test_designs": 64,
+  "fresh_test_seed": 66021,
+  "physics_groups": {
+    "free_antibody": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "free_targets": [
+      7,
+      8,
+      23,
+      24,
+      39,
+      40,
+      55,
+      56,
+      71,
+      72
+    ],
+    "surface_complexes": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78
+    ],
+    "internalised_complexes": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
+    ],
+    "active_payload": [
+      4,
+      21,
+      37,
+      53,
+      69,
+      85
+    ],
+    "loss_accounts": [
+      5,
+      6
+    ],
+    "released_payload": [
+      22,
+      38,
+      54,
+      70,
+      86
+    ],
+    "killing_effect": [
+      87,
+      88,
+      89,
+      90,
+      91
+    ],
+    "payload_exposure": [
+      92,
+      93,
+      94,
+      95,
+      96
+    ]
+  },
+  "bounds_log10": [
+    [
+      2,
+      7
+    ],
+    [
+      -5,
+      2
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      -5,
+      2
+    ]
+  ],
+  "reference_sha256": "27c7ad24677e3f863bbc8193d7e710f7a05131c906f947c1ff2ba5bb70a163d6",
+  "nonnegativity": "hard representation",
+  "conservation": "two shared inventories including cleared material",
+  "loss_weights": "gradient norms updated every 25 steps; log EMA 0.9; clipped to [1e-30,1e6]",
+  "reference_objectives_unchanged": true,
+  "architecture": "shared knot MLP plus local interval correction MLP, each 3x64 tanh; 97 raw coordinates",
+  "training_loss": "scaled trajectory + endpoint error; optional balanced grouped ODE residual",
+  "preflight": {
+    "balance_max_fraction": 4.440892098500626e-16,
+    "nonnegative": true,
+    "initial_conditions_exact": true,
+    "cumulative_quantities_monotone": true,
+    "maximum_scaled_knot_jump": 4.631991473316489e-09,
+    "time_derivatives_checked": true
+  },
+  "comparison": "same seed/data/architecture/wall-time budget; different number of updates expected",
+  "data_source": "unchanged mechanistic ODE; no clinical labels"
+}

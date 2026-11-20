@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "states_checked": 63,
+  "derivatives_per_state": 97,
+  "max_absolute_difference": 3.552713678800501e-15,
+  "rtol": 1e-08,
+  "atol": 1e-10
+}

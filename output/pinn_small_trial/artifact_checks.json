@@ -1,0 +1,10 @@
+{
+  "reference_unchanged": true,
+  "datasets_disjoint": true,
+  "97_states_129_times": true,
+  "initial_conditions_exact": true,
+  "bridge_continuity_exact": true,
+  "residual_gradients_finite": true,
+  "saved_checkpoint_reproduces_predictions": true,
+  "checkpoint_full_physics_weight": true
+}

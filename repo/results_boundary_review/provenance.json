@@ -1,0 +1,19 @@
+{
+  "source_notebook_sha256": "6e3ae5a0ff5db18fb743b873821307de0097db2318378ef4a91f26267eeab357",
+  "model": "Unchanged V5 equations, three biological input variants, dose and healthy-cell constraints",
+  "literature": "Mazor et al. 2015 Table 2, https://pmc.ncbi.nlm.nih.gov/articles/PMC4622944/",
+  "literature_domain": "Envelope of reported IgG and DuetMab on/off rates, applied to each generic arm only as a reference experiment; not target-specific engineering limits; rectangular combinations are not all measured",
+  "expanded_domain": "Numerical stress test only: lower kon bound 100 to 1; upper koff bound 100 to 1000",
+  "seeds": [
+    8407,
+    2026,
+    11939
+  ],
+  "evaluations_per_run": 1024,
+  "population": 64,
+  "checkpoints": [
+    256,
+    512,
+    1024
+  ]
+}

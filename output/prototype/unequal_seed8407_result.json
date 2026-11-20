@@ -1,0 +1,41 @@
+{
+  "seed": 8407,
+  "requested_nfe": 576,
+  "algorithm_nfe": 576,
+  "evaluator_calls": 495,
+  "best": {
+    "kon1": 932.8533921754187,
+    "koff1": 4.30886867072755,
+    "kon2": 100.46200213001107,
+    "koff2": 0.6027568730909451,
+    "tumor_kill_pct": 97.23160454030392,
+    "healthy_kill_pct": 0.9107357413126939,
+    "feasible_design": true,
+    "seed": 8407,
+    "parameters": {
+      "kon1": 932.8533921754187,
+      "koff1": 4.30886867072755,
+      "kon2": 100.46200213001107,
+      "koff2": 0.6027568730909451,
+      "rho1": 1e-09,
+      "rho2": 5e-11,
+      "k2d1": 24000000000000.0,
+      "k2d2": 24000000000000.0,
+      "turnover": 0.0005555555555555556,
+      "dual_turnover_factor": 1.0,
+      "ec50": 4e-06,
+      "dose": 4e-06,
+      "infusion_s": 7200,
+      "end_s": 86400,
+      "vc": 11.3,
+      "vp": 41.5,
+      "q_l_h": 1.05,
+      "cl_l_h": 0.1,
+      "total_cells": 4726395687804.054,
+      "area_dm2": 5e-08,
+      "cell_volume_l": 4.1329905649510757e-13,
+      "surface_off_rule": "sengers",
+      "mode": "bispecific"
+    }
+  }
+}

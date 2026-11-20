@@ -1,0 +1,11 @@
+{
+  "original_model_unchanged": true,
+  "PINN_original_validation_gate_passed": true,
+  "both_models_have_no_negative_test_states": true,
+  "both_models_test_inventory_error_below_1e_12": true,
+  "all_25_candidate_ODE_results_finite": true,
+  "paired_candidate_count": 25,
+  "fresh_test_designs": 64,
+  "next_use": "ODE-verified proposals only; no ODE replacement",
+  "dynamic_limitations": "Negative loss-account derivatives and payload-to-killing inconsistency remain; see dynamics_audit.json"
+}

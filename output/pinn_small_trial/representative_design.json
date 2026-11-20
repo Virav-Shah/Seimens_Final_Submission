@@ -1,0 +1,12 @@
+{
+  "test_index": 34,
+  "theta_log10": [
+    6.053230426696762,
+    -3.8636576627348456,
+    6.279974085143577,
+    -3.410533786000734
+  ],
+  "selection": "median mean normalised endpoint error",
+  "condition": "reference",
+  "cell_population": "tumour"
+}

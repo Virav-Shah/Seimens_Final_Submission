@@ -1,0 +1,57 @@
+"""Produce plots, a flowchart, a concise notebook and a report from trial results."""
+import os
+os.environ.setdefault('MPLBACKEND','Agg')
+from pathlib import Path
+import json,numpy as np,matplotlib.pyplot as plt,nbformat
+from matplotlib.patches import FancyBboxPatch
+ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'output/ml_small_trial'
+r=json.loads((OUT/'results.json').read_text());runs=r['runs'];seeds=[x['seed'] for x in runs]
+plt.rcParams.update({'font.family':'DejaVu Sans','font.size':11,'axes.spines.top':False,'axes.spines.right':False})
+blue='#21618C';orange='#D67822';navy='#17354B'
+def save(fig,name):
+ fig.savefig(OUT/f'{name}.png',dpi=180,bbox_inches='tight',facecolor='white');fig.savefig(OUT/f'{name}.svg',bbox_inches='tight',facecolor='white');plt.close(fig)
+fig,axs=plt.subplots(1,3,figsize=(14,4.7));keys=['tumour','overall_healthy','worst_subgroup'];names=['Tumour killing','Overall healthy killing','Worst healthy subgroup']
+for ax,key,name in zip(axs,keys,names):
+ vals=[a['test_metrics'][key]['mae_pp'] for a in runs];ax.bar(range(len(vals)),vals,color=blue);ax.set_xticks(range(len(vals)),[str(s) for s in seeds]);ax.set_title(name);ax.set_xlabel('Search seed');ax.set_ylabel('Mean absolute error (percentage points)')
+ for i,v in enumerate(vals):ax.text(i,v+max(vals)*.03,f'{v:.2f}',ha='center')
+ ax.set_ylim(0,max(vals)*1.22)
+fig.suptitle('Prediction error on 64 untouched binding-rate combinations',fontsize=17,fontweight='bold');fig.text(.5,.005,'Each combination is evaluated under all three assumed biological conditions. Error is against ODE simulations, not experiments.',ha='center',fontsize=10);fig.tight_layout(rect=[0,.05,1,.94]);save(fig,'prediction_accuracy')
+fig,axs=plt.subplots(1,3,figsize=(14,4.8));xx=np.arange(len(runs));w=.36
+for ax,key,title in zip(axs,['best_tumour','hypervolume','time'],['Best feasible tumour killing (%)','Coverage of tumour–healthy trade-offs','Elapsed search time (seconds)']):
+ a=[v['assisted'][key] if key!='time' else v['timing']['assisted_total_wall'] for v in runs];b=[v['direct'][key] if key!='time' else v['timing']['direct_total_wall'] for v in runs]
+ ax.bar(xx-w/2,a,w,label='Regression-assisted',color=orange);ax.bar(xx+w/2,b,w,label='Direct ODE search',color=blue);ax.set_xticks(xx,[str(s) for s in seeds]);ax.set_xlabel('Search seed');ax.set_title(title)
+ for i,(u,v) in enumerate(zip(a,b)):
+  ax.text(i-w/2,u+max(a+b)*.025,f'{u:.4f}' if key=='hypervolume' else f'{u:.1f}',ha='center',fontsize=9);ax.text(i+w/2,v+max(a+b)*.025,f'{v:.4f}' if key=='hypervolume' else f'{v:.1f}',ha='center',fontsize=9)
+ ax.set_ylim(0,max(a+b)*1.22)
+axs[0].legend(frameon=False,fontsize=9,loc='upper left');axs[1].set_ylabel('Normalised dominated volume (higher is better)');fig.suptitle('Equal total budgets: 224 combinations per method and seed',fontsize=17,fontweight='bold');fig.text(.5,.005,'Four ODE workers for both methods. Times include initial simulations, model fitting/search and tighter final checks. ML time includes model-selection data. Test costs are reported separately.',ha='center',fontsize=9);fig.tight_layout(rect=[0,.05,1,.94]);save(fig,'search_comparison')
+# Scatter for all out-of-sample predictions, preserving seed structure in saved data.
+fig,axs=plt.subplots(1,3,figsize=(14,4.7));F=np.array([.79,.1,.1,.01])
+def endpoints(y):
+ a=np.array(y).reshape(-1,3,5);return np.c_[a[:,:,0].min(1),(a[:,:,1:]@F).max(1),a[:,:,1:].max((1,2))]
+for seed in seeds:
+ p=json.loads((OUT/f'predictions_{seed}.json').read_text());a=endpoints(p['test_actual']);b=endpoints(p['test_prediction'])
+ for j,ax in enumerate(axs):ax.scatter(a[:,j],b[:,j],s=17,alpha=.55,label=str(seed))
+for j,ax in enumerate(axs):
+ lo,hi=ax.get_xlim();ax.plot([0,hi],[0,hi],color='black',linestyle='--',lw=1);ax.set(xlabel='ODE-calculated killing (%)',ylabel='Regression-predicted killing (%)',title=names[j])
+axs[0].legend(title='Search seed',frameon=False);fig.suptitle('How closely did regression reproduce the ODE model?',fontsize=17,fontweight='bold');fig.tight_layout(rect=[0,0,1,.93]);save(fig,'predicted_vs_simulated')
+# A presentation-ready methodological flowchart with results generated from this trial.
+mae={k:np.mean([a['test_metrics'][k]['mae_pp'] for a in runs]) for k in keys};hva=np.mean([a['assisted']['hypervolume'] for a in runs]);hvd=np.mean([a['direct']['hypervolume'] for a in runs]);ta=np.mean([a['timing']['assisted_total_wall'] for a in runs]);td=np.mean([a['timing']['direct_total_wall'] for a in runs]);models=', '.join(a['selected_model'] for a in runs)
+fig,ax=plt.subplots(figsize=(15,10));ax.set_xlim(0,15);ax.set_ylim(0,10);ax.axis('off');ax.text(.4,9.65,'Small trial: regression-assisted binding-rate optimisation',fontsize=22,fontweight='bold',color=navy)
+ax.text(.4,9.22,'Four binding rates vary. The existing ODE model and three biological conditions stay fixed.',fontsize=13,color='#526777')
+def box(x,y,w,h,title,body):
+ ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle='round,pad=0.04,rounding_size=.08',facecolor='#F3F7FA',edgecolor='#B7C8D5',lw=1));ax.text(x+.16,y+h-.18,title,fontsize=14,fontweight='bold',color=navy,va='top');ax.text(x+.16,y+h-.55,body,fontsize=11.5,color='#263B49',va='top',linespacing=1.5)
+def arrow(x1,y1,x2,y2):ax.annotate('',xy=(x2,y2),xytext=(x1,y1),arrowprops=dict(arrowstyle='->',color=navy,lw=1.8))
+box(.4,7.35,6.7,1.45,'1  Generate simulated data','64 initial combinations per seed, sampled in log-rate space.\nSolve the ODE for tumour and four healthy subgroups\nunder each of the three conditions. No LLM-generated labels.')
+box(.4,5.50,6.7,1.45,'2  Separate data and preprocess','32 validation and 64 untouched test combinations.\nInput z = (log₁₀ binding rate − training mean) / training SD.\nAlso standardise the 15 outputs using training data only.')
+box(.4,3.65,6.7,1.45,'3  Compare and select regression models','Train Gaussian-process and extra-trees models.\nChoose by validation error scaled to the objective limits.\nGaussian-process regression won in all three runs.')
+box(.4,1.80,6.7,1.45,'4  Set tumour and healthy-cell objectives','Maximise the lowest tumour kill across conditions.\nMinimise the highest overall and subgroup healthy kill.\nRequire overall ≤0.95% and every healthy subgroup ≤10%.')
+for y in [7.35,5.5,3.65]:arrow(3.75,y,3.75,y-.40)
+box(7.8,7.35,6.7,1.45,'5  Learn from additional ODE simulations','Four rounds of 24 new combinations, then 32 final candidates.\nSample predicted trade-offs, uncertain and unexplored regions.\nRefit after each round. Every selected point gets an ODE label.')
+box(7.8,5.50,6.7,1.45,'6  Compare with direct optimisation','ML: 192 search + 32 model-selection combinations.\nDirect: 224 search combinations, including the same initial 64.\nRepeat three seeds and recheck up to 12 designs more tightly.')
+box(7.8,3.65,6.7,1.45,'7  Measure prediction accuracy','Mean test error across seeds, in percentage points:\n'+f'Tumour {mae["tumour"]:.2f}     Overall healthy {mae["overall_healthy"]:.2f}\nWorst healthy subgroup {mae["worst_subgroup"]:.2f}')
+box(7.8,1.80,6.7,1.45,'8  Measure whether the approach helped',f'Mean trade-off coverage: ML {hva:.3f}, direct {hvd:.3f}.\nMean elapsed time: ML {ta:.0f} s, direct {td:.0f} s.\nThe report includes feasibility errors and tighter ODE checks.')
+for y in [7.35,5.5,3.65]:arrow(11.15,y,11.15,y-.40)
+ax.plot([7.1,7.45,7.45],[2.5,2.5,8.0],color=navy,lw=1.6);arrow(7.45,8.0,7.8,8.0)
+ax.text(.4,.95,'Interpretation: this tests approximation and search efficiency within our assumed model.',fontsize=14,fontweight='bold',color=navy)
+ax.text(.4,.50,f"{sum(a['candidate_metrics']['false_feasible'] for a in runs)} predicted-feasible proposals failed ODE limits. Verify final designs with ODEs. Healthy-cell limits are illustrative.",fontsize=11,color='#526777');save(fig,'trial_flowchart')
+# Tabulated evidence and full methodological explanation.

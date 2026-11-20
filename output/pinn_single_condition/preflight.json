@@ -1,0 +1,6 @@
+{
+  "initial_conditions": true,
+  "nonnegative": true,
+  "accounting": true,
+  "equation_copy": "same previously checked Physics implementation; reference source checksum recorded"
+}

@@ -1,0 +1,250 @@
+{
+  "original": {
+    "best": {
+      "theta": [
+        4.352579495321639,
+        1.1486484597387134,
+        2.0000000000001843,
+        0.09538099516189319
+      ],
+      "tumour": 44.87573228936859,
+      "healthy": 0.20446134451222114,
+      "subgroup": 9.99979085283475,
+      "minimum_margin": 0.00020914716525183286,
+      "outcomes": [
+        [
+          55.36472163265643,
+          0.16829835979970598,
+          0.07279820184729383,
+          0.10384753810635108,
+          0.10395097522381544,
+          9.000792900732717
+        ],
+        [
+          44.87573228936859,
+          0.20446134451222114,
+          0.11843507302711723,
+          0.14605486661540173,
+          0.14615036845984056,
+          8.167711331327428
+        ],
+        [
+          64.21980580305038,
+          0.14982926136104416,
+          0.043216797942802025,
+          0.0783940452475619,
+          0.07850677933126875,
+          9.99979085283475
+        ]
+      ]
+    },
+    "representatives": 500,
+    "boundary": {
+      "count": 211,
+      "total": 500,
+      "percent": 42.199999999999996,
+      "by_rate": {
+        "kon1": {
+          "lower": 4,
+          "upper": 0
+        },
+        "koff1": {
+          "lower": 0,
+          "upper": 3
+        },
+        "kon2": {
+          "lower": 208,
+          "upper": 0
+        },
+        "koff2": {
+          "lower": 0,
+          "upper": 2
+        }
+      }
+    },
+    "hypervolume": 0.2287778935649958,
+    "cold_seed_best": [
+      44.87573228936859,
+      44.87573041256552
+    ]
+  },
+  "expanded": {
+    "best": {
+      "theta": [
+        0.0,
+        -2.60306341946495,
+        4.661607020047382,
+        3.0
+      ],
+      "tumour": 44.953514560677874,
+      "healthy": 0.2011486993420029,
+      "subgroup": 9.9978923535465,
+      "minimum_margin": 0.002107646453500256,
+      "outcomes": [
+        [
+          55.43799156112998,
+          0.1645795602900327,
+          0.0727684903861127,
+          0.08039351697795093,
+          0.09058728202789523,
+          8.999437298441908
+        ],
+        [
+          44.953514560677874,
+          0.2011486993420029,
+          0.1183991450546979,
+          0.12520398595722412,
+          0.13424923706922073,
+          8.166805244614709
+        ],
+        [
+          64.28011073945522,
+          0.14562086371283747,
+          0.04319399911321547,
+          0.05180432233177288,
+          0.06338248644754935,
+          9.9978923535465
+        ]
+      ]
+    },
+    "representatives": 553,
+    "boundary": {
+      "count": 19,
+      "total": 553,
+      "percent": 3.4358047016274864,
+      "by_rate": {
+        "kon1": {
+          "lower": 9,
+          "upper": 0
+        },
+        "koff1": {
+          "lower": 0,
+          "upper": 0
+        },
+        "kon2": {
+          "lower": 10,
+          "upper": 0
+        },
+        "koff2": {
+          "lower": 0,
+          "upper": 1
+        }
+      }
+    },
+    "hypervolume": 0.2291733413383733,
+    "cold_seed_best": [
+      44.953514560677874,
+      44.95328501432248
+    ]
+  },
+  "experimental_reference": {
+    "best": null,
+    "representatives": 0,
+    "boundary": {
+      "count": 0,
+      "total": 0,
+      "percent": null,
+      "by_rate": {}
+    },
+    "hypervolume": 0.0,
+    "cold_seed_best": [
+      null,
+      null,
+      null
+    ]
+  },
+  "v5": {
+    "best": {
+      "theta": [
+        4.352571475514201,
+        1.14863171051219,
+        2.0000000000086025,
+        0.09539373659061227
+      ],
+      "tumour": 44.87573088635206,
+      "healthy": 0.20446131492576927,
+      "subgroup": 9.99979038129226,
+      "minimum_margin": 0.0002096187077388345,
+      "outcomes": [
+        [
+          55.364720134527126,
+          0.16829832652384677,
+          0.07279820153151643,
+          0.10384816166263176,
+          0.10395006186896308,
+          9.000792496078931
+        ],
+        [
+          44.87573088635206,
+          0.20446131492576927,
+          0.11843507265315548,
+          0.14605542122345816,
+          0.14614955565245966,
+          8.167710984218466
+        ],
+        [
+          64.21980443286871,
+          0.1498292236688165,
+          0.0432167976957333,
+          0.07839475178317691,
+          0.07850574497946913,
+          9.99979038129226
+        ]
+      ]
+    },
+    "boundary": {
+      "count": 1540,
+      "total": 1634,
+      "percent": 94.24724602203183,
+      "by_rate": {
+        "kon1": {
+          "lower": 61,
+          "upper": 0
+        },
+        "koff1": {
+          "lower": 0,
+          "upper": 28
+        },
+        "kon2": {
+          "lower": 1510,
+          "upper": 0
+        },
+        "koff2": {
+          "lower": 0,
+          "upper": 28
+        }
+      }
+    },
+    "representative_boundary": {
+      "count": 74,
+      "total": 135,
+      "percent": 54.81481481481482,
+      "by_rate": {
+        "kon1": {
+          "lower": 28,
+          "upper": 0
+        },
+        "koff1": {
+          "lower": 0,
+          "upper": 4
+        },
+        "kon2": {
+          "lower": 58,
+          "upper": 0
+        },
+        "koff2": {
+          "lower": 0,
+          "upper": 5
+        }
+      }
+    },
+    "hypervolume": 0.22335506525007448
+  },
+  "notes": [
+    "All reported new candidates tightly reintegrated. Fronts are representative sampled sets, not complete or proven global optima.",
+    "One warm-start and two cold-start runs for original/expanded; three cold runs for experimental reference.",
+    "Experimental reference bounds are not target-specific feasibility evidence. No feasible result is not a proof of infeasibility.",
+    "Hypervolume is normalised using fixed worst reference (tumour=0%, overall healthy=.95%, subgroup=10%). Checkpoint values use screening tolerances.",
+    "Representative bin widths: .1 percentage point tumour, .002 overall healthy, .05 subgroup; binning is for reporting only."
+  ]
+}

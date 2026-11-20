@@ -1,0 +1,12 @@
+{
+  "pareto_designs": 1634,
+  "verified_feasible_designs": 2101,
+  "maximum_minimum_tumour_kill_pct": 44.87573088635206,
+  "lowest_overall_healthy_kill_pct": 0.11695006635431761,
+  "highest_tumour_design_overall_healthy_pct": 0.20446131492576927,
+  "highest_tumour_design_subgroup_pct": 9.99979038129226,
+  "boundary_designs": 1540,
+  "cross_solver_difference": 1.5544417475421568e-08,
+  "example_requirement_subset_count": 140,
+  "interpretation": "Observed three-objective Pareto set under synthetic full-model inputs; not a proven global frontier or actual affinity recommendation."
+}

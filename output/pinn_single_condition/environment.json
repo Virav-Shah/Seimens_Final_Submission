@@ -1,0 +1,14 @@
+{
+  "python": "3.14.0 (v3.14.0:ebf955df7a8, Oct  7 2025, 08:20:14) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-15.6-arm64-arm-64bit-Mach-O",
+  "torch": "2.14.0",
+  "numpy": "2.4.4",
+  "scipy": "1.18.1",
+  "scikit_learn": "1.9.1",
+  "joblib": "1.6.0",
+  "matplotlib": "3.10.8",
+  "training_device": "CPU",
+  "training_dtype": "float64",
+  "torch_threads": 1,
+  "ODE_workers": 4
+}

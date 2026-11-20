@@ -1,0 +1,139 @@
+{
+  "status": "RECONSTRUCTION_NOT_EXACT_REPLICATION",
+  "scenarios": {
+    "figure4_bispecific": {
+      "kon1": 460000.0,
+      "koff1": 0.00034,
+      "kon2": 460000.0,
+      "koff2": 0.00034,
+      "rho1": 1e-10,
+      "rho2": 1e-10,
+      "k2d1": 24000000000000.0,
+      "k2d2": 24000000000000.0,
+      "turnover": 0.0005555555555555556,
+      "dual_turnover_factor": 1.0,
+      "ec50": 4e-06,
+      "dose": 4e-06,
+      "infusion_s": 7200,
+      "end_s": 86400,
+      "vc": 11.3,
+      "vp": 41.5,
+      "q_l_h": 1.05,
+      "cl_l_h": 0.1,
+      "total_cells": 30000000000000.0,
+      "area_dm2": 5e-08,
+      "cell_volume_l": 1.0513052175e-12,
+      "surface_off_rule": "sengers",
+      "mode": "bispecific"
+    },
+    "figure4_monospecific": {
+      "kon1": 460000.0,
+      "koff1": 0.00034,
+      "kon2": 460000.0,
+      "koff2": 0.00034,
+      "rho1": 1e-10,
+      "rho2": 1e-10,
+      "k2d1": 24000000000000.0,
+      "k2d2": 24000000000000.0,
+      "turnover": 0.0005555555555555556,
+      "dual_turnover_factor": 1.0,
+      "ec50": 4e-06,
+      "dose": 4e-06,
+      "infusion_s": 7200,
+      "end_s": 86400,
+      "vc": 11.3,
+      "vp": 41.5,
+      "q_l_h": 1.05,
+      "cl_l_h": 0.1,
+      "total_cells": 30000000000000.0,
+      "area_dm2": 5e-08,
+      "cell_volume_l": 1.0513052175e-12,
+      "surface_off_rule": "sengers",
+      "mode": "monospecific"
+    },
+    "figure6": {
+      "kon1": 10000.0,
+      "koff1": 1,
+      "kon2": 10000.0,
+      "koff2": 1,
+      "rho1": 1e-10,
+      "rho2": 1e-10,
+      "k2d1": 24000000000000.0,
+      "k2d2": 24000000000000.0,
+      "turnover": 0.0005555555555555556,
+      "dual_turnover_factor": 1.0,
+      "ec50": 4e-06,
+      "dose": 4e-06,
+      "infusion_s": 7200,
+      "end_s": 86400,
+      "vc": 11.3,
+      "vp": 41.5,
+      "q_l_h": 1.05,
+      "cl_l_h": 0.1,
+      "total_cells": 30000000000000.0,
+      "area_dm2": 5e-08,
+      "cell_volume_l": 1.0513052175e-12,
+      "surface_off_rule": "sengers",
+      "mode": "bispecific"
+    },
+    "figure8": {
+      "kon1": 10000.0,
+      "koff1": 1,
+      "kon2": 50000.0,
+      "koff2": 1,
+      "rho1": 1e-09,
+      "rho2": 5e-11,
+      "k2d1": 24000000000000.0,
+      "k2d2": 24000000000000.0,
+      "turnover": 0.0005555555555555556,
+      "dual_turnover_factor": 1.0,
+      "ec50": 4e-06,
+      "dose": 4e-06,
+      "infusion_s": 7200,
+      "end_s": 86400,
+      "vc": 11.3,
+      "vp": 41.5,
+      "q_l_h": 1.05,
+      "cl_l_h": 0.1,
+      "total_cells": 30000000000000.0,
+      "area_dm2": 5e-08,
+      "cell_volume_l": 1.0513052175e-12,
+      "surface_off_rule": "sengers",
+      "mode": "bispecific"
+    }
+  },
+  "grid": 5,
+  "nfe": 240,
+  "seed": 8407,
+  "sweep_axes": {
+    "figure5ab_S1a": [
+      "kon1",
+      "kon2"
+    ],
+    "figure5cd_S1b": [
+      "koff1",
+      "koff2"
+    ],
+    "figure5ef_S1c": [
+      "kon1=kon2",
+      "koff1=koff2"
+    ],
+    "S2_monospecific": [
+      "kon",
+      "koff"
+    ],
+    "figure7": [
+      "rho1",
+      "rho2"
+    ],
+    "S3_diffusion": [
+      "k2d1",
+      "k2d2"
+    ],
+    "S4_density": [
+      "rho1",
+      "rho2"
+    ]
+  },
+  "optimizer_initialization": "16 corners + two specified seeds + random fill"
+}

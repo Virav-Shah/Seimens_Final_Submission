@@ -1,0 +1,188 @@
+{
+  "steps": 9943,
+  "seconds": 360.00657283300006,
+  "selected": {
+    "step": 5028,
+    "seconds": 160.69974349999939,
+    "physics_fraction": 1.0,
+    "trajectory_loss": 0.016918488805416156,
+    "endpoint_loss": 0.003406033252489337,
+    "physics_losses": {
+      "free_antibody": 0.01612710665074219,
+      "free_targets": 0.040633757499025216,
+      "surface_complexes": 4.1701277893959906e-07,
+      "internalised_complexes": 3.772246137069233e-11,
+      "active_payload": 0.003846798698869705,
+      "loss_accounts": 0.011160225454558744,
+      "released_payload": 4.3100047225923265e-11,
+      "killing_effect": 3.2090263001260214e-05,
+      "payload_exposure": 3.979002726697584e-06
+    },
+    "physics_weights": {
+      "free_antibody": 10.504965623760848,
+      "free_targets": 0.25969509494877363,
+      "surface_complexes": 3465.1526626437458,
+      "internalised_complexes": 923718.9139752638,
+      "active_payload": 12.702541238295172,
+      "loss_accounts": 7.974946660060682,
+      "released_payload": 974979.6786914492,
+      "killing_effect": 257.44428498872526,
+      "payload_exposure": 1396.0086761378927
+    },
+    "gradient_norms": {},
+    "validation_score": 0.12088123865563351,
+    "validation": {
+      "tumour": {
+        "mae_pp": 3.206177020058893,
+        "rmse_pp": 3.9016779498425005,
+        "r2": 0.8392526771642931,
+        "max_error_pp": 12.689921896209128
+      },
+      "overall_healthy": {
+        "mae_pp": 0.1442782310684998,
+        "rmse_pp": 0.22606718339327073,
+        "r2": 0.991692151021334,
+        "max_error_pp": 0.7600751218656905
+      },
+      "worst_subgroup": {
+        "mae_pp": 1.7871012358894338,
+        "rmse_pp": 2.535291218227222,
+        "r2": 0.9704924777559681,
+        "max_error_pp": 8.489858096370277
+      },
+      "n": 32,
+      "actual_feasible": 0,
+      "predicted_feasible": 0,
+      "false_feasible": 0,
+      "false_infeasible": 0,
+      "subgroup_mae_pp": [
+        0.07384104692395602,
+        1.2307876762368768,
+        1.6280243379966837,
+        1.7397324785501131
+      ]
+    }
+  },
+  "validation": {
+    "tumour": {
+      "mae_pp": 3.206177020058893,
+      "rmse_pp": 3.9016779498425005,
+      "r2": 0.8392526771642931,
+      "max_error_pp": 12.689921896209128
+    },
+    "overall_healthy": {
+      "mae_pp": 0.1442782310684998,
+      "rmse_pp": 0.22606718339327073,
+      "r2": 0.991692151021334,
+      "max_error_pp": 0.7600751218656905
+    },
+    "worst_subgroup": {
+      "mae_pp": 1.7871012358894338,
+      "rmse_pp": 2.535291218227222,
+      "r2": 0.9704924777559681,
+      "max_error_pp": 8.489858096370277
+    },
+    "n": 32,
+    "actual_feasible": 0,
+    "predicted_feasible": 0,
+    "false_feasible": 0,
+    "false_infeasible": 0,
+    "subgroup_mae_pp": [
+      0.07384104692395602,
+      1.2307876762368768,
+      1.6280243379966837,
+      1.7397324785501131
+    ],
+    "finite": true,
+    "negative_scaled_max": 0.0,
+    "mass_fraction_max": 8.881784197001252e-16,
+    "trajectory_scaled_mae": 0.04753240011966948
+  },
+  "gate": {
+    "finite": true,
+    "tumour": true,
+    "healthy": true,
+    "subgroup": true,
+    "nonnegative": true,
+    "balance": true
+  },
+  "passes": true,
+  "representation_checks": {
+    "balance_max_fraction": 4.440892098500626e-16,
+    "nonnegative": true,
+    "initial_conditions_exact": true,
+    "cumulative_quantities_monotone": true,
+    "maximum_scaled_knot_jump": 7.03824820715029e-09,
+    "time_derivatives_checked": true
+  },
+  "fresh_test": {
+    "tumour": {
+      "mae_pp": 3.329757571593715,
+      "rmse_pp": 3.740127396426335,
+      "r2": 0.839980444318883,
+      "max_error_pp": 8.759023663060475
+    },
+    "overall_healthy": {
+      "mae_pp": 0.21678470414486717,
+      "rmse_pp": 0.3076085133856819,
+      "r2": 0.9892339931477159,
+      "max_error_pp": 0.8484343197913926
+    },
+    "worst_subgroup": {
+      "mae_pp": 2.362510741331877,
+      "rmse_pp": 3.4553710943937537,
+      "r2": 0.948370578193703,
+      "max_error_pp": 11.27463657484406
+    },
+    "n": 64,
+    "actual_feasible": 1,
+    "predicted_feasible": 1,
+    "false_feasible": 0,
+    "false_infeasible": 0,
+    "subgroup_mae_pp": [
+      0.07170520253239564,
+      1.3774373365916992,
+      1.812261020112163,
+      2.4446932857549135
+    ],
+    "finite": true,
+    "negative_scaled_max": 0.0,
+    "mass_fraction_max": 8.881784197001252e-16,
+    "trajectory_scaled_mae": 0.04620462704345534
+  },
+  "previous_test_paired": {
+    "tumour": {
+      "mae_pp": 3.038044888926233,
+      "rmse_pp": 3.607828650189682,
+      "r2": 0.8443931257766072,
+      "max_error_pp": 12.450057565642247
+    },
+    "overall_healthy": {
+      "mae_pp": 0.21645445582959355,
+      "rmse_pp": 0.3555588762353234,
+      "r2": 0.9872247220663951,
+      "max_error_pp": 1.646125291519538
+    },
+    "worst_subgroup": {
+      "mae_pp": 2.6495091109069593,
+      "rmse_pp": 4.705519459841881,
+      "r2": 0.8849869548774977,
+      "max_error_pp": 20.096401481028998
+    },
+    "n": 64,
+    "actual_feasible": 2,
+    "predicted_feasible": 2,
+    "false_feasible": 0,
+    "false_infeasible": 0,
+    "subgroup_mae_pp": [
+      0.0695072530234684,
+      1.6315603422949139,
+      1.5253820921049865,
+      2.766859549236455
+    ],
+    "finite": true,
+    "negative_scaled_max": 0.0,
+    "mass_fraction_max": 8.881784197001252e-16,
+    "trajectory_scaled_mae": 0.044604792918239586
+  }
+}

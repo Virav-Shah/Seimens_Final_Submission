@@ -1,0 +1,10 @@
+Domain,Seed,V5 starts,Evaluations,Best tumour (%),Least constraint margin (pp),Numerical failures,Local termination
+Original limits,8407,True,983,44.8757308863519,0.8330499336458828,0,Optimization terminated successfully
+Original limits,2026,False,1017,44.87573228936859,0.8329414500375619,0,Optimization terminated successfully
+Original limits,11939,False,991,44.87573041256552,0.8329830323380423,0,Optimization terminated successfully
+Expanded limits,8407,True,1109,44.9532619622901,0.8331004605421796,1,Optimization terminated successfully
+Expanded limits,2026,False,1680,44.953514560677874,0.833100464669954,0,Iteration limit reached
+Expanded limits,11939,False,1067,44.95328501432248,0.8330921546051445,0,Optimization terminated successfully
+Experimental reference,8407,False,904,,-56.68484237641353,0,No feasible start
+Experimental reference,2026,False,904,,-56.6918849387304,0,No feasible start
+Experimental reference,11939,False,907,,-56.68530129622633,0,No feasible start

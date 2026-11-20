@@ -1,0 +1,867 @@
+{
+  "created": "2026-11-19",
+  "biological_reference": {
+    "rho": [
+      1.0,
+      1.0
+    ],
+    "k0": [
+      2.0,
+      2.0
+    ],
+    "ki": [
+      0.2,
+      4.0,
+      2.0
+    ],
+    "half": 96.0,
+    "permeability": 0.1,
+    "payload_volume": 52.8,
+    "payload_clearance": 5.28,
+    "metabolism": 0.01,
+    "tau": 0.0,
+    "recycle": 0.0,
+    "process_share": 0.5,
+    "closure": "symmetric",
+    "surface_factor": 1.0,
+    "dose": 4.0,
+    "target_densities": [],
+    "fractions": [
+      0.0003,
+      0.79,
+      0.1,
+      0.1,
+      0.01
+    ],
+    "total_cells": 7043996587630.85,
+    "intracellular_volume": 2.689720494498626e-13,
+    "cell_area": 3.141592653589793e-08,
+    "antibody_vc": 11.3,
+    "antibody_vp": 41.5,
+    "antibody_q": 1.05,
+    "antibody_clearance": 0.015540799881601949,
+    "infusion_h": 2.0,
+    "horizon_h": 24.0,
+    "recycling_rates": [
+      0.6,
+      0.6,
+      0.6
+    ],
+    "processing_rates": [
+      0.7,
+      0.7,
+      0.7
+    ],
+    "degradation_rates": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  "kill_model": {
+    "c50_uM": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "maximum_rate_h": [
+      0.08,
+      0.08,
+      0.08,
+      0.08,
+      0.08
+    ]
+  },
+  "cases": {
+    "reference": {
+      "rho": [
+        1.0,
+        1.0
+      ],
+      "k0": [
+        2.0,
+        2.0
+      ],
+      "ki": [
+        0.2,
+        4.0,
+        2.0
+      ],
+      "half": 96.0,
+      "permeability": 0.1,
+      "payload_volume": 52.8,
+      "payload_clearance": 5.28,
+      "metabolism": 0.01,
+      "tau": 0.0,
+      "recycle": 0.0,
+      "process_share": 0.5,
+      "closure": "symmetric",
+      "surface_factor": 1.0,
+      "dose": 4.0,
+      "target_densities": [],
+      "fractions": [
+        0.0003,
+        0.79,
+        0.1,
+        0.1,
+        0.01
+      ],
+      "total_cells": 7043996587630.85,
+      "intracellular_volume": 2.689720494498626e-13,
+      "cell_area": 3.141592653589793e-08,
+      "antibody_vc": 11.3,
+      "antibody_vp": 41.5,
+      "antibody_q": 1.05,
+      "antibody_clearance": 0.015540799881601949,
+      "infusion_h": 2.0,
+      "horizon_h": 24.0,
+      "recycling_rates": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "processing_rates": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "degradation_rates": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "dual_slow": {
+      "rho": [
+        1.0,
+        1.0
+      ],
+      "k0": [
+        2.0,
+        2.0
+      ],
+      "ki": [
+        0.2,
+        4.0,
+        0.2
+      ],
+      "half": 96.0,
+      "permeability": 0.1,
+      "payload_volume": 52.8,
+      "payload_clearance": 5.28,
+      "metabolism": 0.01,
+      "tau": 0.0,
+      "recycle": 0.0,
+      "process_share": 0.5,
+      "closure": "symmetric",
+      "surface_factor": 1.0,
+      "dose": 4.0,
+      "target_densities": [],
+      "fractions": [
+        0.0003,
+        0.79,
+        0.1,
+        0.1,
+        0.01
+      ],
+      "total_cells": 7043996587630.85,
+      "intracellular_volume": 2.689720494498626e-13,
+      "cell_area": 3.141592653589793e-08,
+      "antibody_vc": 11.3,
+      "antibody_vp": 41.5,
+      "antibody_q": 1.05,
+      "antibody_clearance": 0.015540799881601949,
+      "infusion_h": 2.0,
+      "horizon_h": 24.0,
+      "recycling_rates": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "processing_rates": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "degradation_rates": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "dual_fast": {
+      "rho": [
+        1.0,
+        1.0
+      ],
+      "k0": [
+        2.0,
+        2.0
+      ],
+      "ki": [
+        0.2,
+        4.0,
+        4.0
+      ],
+      "half": 96.0,
+      "permeability": 0.1,
+      "payload_volume": 52.8,
+      "payload_clearance": 5.28,
+      "metabolism": 0.01,
+      "tau": 0.0,
+      "recycle": 0.0,
+      "process_share": 0.5,
+      "closure": "symmetric",
+      "surface_factor": 1.0,
+      "dose": 4.0,
+      "target_densities": [],
+      "fractions": [
+        0.0003,
+        0.79,
+        0.1,
+        0.1,
+        0.01
+      ],
+      "total_cells": 7043996587630.85,
+      "intracellular_volume": 2.689720494498626e-13,
+      "cell_area": 3.141592653589793e-08,
+      "antibody_vc": 11.3,
+      "antibody_vp": 41.5,
+      "antibody_q": 1.05,
+      "antibody_clearance": 0.015540799881601949,
+      "infusion_h": 2.0,
+      "horizon_h": 24.0,
+      "recycling_rates": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "processing_rates": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "degradation_rates": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "linker_stable": {
+      "rho": [
+        1.0,
+        1.0
+      ],
+      "k0": [
+        2.0,
+        2.0
+      ],
+      "ki": [
+        0.2,
+        4.0,
+        2.0
+      ],
+      "half": "Infinity",
+      "permeability": 0.1,
+      "payload_volume": 52.8,
+      "payload_clearance": 5.28,
+      "metabolism": 0.01,
+      "tau": 0.0,
+      "recycle": 0.0,
+      "process_share": 0.5,
+      "closure": "symmetric",
+      "surface_factor": 1.0,
+      "dose": 4.0,
+      "target_densities": [],
+      "fractions": [
+        0.0003,
+        0.79,
+        0.1,
+        0.1,
+        0.01
+      ],
+      "total_cells": 7043996587630.85,
+      "intracellular_volume": 2.689720494498626e-13,
+      "cell_area": 3.141592653589793e-08,
+      "antibody_vc": 11.3,
+      "antibody_vp": 41.5,
+      "antibody_q": 1.05,
+      "antibody_clearance": 0.015540799881601949,
+      "infusion_h": 2.0,
+      "horizon_h": 24.0,
+      "recycling_rates": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "processing_rates": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "degradation_rates": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "linker_short": {
+      "rho": [
+        1.0,
+        1.0
+      ],
+      "k0": [
+        2.0,
+        2.0
+      ],
+      "ki": [
+        0.2,
+        4.0,
+        2.0
+      ],
+      "half": 48.0,
+      "permeability": 0.1,
+      "payload_volume": 52.8,
+      "payload_clearance": 5.28,
+      "metabolism": 0.01,
+      "tau": 0.0,
+      "recycle": 0.0,
+      "process_share": 0.5,
+      "closure": "symmetric",
+      "surface_factor": 1.0,
+      "dose": 4.0,
+      "target_densities": [],
+      "fractions": [
+        0.0003,
+        0.79,
+        0.1,
+        0.1,
+        0.01
+      ],
+      "total_cells": 7043996587630.85,
+      "intracellular_volume": 2.689720494498626e-13,
+      "cell_area": 3.141592653589793e-08,
+      "antibody_vc": 11.3,
+      "antibody_vp": 41.5,
+      "antibody_q": 1.05,
+      "antibody_clearance": 0.015540799881601949,
+      "infusion_h": 2.0,
+      "horizon_h": 24.0,
+      "recycling_rates": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "processing_rates": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "degradation_rates": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "movement_none": {
+      "rho": [
+        1.0,
+        1.0
+      ],
+      "k0": [
+        2.0,
+        2.0
+      ],
+      "ki": [
+        0.2,
+        4.0,
+        2.0
+      ],
+      "half": 96.0,
+      "permeability": 0.0,
+      "payload_volume": 52.8,
+      "payload_clearance": 5.28,
+      "metabolism": 0.01,
+      "tau": 0.0,
+      "recycle": 0.0,
+      "process_share": 0.5,
+      "closure": "symmetric",
+      "surface_factor": 1.0,
+      "dose": 4.0,
+      "target_densities": [],
+      "fractions": [
+        0.0003,
+        0.79,
+        0.1,
+        0.1,
+        0.01
+      ],
+      "total_cells": 7043996587630.85,
+      "intracellular_volume": 2.689720494498626e-13,
+      "cell_area": 3.141592653589793e-08,
+      "antibody_vc": 11.3,
+      "antibody_vp": 41.5,
+      "antibody_q": 1.05,
+      "antibody_clearance": 0.015540799881601949,
+      "infusion_h": 2.0,
+      "horizon_h": 24.0,
+      "recycling_rates": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "processing_rates": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "degradation_rates": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "movement_fast": {
+      "rho": [
+        1.0,
+        1.0
+      ],
+      "k0": [
+        2.0,
+        2.0
+      ],
+      "ki": [
+        0.2,
+        4.0,
+        2.0
+      ],
+      "half": 96.0,
+      "permeability": 0.2,
+      "payload_volume": 52.8,
+      "payload_clearance": 5.28,
+      "metabolism": 0.01,
+      "tau": 0.0,
+      "recycle": 0.0,
+      "process_share": 0.5,
+      "closure": "symmetric",
+      "surface_factor": 1.0,
+      "dose": 4.0,
+      "target_densities": [],
+      "fractions": [
+        0.0003,
+        0.79,
+        0.1,
+        0.1,
+        0.01
+      ],
+      "total_cells": 7043996587630.85,
+      "intracellular_volume": 2.689720494498626e-13,
+      "cell_area": 3.141592653589793e-08,
+      "antibody_vc": 11.3,
+      "antibody_vp": 41.5,
+      "antibody_q": 1.05,
+      "antibody_clearance": 0.015540799881601949,
+      "infusion_h": 2.0,
+      "horizon_h": 24.0,
+      "recycling_rates": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "processing_rates": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "degradation_rates": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "processing_slow": {
+      "rho": [
+        1.0,
+        1.0
+      ],
+      "k0": [
+        2.0,
+        2.0
+      ],
+      "ki": [
+        0.2,
+        4.0,
+        2.0
+      ],
+      "half": 96.0,
+      "permeability": 0.1,
+      "payload_volume": 52.8,
+      "payload_clearance": 5.28,
+      "metabolism": 0.01,
+      "tau": 0.0,
+      "recycle": 0.0,
+      "process_share": 0.5,
+      "closure": "symmetric",
+      "surface_factor": 1.0,
+      "dose": 4.0,
+      "target_densities": [],
+      "fractions": [
+        0.0003,
+        0.79,
+        0.1,
+        0.1,
+        0.01
+      ],
+      "total_cells": 7043996587630.85,
+      "intracellular_volume": 2.689720494498626e-13,
+      "cell_area": 3.141592653589793e-08,
+      "antibody_vc": 11.3,
+      "antibody_vp": 41.5,
+      "antibody_q": 1.05,
+      "antibody_clearance": 0.015540799881601949,
+      "infusion_h": 2.0,
+      "horizon_h": 24.0,
+      "recycling_rates": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "processing_rates": [
+        0.35,
+        0.35,
+        0.35
+      ],
+      "degradation_rates": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "processing_fast": {
+      "rho": [
+        1.0,
+        1.0
+      ],
+      "k0": [
+        2.0,
+        2.0
+      ],
+      "ki": [
+        0.2,
+        4.0,
+        2.0
+      ],
+      "half": 96.0,
+      "permeability": 0.1,
+      "payload_volume": 52.8,
+      "payload_clearance": 5.28,
+      "metabolism": 0.01,
+      "tau": 0.0,
+      "recycle": 0.0,
+      "process_share": 0.5,
+      "closure": "symmetric",
+      "surface_factor": 1.0,
+      "dose": 4.0,
+      "target_densities": [],
+      "fractions": [
+        0.0003,
+        0.79,
+        0.1,
+        0.1,
+        0.01
+      ],
+      "total_cells": 7043996587630.85,
+      "intracellular_volume": 2.689720494498626e-13,
+      "cell_area": 3.141592653589793e-08,
+      "antibody_vc": 11.3,
+      "antibody_vp": 41.5,
+      "antibody_q": 1.05,
+      "antibody_clearance": 0.015540799881601949,
+      "infusion_h": 2.0,
+      "horizon_h": 24.0,
+      "recycling_rates": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "processing_rates": [
+        1.4,
+        1.4,
+        1.4
+      ],
+      "degradation_rates": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "recycling_none": {
+      "rho": [
+        1.0,
+        1.0
+      ],
+      "k0": [
+        2.0,
+        2.0
+      ],
+      "ki": [
+        0.2,
+        4.0,
+        2.0
+      ],
+      "half": 96.0,
+      "permeability": 0.1,
+      "payload_volume": 52.8,
+      "payload_clearance": 5.28,
+      "metabolism": 0.01,
+      "tau": 0.0,
+      "recycle": 0.0,
+      "process_share": 0.5,
+      "closure": "symmetric",
+      "surface_factor": 1.0,
+      "dose": 4.0,
+      "target_densities": [],
+      "fractions": [
+        0.0003,
+        0.79,
+        0.1,
+        0.1,
+        0.01
+      ],
+      "total_cells": 7043996587630.85,
+      "intracellular_volume": 2.689720494498626e-13,
+      "cell_area": 3.141592653589793e-08,
+      "antibody_vc": 11.3,
+      "antibody_vp": 41.5,
+      "antibody_q": 1.05,
+      "antibody_clearance": 0.015540799881601949,
+      "infusion_h": 2.0,
+      "horizon_h": 24.0,
+      "recycling_rates": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "processing_rates": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "degradation_rates": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "recycling_fast": {
+      "rho": [
+        1.0,
+        1.0
+      ],
+      "k0": [
+        2.0,
+        2.0
+      ],
+      "ki": [
+        0.2,
+        4.0,
+        2.0
+      ],
+      "half": 96.0,
+      "permeability": 0.1,
+      "payload_volume": 52.8,
+      "payload_clearance": 5.28,
+      "metabolism": 0.01,
+      "tau": 0.0,
+      "recycle": 0.0,
+      "process_share": 0.5,
+      "closure": "symmetric",
+      "surface_factor": 1.0,
+      "dose": 4.0,
+      "target_densities": [],
+      "fractions": [
+        0.0003,
+        0.79,
+        0.1,
+        0.1,
+        0.01
+      ],
+      "total_cells": 7043996587630.85,
+      "intracellular_volume": 2.689720494498626e-13,
+      "cell_area": 3.141592653589793e-08,
+      "antibody_vc": 11.3,
+      "antibody_vp": 41.5,
+      "antibody_q": 1.05,
+      "antibody_clearance": 0.015540799881601949,
+      "infusion_h": 2.0,
+      "horizon_h": 24.0,
+      "recycling_rates": [
+        1.2,
+        1.2,
+        1.2
+      ],
+      "processing_rates": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "degradation_rates": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "metabolism_none": {
+      "rho": [
+        1.0,
+        1.0
+      ],
+      "k0": [
+        2.0,
+        2.0
+      ],
+      "ki": [
+        0.2,
+        4.0,
+        2.0
+      ],
+      "half": 96.0,
+      "permeability": 0.1,
+      "payload_volume": 52.8,
+      "payload_clearance": 5.28,
+      "metabolism": 0.0,
+      "tau": 0.0,
+      "recycle": 0.0,
+      "process_share": 0.5,
+      "closure": "symmetric",
+      "surface_factor": 1.0,
+      "dose": 4.0,
+      "target_densities": [],
+      "fractions": [
+        0.0003,
+        0.79,
+        0.1,
+        0.1,
+        0.01
+      ],
+      "total_cells": 7043996587630.85,
+      "intracellular_volume": 2.689720494498626e-13,
+      "cell_area": 3.141592653589793e-08,
+      "antibody_vc": 11.3,
+      "antibody_vp": 41.5,
+      "antibody_q": 1.05,
+      "antibody_clearance": 0.015540799881601949,
+      "infusion_h": 2.0,
+      "horizon_h": 24.0,
+      "recycling_rates": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "processing_rates": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "degradation_rates": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "metabolism_fast": {
+      "rho": [
+        1.0,
+        1.0
+      ],
+      "k0": [
+        2.0,
+        2.0
+      ],
+      "ki": [
+        0.2,
+        4.0,
+        2.0
+      ],
+      "half": 96.0,
+      "permeability": 0.1,
+      "payload_volume": 52.8,
+      "payload_clearance": 5.28,
+      "metabolism": 0.02,
+      "tau": 0.0,
+      "recycle": 0.0,
+      "process_share": 0.5,
+      "closure": "symmetric",
+      "surface_factor": 1.0,
+      "dose": 4.0,
+      "target_densities": [],
+      "fractions": [
+        0.0003,
+        0.79,
+        0.1,
+        0.1,
+        0.01
+      ],
+      "total_cells": 7043996587630.85,
+      "intracellular_volume": 2.689720494498626e-13,
+      "cell_area": 3.141592653589793e-08,
+      "antibody_vc": 11.3,
+      "antibody_vp": 41.5,
+      "antibody_q": 1.05,
+      "antibody_clearance": 0.015540799881601949,
+      "infusion_h": 2.0,
+      "horizon_h": 24.0,
+      "recycling_rates": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "processing_rates": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "degradation_rates": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    }
+  },
+  "bounds": [
+    [
+      2.0,
+      7.0
+    ],
+    [
+      -5.0,
+      2.0
+    ],
+    [
+      2.0,
+      7.0
+    ],
+    [
+      -5.0,
+      2.0
+    ]
+  ],
+  "seeds": [
+    8407,
+    2026
+  ],
+  "nominal_global_evaluations": 256,
+  "population": 48,
+  "local_max_iterations": 50,
+  "model_sha256": "27c7ad24677e3f863bbc8193d7e710f7a05131c906f947c1ff2ba5bb70a163d6",
+  "python": "3.14.0",
+  "versions": {
+    "numpy": "2.4.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.10.8",
+    "platypus-opt": "1.4.1",
+    "joblib": "1.6.0"
+  }
+}
